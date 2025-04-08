@@ -1,0 +1,185 @@
+INFO  20:00:35,288 - Compiling source file: D:\pp1domaci\workspace\MJCompiler\test\program.mj
+INFO  20:00:35,313 - #2 program
+INFO  20:00:35,313 - #18 a
+INFO  20:00:35,313 - #18 int
+INFO  20:00:35,313 - #18 a
+INFO  20:00:35,313 - #40 ,
+INFO  20:00:35,313 - #18 b
+INFO  20:00:35,313 - #38 ;
+INFO  20:00:35,313 - #18 bool
+INFO  20:00:35,313 - #18 c
+INFO  20:00:35,313 - #22 +
+ERROR 20:00:35,313 - 
+Sintaksna greska na liniji 4
+INFO  20:00:35,313 - #38 ;
+INFO  20:00:35,313 - #18 int
+INFO  20:00:35,313 - #18 a
+INFO  20:00:35,313 - #40 ,
+ERROR 20:00:35,313 - Izvrsen oporavak od greske (definicija promenljive)
+INFO  20:00:35,313 - #18 b
+INFO  20:00:35,313 - #23 -
+ERROR 20:00:35,313 - 
+Sintaksna greska na liniji 5
+INFO  20:00:35,313 - #38 ;
+INFO  20:00:35,313 - #46 {
+INFO  20:00:35,313 - #18 int
+INFO  20:00:35,313 - #18 main
+ERROR 20:00:35,313 - Izvrsen oporavak od greske (definicija promenljive)
+INFO  20:00:35,318 - #42 (
+INFO  20:00:35,318 - #43 )
+INFO  20:00:35,318 - #46 {
+INFO  20:00:35,318 - #18 a
+INFO  20:00:35,318 - #35 =
+INFO  20:00:35,318 - #19 2
+INFO  20:00:35,318 - #38 ;
+INFO  20:00:35,318 - #18 a
+INFO  20:00:35,318 - #35 =
+INFO  20:00:35,318 - #19 19
+INFO  20:00:35,318 - #18 uhofie
+ERROR 20:00:35,318 - 
+Sintaksna greska na liniji 11
+INFO  20:00:35,318 - #18 a
+INFO  20:00:35,318 - #35 =
+INFO  20:00:35,318 - #19 3
+INFO  20:00:35,318 - #18 c
+INFO  20:00:35,318 - #35 =
+INFO  20:00:35,318 - #22 +
+INFO  20:00:35,318 - #19 213
+INFO  20:00:35,318 - #38 ;
+INFO  20:00:35,318 - #18 a
+INFO  20:00:35,318 - #36 ++
+INFO  20:00:35,318 - #18 asdf
+ERROR 20:00:35,318 - Izvrsen oporavak od greske (iskaz dodele)
+ERROR 20:00:35,318 - 
+Sintaksna greska na liniji 12
+INFO  20:00:35,323 - #38 ;
+INFO  20:00:35,323 - #18 a
+INFO  20:00:35,323 - #35 =
+INFO  20:00:35,323 - #19 2
+ERROR 20:00:35,323 - Izvrsen oporavak od greske (iskaz dodele)
+INFO  20:00:35,323 - #38 ;
+INFO  20:00:35,323 - #47 }
+INFO  20:00:35,323 - #47 }
+INFO  20:00:35,323 - ProgramDerived1(
+  NamespaceListDerived2(
+  ) [NamespaceListDerived2]
+  GlobalsListDerived1(
+    GlobalsListDerived1(
+      GlobalsListDerived1(
+        GlobalsListDerived2(
+        ) [GlobalsListDerived2]
+        GlobalsPartDerived2(
+          VarDeclDerived1(
+            TypeDerived1(
+            ) [TypeDerived1]
+            VarDeclSublistDerived1(
+              VarDeclSublistDerived2(
+                VarDeclSubunitDerived1(
+                ) [VarDeclSubunitDerived1]
+              ) [VarDeclSublistDerived2]
+              VarDeclSubunitDerived1(
+              ) [VarDeclSubunitDerived1]
+            ) [VarDeclSublistDerived1]
+          ) [VarDeclDerived1]
+        ) [GlobalsPartDerived2]
+      ) [GlobalsListDerived1]
+      GlobalsPartDerived2(
+        VarDeclDerived1(
+          TypeDerived1(
+          ) [TypeDerived1]
+          VarDeclSublistDerived2(
+            VarDeclSubunitDerived3(
+            ) [VarDeclSubunitDerived3]
+          ) [VarDeclSublistDerived2]
+        ) [VarDeclDerived1]
+      ) [GlobalsPartDerived2]
+    ) [GlobalsListDerived1]
+    GlobalsPartDerived2(
+      VarDeclDerived1(
+        TypeDerived1(
+        ) [TypeDerived1]
+        VarDeclSublistDerived1(
+          VarDeclSublistDerived2(
+            VarDeclSubunitDerived1(
+            ) [VarDeclSubunitDerived1]
+          ) [VarDeclSublistDerived2]
+          VarDeclSubunitDerived3(
+          ) [VarDeclSubunitDerived3]
+        ) [VarDeclSublistDerived1]
+      ) [VarDeclDerived1]
+    ) [GlobalsPartDerived2]
+  ) [GlobalsListDerived1]
+  MethodDeclListDerived1(
+    MethodDeclListDerived2(
+    ) [MethodDeclListDerived2]
+    MethodDeclDerived1(
+      RetTypeDerived1(
+        TypeDerived1(
+        ) [TypeDerived1]
+      ) [RetTypeDerived1]
+      FormParsDerived1(
+      ) [FormParsDerived1]
+      VarDeclListDerived2(
+      ) [VarDeclListDerived2]
+      StatementListDerived1(
+        StatementListDerived1(
+          StatementListDerived1(
+            StatementListDerived1(
+              StatementListDerived2(
+              ) [StatementListDerived2]
+              StatementDerived1(
+                DesignatorStatementDerived1(
+                  DesignatorDerived2(
+                    DesignatorSublistDerived2(
+                    ) [DesignatorSublistDerived2]
+                  ) [DesignatorDerived2]
+                  AssignopDerived1(
+                  ) [AssignopDerived1]
+                  ExprDerived1(
+                    TermDerived1(
+                      FactorDerived3(
+                      ) [FactorDerived3]
+                      TermSublistDerived2(
+                      ) [TermSublistDerived2]
+                    ) [TermDerived1]
+                    ExprSublistDerived2(
+                    ) [ExprSublistDerived2]
+                  ) [ExprDerived1]
+                ) [DesignatorStatementDerived1]
+              ) [StatementDerived1]
+            ) [StatementListDerived1]
+            StatementDerived1(
+              DesignatorStatementDerived5(
+              ) [DesignatorStatementDerived5]
+            ) [StatementDerived1]
+          ) [StatementListDerived1]
+          StatementDerived1(
+            DesignatorStatementDerived5(
+            ) [DesignatorStatementDerived5]
+          ) [StatementDerived1]
+        ) [StatementListDerived1]
+        StatementDerived1(
+          DesignatorStatementDerived1(
+            DesignatorDerived2(
+              DesignatorSublistDerived2(
+              ) [DesignatorSublistDerived2]
+            ) [DesignatorDerived2]
+            AssignopDerived1(
+            ) [AssignopDerived1]
+            ExprDerived1(
+              TermDerived1(
+                FactorDerived3(
+                ) [FactorDerived3]
+                TermSublistDerived2(
+                ) [TermSublistDerived2]
+              ) [TermDerived1]
+              ExprSublistDerived2(
+              ) [ExprSublistDerived2]
+            ) [ExprDerived1]
+          ) [DesignatorStatementDerived1]
+        ) [StatementDerived1]
+      ) [StatementListDerived1]
+    ) [MethodDeclDerived1]
+  ) [MethodDeclListDerived1]
+) [ProgramDerived1]
+INFO  20:00:35,323 - ===================================

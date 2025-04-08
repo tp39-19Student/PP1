@@ -1,0 +1,249 @@
+INFO  18:39:30,294 - Compiling source file: D:\pp1domaci\workspace\MJCompiler\test\program.mj
+INFO  18:39:30,314 - #2 program
+INFO  18:39:30,314 - #18 P
+INFO  18:39:30,314 - #18 int
+INFO  18:39:30,314 - #18 a
+INFO  18:39:30,314 - #38 ;
+INFO  18:39:30,314 - #18 char
+INFO  18:39:30,314 - #18 b
+INFO  18:39:30,314 - #40 ,
+INFO  18:39:30,314 - #18 c
+INFO  18:39:30,314 - #38 ;
+INFO  18:39:30,314 - #46 {
+INFO  18:39:30,314 - #12 void
+INFO  18:39:30,314 - #18 main
+INFO  18:39:30,314 - #42 (
+INFO  18:39:30,314 - #43 )
+INFO  18:39:30,314 - #18 int
+INFO  18:39:30,319 - #18 e
+INFO  18:39:30,319 - #38 ;
+INFO  18:39:30,319 - #46 {
+INFO  18:39:30,319 - #18 a
+INFO  18:39:30,319 - #35 =
+INFO  18:39:30,319 - #19 13
+INFO  18:39:30,319 - #38 ;
+INFO  18:39:30,319 - #9 print
+INFO  18:39:30,319 - #42 (
+INFO  18:39:30,319 - #18 a
+INFO  18:39:30,319 - #43 )
+INFO  18:39:30,319 - #38 ;
+INFO  18:39:30,319 - #18 c
+INFO  18:39:30,319 - #35 =
+INFO  18:39:30,319 - #20 e
+INFO  18:39:30,319 - #38 ;
+INFO  18:39:30,319 - #9 print
+INFO  18:39:30,319 - #42 (
+INFO  18:39:30,319 - #18 c
+INFO  18:39:30,319 - #43 )
+INFO  18:39:30,319 - #38 ;
+INFO  18:39:30,319 - #18 e
+INFO  18:39:30,319 - #35 =
+INFO  18:39:30,319 - #19 22
+INFO  18:39:30,319 - #38 ;
+INFO  18:39:30,319 - #9 print
+INFO  18:39:30,319 - #42 (
+INFO  18:39:30,319 - #18 e
+INFO  18:39:30,319 - #43 )
+INFO  18:39:30,319 - #38 ;
+INFO  18:39:30,324 - #47 }
+INFO  18:39:30,324 - #47 }
+INFO  18:39:30,329 - Program(
+  ProgName(
+   P
+  ) [ProgName]
+  NamespaceListEmpty(
+  ) [NamespaceListEmpty]
+  GlobalsListChain(
+    GlobalsListChain(
+      GlobalsListEmpty(
+      ) [GlobalsListEmpty]
+      GlobalsPartVar(
+        VarDecl(
+          TypeIdent(
+           int
+          ) [TypeIdent]
+          VarDeclSublistSingle(
+            VarDeclSubunitIdent(
+             a
+            ) [VarDeclSubunitIdent]
+          ) [VarDeclSublistSingle]
+        ) [VarDecl]
+      ) [GlobalsPartVar]
+    ) [GlobalsListChain]
+    GlobalsPartVar(
+      VarDecl(
+        TypeIdent(
+         char
+        ) [TypeIdent]
+        VarDeclSublistChain(
+          VarDeclSublistSingle(
+            VarDeclSubunitIdent(
+             b
+            ) [VarDeclSubunitIdent]
+          ) [VarDeclSublistSingle]
+          VarDeclSubunitIdent(
+           c
+          ) [VarDeclSubunitIdent]
+        ) [VarDeclSublistChain]
+      ) [VarDecl]
+    ) [GlobalsPartVar]
+  ) [GlobalsListChain]
+  MethodDeclListChain(
+    MethodDeclListEmpty(
+    ) [MethodDeclListEmpty]
+    MethodDecl(
+      MethodTypeName(
+        RetTypeVoid(
+        ) [RetTypeVoid]
+       main
+      ) [MethodTypeName]
+      FormParsEmpty(
+      ) [FormParsEmpty]
+      VarDeclListChain(
+        VarDeclListEmpty(
+        ) [VarDeclListEmpty]
+        VarDecl(
+          TypeIdent(
+           int
+          ) [TypeIdent]
+          VarDeclSublistSingle(
+            VarDeclSubunitIdent(
+             e
+            ) [VarDeclSubunitIdent]
+          ) [VarDeclSublistSingle]
+        ) [VarDecl]
+      ) [VarDeclListChain]
+      StatementListChain(
+        StatementListChain(
+          StatementListChain(
+            StatementListChain(
+              StatementListChain(
+                StatementListChain(
+                  StatementListEmpty(
+                  ) [StatementListEmpty]
+                  StatementDesignator(
+                    DesignatorStatementAssign(
+                      DesignatorNoNamespace(
+                       a
+                      ) [DesignatorNoNamespace]
+                      ExprPositive(
+                        Term(
+                          FactorNumber(
+                           13
+                          ) [FactorNumber]
+                          TermSublistEmpty(
+                          ) [TermSublistEmpty]
+                        ) [Term]
+                        ExprSublistEmpty(
+                        ) [ExprSublistEmpty]
+                      ) [ExprPositive]
+                    ) [DesignatorStatementAssign]
+                  ) [StatementDesignator]
+                ) [StatementListChain]
+                StatementPrint(
+                  ExprPositive(
+                    Term(
+                      FactorDesignator(
+                        DesignatorNoNamespace(
+                         a
+                        ) [DesignatorNoNamespace]
+                      ) [FactorDesignator]
+                      TermSublistEmpty(
+                      ) [TermSublistEmpty]
+                    ) [Term]
+                    ExprSublistEmpty(
+                    ) [ExprSublistEmpty]
+                  ) [ExprPositive]
+                ) [StatementPrint]
+              ) [StatementListChain]
+              StatementDesignator(
+                DesignatorStatementAssign(
+                  DesignatorNoNamespace(
+                   c
+                  ) [DesignatorNoNamespace]
+                  ExprPositive(
+                    Term(
+                      FactorCharacter(
+                       e
+                      ) [FactorCharacter]
+                      TermSublistEmpty(
+                      ) [TermSublistEmpty]
+                    ) [Term]
+                    ExprSublistEmpty(
+                    ) [ExprSublistEmpty]
+                  ) [ExprPositive]
+                ) [DesignatorStatementAssign]
+              ) [StatementDesignator]
+            ) [StatementListChain]
+            StatementPrint(
+              ExprPositive(
+                Term(
+                  FactorDesignator(
+                    DesignatorNoNamespace(
+                     c
+                    ) [DesignatorNoNamespace]
+                  ) [FactorDesignator]
+                  TermSublistEmpty(
+                  ) [TermSublistEmpty]
+                ) [Term]
+                ExprSublistEmpty(
+                ) [ExprSublistEmpty]
+              ) [ExprPositive]
+            ) [StatementPrint]
+          ) [StatementListChain]
+          StatementDesignator(
+            DesignatorStatementAssign(
+              DesignatorNoNamespace(
+               e
+              ) [DesignatorNoNamespace]
+              ExprPositive(
+                Term(
+                  FactorNumber(
+                   22
+                  ) [FactorNumber]
+                  TermSublistEmpty(
+                  ) [TermSublistEmpty]
+                ) [Term]
+                ExprSublistEmpty(
+                ) [ExprSublistEmpty]
+              ) [ExprPositive]
+            ) [DesignatorStatementAssign]
+          ) [StatementDesignator]
+        ) [StatementListChain]
+        StatementPrint(
+          ExprPositive(
+            Term(
+              FactorDesignator(
+                DesignatorNoNamespace(
+                 e
+                ) [DesignatorNoNamespace]
+              ) [FactorDesignator]
+              TermSublistEmpty(
+              ) [TermSublistEmpty]
+            ) [Term]
+            ExprSublistEmpty(
+            ) [ExprSublistEmpty]
+          ) [ExprPositive]
+        ) [StatementPrint]
+      ) [StatementListChain]
+    ) [MethodDecl]
+  ) [MethodDeclListChain]
+) [Program]
+INFO  18:39:30,329 - ================SEMANTICKA OBRADA===================
+INFO  18:39:30,334 - Deklarisana globalna promenljiva, linija: 3, Var a: int, 0, 0 
+INFO  18:39:30,334 - Deklarisana globalna promenljiva, linija: 4, Var b: char, 1, 0 
+INFO  18:39:30,334 - Deklarisana globalna promenljiva, linija: 4, Var c: char, 2, 0 
+INFO  18:39:30,334 - Deklarisana lokalna promenljiva, linija: 6, Var e: int, 0, 1 
+INFO  18:39:30,334 - Pretraga na 7(a), Nadjeno Var a: int, 0, 0 
+INFO  18:39:30,334 - Pretraga na 8(a), Nadjeno Var a: int, 0, 0 
+INFO  18:39:30,334 - Pretraga na 10(c), Nadjeno Var c: char, 2, 0 
+INFO  18:39:30,334 - Pretraga na 11(c), Nadjeno Var c: char, 2, 0 
+INFO  18:39:30,334 - Pretraga na 13(e), Nadjeno Var e: int, 0, 1 
+INFO  18:39:30,334 - Pretraga na 14(e), Nadjeno Var e: int, 0, 1 
+INFO  18:39:30,334 - =================STATS==================
+INFO  18:39:30,334 - Simbolicke konstante: 0
+INFO  18:39:30,334 - Globalne promenljive: 3
+INFO  18:39:30,334 - Lokalne promenljive: 1
+INFO  18:39:30,334 - nVars = 3
+INFO  18:39:30,334 - ===================================
+INFO  18:39:30,339 - Parsiranje uspesno zavrseno!

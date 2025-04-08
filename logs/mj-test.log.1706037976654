@@ -1,0 +1,208 @@
+INFO  20:25:50,939 - Compiling source file: D:\pp1domaci\workspace\MJCompiler\test\program.mj
+INFO  20:25:50,964 - #2 program
+INFO  20:25:50,964 - #18 test
+INFO  20:25:50,964 - #17 namespace
+INFO  20:25:50,964 - #18 a
+INFO  20:25:50,964 - #46 {
+INFO  20:25:50,964 - #18 int
+INFO  20:25:50,964 - #18 t
+INFO  20:25:50,964 - #38 ;
+INFO  20:25:50,964 - #18 bool
+INFO  20:25:50,964 - #18 a
+INFO  20:25:50,964 - #44 [
+INFO  20:25:50,964 - #45 ]
+INFO  20:25:50,964 - #38 ;
+INFO  20:25:50,964 - #18 char
+INFO  20:25:50,964 - #18 b
+INFO  20:25:50,964 - #38 ;
+INFO  20:25:50,964 - #6 const
+INFO  20:25:50,964 - #18 int
+INFO  20:25:50,969 - #18 c
+INFO  20:25:50,969 - #35 =
+INFO  20:25:50,969 - #19 99
+INFO  20:25:50,969 - #38 ;
+INFO  20:25:50,974 - #46 {
+INFO  20:25:50,974 - #12 void
+INFO  20:25:50,974 - #18 main
+INFO  20:25:50,974 - #42 (
+INFO  20:25:50,974 - #18 int
+INFO  20:25:50,974 - #18 a
+INFO  20:25:50,974 - #40 ,
+INFO  20:25:50,974 - #18 int
+INFO  20:25:50,974 - #18 b
+INFO  20:25:50,974 - #43 )
+INFO  20:25:50,974 - #18 int
+INFO  20:25:50,974 - #18 c
+INFO  20:25:50,974 - #38 ;
+INFO  20:25:50,974 - #46 {
+INFO  20:25:50,974 - #47 }
+INFO  20:25:50,974 - #47 }
+INFO  20:25:50,974 - #47 }
+INFO  20:25:50,974 - #46 {
+INFO  20:25:50,974 - #18 int
+INFO  20:25:50,979 - #18 main
+INFO  20:25:50,979 - #42 (
+INFO  20:25:50,979 - #18 char
+INFO  20:25:50,979 - #18 argc
+INFO  20:25:50,979 - #44 [
+INFO  20:25:50,979 - #45 ]
+INFO  20:25:50,979 - #43 )
+INFO  20:25:50,979 - #46 {
+INFO  20:25:50,979 - #47 }
+INFO  20:25:50,979 - #47 }
+INFO  20:25:50,984 - Program(
+  ProgName(
+   test
+  ) [ProgName]
+  NamespaceListChain(
+    NamespaceListEmpty(
+    ) [NamespaceListEmpty]
+    Namespace(
+      NamespaceName(
+       a
+      ) [NamespaceName]
+      GlobalsListChain(
+        GlobalsListChain(
+          GlobalsListChain(
+            GlobalsListChain(
+              GlobalsListEmpty(
+              ) [GlobalsListEmpty]
+              GlobalsPartVar(
+                VarDecl(
+                  TypeIdent(
+                   int
+                  ) [TypeIdent]
+                  VarDeclSublistSingle(
+                    VarDeclSubunitIdent(
+                     t
+                    ) [VarDeclSubunitIdent]
+                  ) [VarDeclSublistSingle]
+                ) [VarDecl]
+              ) [GlobalsPartVar]
+            ) [GlobalsListChain]
+            GlobalsPartVar(
+              VarDecl(
+                TypeIdent(
+                 bool
+                ) [TypeIdent]
+                VarDeclSublistSingle(
+                  VarDeclSubunitArray(
+                   a
+                  ) [VarDeclSubunitArray]
+                ) [VarDeclSublistSingle]
+              ) [VarDecl]
+            ) [GlobalsPartVar]
+          ) [GlobalsListChain]
+          GlobalsPartVar(
+            VarDecl(
+              TypeIdent(
+               char
+              ) [TypeIdent]
+              VarDeclSublistSingle(
+                VarDeclSubunitIdent(
+                 b
+                ) [VarDeclSubunitIdent]
+              ) [VarDeclSublistSingle]
+            ) [VarDecl]
+          ) [GlobalsPartVar]
+        ) [GlobalsListChain]
+        GlobalsPartConst(
+          ConstDecl(
+            TypeIdent(
+             int
+            ) [TypeIdent]
+            ConstDeclSublistSingle(
+              ConstDeclSubunitInt(
+               c
+               99
+              ) [ConstDeclSubunitInt]
+            ) [ConstDeclSublistSingle]
+          ) [ConstDecl]
+        ) [GlobalsPartConst]
+      ) [GlobalsListChain]
+      MethodDeclListChain(
+        MethodDeclListEmpty(
+        ) [MethodDeclListEmpty]
+        MethodDecl(
+          MethodTypeName(
+            RetTypeVoid(
+            ) [RetTypeVoid]
+           main
+          ) [MethodTypeName]
+          FormParsNotEmpty(
+            FormParsListChain(
+              FormParsListSingle(
+                FormParamOne(
+                  TypeIdent(
+                   int
+                  ) [TypeIdent]
+                 a
+                ) [FormParamOne]
+              ) [FormParsListSingle]
+              FormParamOne(
+                TypeIdent(
+                 int
+                ) [TypeIdent]
+               b
+              ) [FormParamOne]
+            ) [FormParsListChain]
+          ) [FormParsNotEmpty]
+          VarDeclListChain(
+            VarDeclListEmpty(
+            ) [VarDeclListEmpty]
+            VarDecl(
+              TypeIdent(
+               int
+              ) [TypeIdent]
+              VarDeclSublistSingle(
+                VarDeclSubunitIdent(
+                 c
+                ) [VarDeclSubunitIdent]
+              ) [VarDeclSublistSingle]
+            ) [VarDecl]
+          ) [VarDeclListChain]
+          StatementListEmpty(
+          ) [StatementListEmpty]
+        ) [MethodDecl]
+      ) [MethodDeclListChain]
+    ) [Namespace]
+  ) [NamespaceListChain]
+  GlobalsListEmpty(
+  ) [GlobalsListEmpty]
+  MethodDeclListChain(
+    MethodDeclListEmpty(
+    ) [MethodDeclListEmpty]
+    MethodDecl(
+      MethodTypeName(
+        RetTypeType(
+          TypeIdent(
+           int
+          ) [TypeIdent]
+        ) [RetTypeType]
+       main
+      ) [MethodTypeName]
+      FormParsNotEmpty(
+        FormParsListSingle(
+          FormParamArray(
+            TypeIdent(
+             char
+            ) [TypeIdent]
+           argc
+          ) [FormParamArray]
+        ) [FormParsListSingle]
+      ) [FormParsNotEmpty]
+      VarDeclListEmpty(
+      ) [VarDeclListEmpty]
+      StatementListEmpty(
+      ) [StatementListEmpty]
+    ) [MethodDecl]
+  ) [MethodDeclListChain]
+) [Program]
+INFO  20:25:50,984 - ===================================
+INFO  20:25:50,984 - Deklarisana globalna promenljiva (t) tipa int, linija: 3
+INFO  20:25:50,984 - Deklarisana globalna promenljiva (a) tipa niz[bool], linija: 4
+INFO  20:25:50,984 - Deklarisana globalna promenljiva (b) tipa char, linija: 5
+INFO  20:25:50,984 - Deklarisana simbolicka konstanta (c) tipa int, vrednost: 99, linija: 6
+INFO  20:25:50,984 - Deklarisana lokalna promenljiva (c) tipa int, linija: 8
+INFO  20:25:50,989 - ===================================
+INFO  20:25:50,989 - Parsiranje uspesno zavrseno!

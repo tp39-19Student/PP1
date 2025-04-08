@@ -1,0 +1,177 @@
+INFO  21:02:41,081 - Compiling source file: D:\pp1domaci\workspace\MJCompiler\test\program.mj
+INFO  21:02:41,106 - #2 program
+INFO  21:02:41,106 - #18 a
+INFO  21:02:41,106 - #18 int
+INFO  21:02:41,106 - #18 a
+INFO  21:02:41,106 - #40 ,
+INFO  21:02:41,106 - #18 b
+INFO  21:02:41,106 - #38 ;
+INFO  21:02:41,106 - #18 bool
+INFO  21:02:41,106 - #18 c
+INFO  21:02:41,111 - #22 +
+ERROR 21:02:41,111 - 
+Sintaksna greska na liniji 4
+INFO  21:02:41,111 - #38 ;
+INFO  21:02:41,111 - #18 int
+INFO  21:02:41,111 - #18 a
+INFO  21:02:41,111 - #40 ,
+ERROR 21:02:41,111 - Izvrsen oporavak od greske (definicija promenljive)
+INFO  21:02:41,111 - #18 b
+INFO  21:02:41,111 - #23 -
+ERROR 21:02:41,111 - 
+Sintaksna greska na liniji 5
+INFO  21:02:41,111 - #38 ;
+INFO  21:02:41,111 - #46 {
+INFO  21:02:41,111 - #18 int
+INFO  21:02:41,111 - #18 main
+ERROR 21:02:41,111 - Izvrsen oporavak od greske (definicija promenljive)
+INFO  21:02:41,111 - #42 (
+INFO  21:02:41,111 - #43 )
+INFO  21:02:41,111 - #46 {
+INFO  21:02:41,111 - #18 a
+INFO  21:02:41,111 - #35 =
+INFO  21:02:41,111 - #19 2
+INFO  21:02:41,111 - #38 ;
+INFO  21:02:41,116 - #7 if
+INFO  21:02:41,116 - #42 (
+INFO  21:02:41,116 - #18 a
+INFO  21:02:41,116 - #43 )
+INFO  21:02:41,116 - #18 b
+INFO  21:02:41,116 - #35 =
+INFO  21:02:41,116 - #19 3
+INFO  21:02:41,116 - #38 ;
+INFO  21:02:41,116 - #47 }
+INFO  21:02:41,116 - #47 }
+INFO  21:02:41,116 - Program(
+  NamespaceListEmpty(
+  ) [NamespaceListEmpty]
+  GlobalsListChain(
+    GlobalsListChain(
+      GlobalsListChain(
+        GlobalsListEmpty(
+        ) [GlobalsListEmpty]
+        GlobalsPartVar(
+          VarDecl(
+            TypeIdent(
+            ) [TypeIdent]
+            VarDeclSublistChain(
+              VarDeclSublistSingle(
+                VarDeclSubunitIdent(
+                ) [VarDeclSubunitIdent]
+              ) [VarDeclSublistSingle]
+              VarDeclSubunitIdent(
+              ) [VarDeclSubunitIdent]
+            ) [VarDeclSublistChain]
+          ) [VarDecl]
+        ) [GlobalsPartVar]
+      ) [GlobalsListChain]
+      GlobalsPartVar(
+        VarDecl(
+          TypeIdent(
+          ) [TypeIdent]
+          VarDeclSublistSingle(
+            VarDeclSubunitError(
+            ) [VarDeclSubunitError]
+          ) [VarDeclSublistSingle]
+        ) [VarDecl]
+      ) [GlobalsPartVar]
+    ) [GlobalsListChain]
+    GlobalsPartVar(
+      VarDecl(
+        TypeIdent(
+        ) [TypeIdent]
+        VarDeclSublistChain(
+          VarDeclSublistSingle(
+            VarDeclSubunitIdent(
+            ) [VarDeclSubunitIdent]
+          ) [VarDeclSublistSingle]
+          VarDeclSubunitError(
+          ) [VarDeclSubunitError]
+        ) [VarDeclSublistChain]
+      ) [VarDecl]
+    ) [GlobalsPartVar]
+  ) [GlobalsListChain]
+  MethodDeclListChain(
+    MethodDeclListEmpty(
+    ) [MethodDeclListEmpty]
+    MethodDecl(
+      RetTypeType(
+        TypeIdent(
+        ) [TypeIdent]
+      ) [RetTypeType]
+      FormParsEmpty(
+      ) [FormParsEmpty]
+      VarDeclListEmpty(
+      ) [VarDeclListEmpty]
+      StatementListChain(
+        StatementListChain(
+          StatementListEmpty(
+          ) [StatementListEmpty]
+          StatementDesignator(
+            DesignatorStatementAssign(
+              DesignatorNoNamespace(
+                DesignatorSublistEmpty(
+                ) [DesignatorSublistEmpty]
+              ) [DesignatorNoNamespace]
+              AssignopEq(
+              ) [AssignopEq]
+              ExprPositive(
+                Term(
+                  FactorNumber(
+                  ) [FactorNumber]
+                  TermSublistEmpty(
+                  ) [TermSublistEmpty]
+                ) [Term]
+                ExprSublistEmpty(
+                ) [ExprSublistEmpty]
+              ) [ExprPositive]
+            ) [DesignatorStatementAssign]
+          ) [StatementDesignator]
+        ) [StatementListChain]
+        StatementIfNoElse(
+          ConditionDerived2(
+            CondTermDerived2(
+              CondFactDerived1(
+                ExprPositive(
+                  Term(
+                    FactorDesignator(
+                      DesignatorNoNamespace(
+                        DesignatorSublistEmpty(
+                        ) [DesignatorSublistEmpty]
+                      ) [DesignatorNoNamespace]
+                    ) [FactorDesignator]
+                    TermSublistEmpty(
+                    ) [TermSublistEmpty]
+                  ) [Term]
+                  ExprSublistEmpty(
+                  ) [ExprSublistEmpty]
+                ) [ExprPositive]
+              ) [CondFactDerived1]
+            ) [CondTermDerived2]
+          ) [ConditionDerived2]
+          StatementDesignator(
+            DesignatorStatementAssign(
+              DesignatorNoNamespace(
+                DesignatorSublistEmpty(
+                ) [DesignatorSublistEmpty]
+              ) [DesignatorNoNamespace]
+              AssignopEq(
+              ) [AssignopEq]
+              ExprPositive(
+                Term(
+                  FactorNumber(
+                  ) [FactorNumber]
+                  TermSublistEmpty(
+                  ) [TermSublistEmpty]
+                ) [Term]
+                ExprSublistEmpty(
+                ) [ExprSublistEmpty]
+              ) [ExprPositive]
+            ) [DesignatorStatementAssign]
+          ) [StatementDesignator]
+        ) [StatementIfNoElse]
+      ) [StatementListChain]
+    ) [MethodDecl]
+  ) [MethodDeclListChain]
+) [Program]
+INFO  21:02:41,116 - ===================================

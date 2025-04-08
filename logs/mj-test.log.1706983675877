@@ -1,0 +1,266 @@
+INFO  19:07:16,291 - Compiling source file: D:\pp1domaci\workspace\MJCompiler\test\program.mj
+INFO  19:07:16,311 - #2 program
+INFO  19:07:16,311 - #18 P
+INFO  19:07:16,311 - #17 namespace
+INFO  19:07:16,311 - #18 b
+INFO  19:07:16,311 - #46 {
+INFO  19:07:16,316 - #18 int
+INFO  19:07:16,316 - #18 a
+INFO  19:07:16,316 - #38 ;
+INFO  19:07:16,316 - #46 {
+INFO  19:07:16,316 - #47 }
+INFO  19:07:16,316 - #47 }
+INFO  19:07:16,316 - #18 int
+INFO  19:07:16,316 - #18 a
+INFO  19:07:16,316 - #38 ;
+INFO  19:07:16,316 - #46 {
+INFO  19:07:16,316 - #12 void
+INFO  19:07:16,316 - #18 main
+INFO  19:07:16,316 - #42 (
+INFO  19:07:16,316 - #43 )
+INFO  19:07:16,316 - #46 {
+INFO  19:07:16,316 - #18 a
+INFO  19:07:16,316 - #35 =
+INFO  19:07:16,316 - #19 3
+INFO  19:07:16,316 - #24 *
+INFO  19:07:16,316 - #19 2
+INFO  19:07:16,321 - #23 -
+INFO  19:07:16,321 - #19 3
+INFO  19:07:16,321 - #38 ;
+INFO  19:07:16,321 - #18 b
+INFO  19:07:16,321 - #39 :
+INFO  19:07:16,321 - #39 :
+INFO  19:07:16,321 - #18 a
+INFO  19:07:16,321 - #35 =
+INFO  19:07:16,321 - #19 3
+INFO  19:07:16,321 - #24 *
+INFO  19:07:16,321 - #42 (
+INFO  19:07:16,321 - #19 2
+INFO  19:07:16,321 - #23 -
+INFO  19:07:16,321 - #19 3
+INFO  19:07:16,321 - #43 )
+INFO  19:07:16,321 - #38 ;
+INFO  19:07:16,321 - #9 print
+INFO  19:07:16,321 - #42 (
+INFO  19:07:16,321 - #18 a
+INFO  19:07:16,321 - #43 )
+INFO  19:07:16,321 - #38 ;
+INFO  19:07:16,321 - #9 print
+INFO  19:07:16,321 - #42 (
+INFO  19:07:16,321 - #18 b
+INFO  19:07:16,321 - #39 :
+INFO  19:07:16,321 - #39 :
+INFO  19:07:16,321 - #18 a
+INFO  19:07:16,321 - #43 )
+INFO  19:07:16,321 - #38 ;
+INFO  19:07:16,321 - #47 }
+INFO  19:07:16,321 - #47 }
+INFO  19:07:16,331 - Program(
+  ProgName(
+   P
+  ) [ProgName]
+  NamespaceListChain(
+    NamespaceListEmpty(
+    ) [NamespaceListEmpty]
+    Namespace(
+      NamespaceName(
+       b
+      ) [NamespaceName]
+      GlobalsListChain(
+        GlobalsListEmpty(
+        ) [GlobalsListEmpty]
+        GlobalsPartVar(
+          VarDecl(
+            TypeIdent(
+             int
+            ) [TypeIdent]
+            VarDeclSublistSingle(
+              VarDeclSubunitIdent(
+               a
+              ) [VarDeclSubunitIdent]
+            ) [VarDeclSublistSingle]
+          ) [VarDecl]
+        ) [GlobalsPartVar]
+      ) [GlobalsListChain]
+      MethodDeclListEmpty(
+      ) [MethodDeclListEmpty]
+    ) [Namespace]
+  ) [NamespaceListChain]
+  GlobalsListChain(
+    GlobalsListEmpty(
+    ) [GlobalsListEmpty]
+    GlobalsPartVar(
+      VarDecl(
+        TypeIdent(
+         int
+        ) [TypeIdent]
+        VarDeclSublistSingle(
+          VarDeclSubunitIdent(
+           a
+          ) [VarDeclSubunitIdent]
+        ) [VarDeclSublistSingle]
+      ) [VarDecl]
+    ) [GlobalsPartVar]
+  ) [GlobalsListChain]
+  MethodDeclListChain(
+    MethodDeclListEmpty(
+    ) [MethodDeclListEmpty]
+    MethodDecl(
+      MethodTypeName(
+        RetTypeVoid(
+        ) [RetTypeVoid]
+       main
+      ) [MethodTypeName]
+      FormParsEmpty(
+      ) [FormParsEmpty]
+      VarDeclListEmpty(
+      ) [VarDeclListEmpty]
+      StatementListChain(
+        StatementListChain(
+          StatementListChain(
+            StatementListChain(
+              StatementListEmpty(
+              ) [StatementListEmpty]
+              StatementDesignator(
+                DesignatorStatementAssign(
+                  DesignatorNoNamespace(
+                   a
+                  ) [DesignatorNoNamespace]
+                  ExprPositive(
+                    Term(
+                      FactorNumber(
+                       3
+                      ) [FactorNumber]
+                      TermSublistChain(
+                        TermSublistEmpty(
+                        ) [TermSublistEmpty]
+                        TermSubunit(
+                          MulopMul(
+                          ) [MulopMul]
+                          FactorNumber(
+                           2
+                          ) [FactorNumber]
+                        ) [TermSubunit]
+                      ) [TermSublistChain]
+                    ) [Term]
+                    ExprSublistChain(
+                      ExprSublistEmpty(
+                      ) [ExprSublistEmpty]
+                      ExprSubunit(
+                        AddopMinus(
+                        ) [AddopMinus]
+                        Term(
+                          FactorNumber(
+                           3
+                          ) [FactorNumber]
+                          TermSublistEmpty(
+                          ) [TermSublistEmpty]
+                        ) [Term]
+                      ) [ExprSubunit]
+                    ) [ExprSublistChain]
+                  ) [ExprPositive]
+                ) [DesignatorStatementAssign]
+              ) [StatementDesignator]
+            ) [StatementListChain]
+            StatementDesignator(
+              DesignatorStatementAssign(
+                DesignatorWithNamespace(
+                 b
+                 a
+                ) [DesignatorWithNamespace]
+                ExprPositive(
+                  Term(
+                    FactorNumber(
+                     3
+                    ) [FactorNumber]
+                    TermSublistChain(
+                      TermSublistEmpty(
+                      ) [TermSublistEmpty]
+                      TermSubunit(
+                        MulopMul(
+                        ) [MulopMul]
+                        FactorSubexpression(
+                          ExprPositive(
+                            Term(
+                              FactorNumber(
+                               2
+                              ) [FactorNumber]
+                              TermSublistEmpty(
+                              ) [TermSublistEmpty]
+                            ) [Term]
+                            ExprSublistChain(
+                              ExprSublistEmpty(
+                              ) [ExprSublistEmpty]
+                              ExprSubunit(
+                                AddopMinus(
+                                ) [AddopMinus]
+                                Term(
+                                  FactorNumber(
+                                   3
+                                  ) [FactorNumber]
+                                  TermSublistEmpty(
+                                  ) [TermSublistEmpty]
+                                ) [Term]
+                              ) [ExprSubunit]
+                            ) [ExprSublistChain]
+                          ) [ExprPositive]
+                        ) [FactorSubexpression]
+                      ) [TermSubunit]
+                    ) [TermSublistChain]
+                  ) [Term]
+                  ExprSublistEmpty(
+                  ) [ExprSublistEmpty]
+                ) [ExprPositive]
+              ) [DesignatorStatementAssign]
+            ) [StatementDesignator]
+          ) [StatementListChain]
+          StatementPrint(
+            ExprPositive(
+              Term(
+                FactorDesignator(
+                  DesignatorNoNamespace(
+                   a
+                  ) [DesignatorNoNamespace]
+                ) [FactorDesignator]
+                TermSublistEmpty(
+                ) [TermSublistEmpty]
+              ) [Term]
+              ExprSublistEmpty(
+              ) [ExprSublistEmpty]
+            ) [ExprPositive]
+          ) [StatementPrint]
+        ) [StatementListChain]
+        StatementPrint(
+          ExprPositive(
+            Term(
+              FactorDesignator(
+                DesignatorWithNamespace(
+                 b
+                 a
+                ) [DesignatorWithNamespace]
+              ) [FactorDesignator]
+              TermSublistEmpty(
+              ) [TermSublistEmpty]
+            ) [Term]
+            ExprSublistEmpty(
+            ) [ExprSublistEmpty]
+          ) [ExprPositive]
+        ) [StatementPrint]
+      ) [StatementListChain]
+    ) [MethodDecl]
+  ) [MethodDeclListChain]
+) [Program]
+INFO  19:07:16,331 - ================SEMANTICKA OBRADA===================
+INFO  19:07:16,336 - Deklarisana globalna promenljiva, linija: 4, Var a: int, 0, 0 
+INFO  19:07:16,336 - Deklarisana globalna promenljiva, linija: 8, Var a: int, 0, 0 
+INFO  19:07:16,336 - Pretraga na 12(a), Nadjeno Var a: int, 1, 0 
+INFO  19:07:16,336 - Pretraga na 13(b::a), Nadjeno Var a: int, 0, 0 
+INFO  19:07:16,336 - Pretraga na 14(a), Nadjeno Var a: int, 1, 0 
+INFO  19:07:16,336 - Pretraga na 15(b::a), Nadjeno Var a: int, 0, 0 
+INFO  19:07:16,336 - =================STATS==================
+INFO  19:07:16,336 - Simbolicke konstante: 0
+INFO  19:07:16,336 - Globalne promenljive: 2
+INFO  19:07:16,336 - Lokalne promenljive: 0
+INFO  19:07:16,336 - nVars = 2
+INFO  19:07:16,336 - ===================================
+INFO  19:07:16,341 - Parsiranje uspesno zavrseno!

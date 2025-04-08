@@ -1,0 +1,88 @@
+INFO  20:45:03,634 - Compiling source file: D:\pp1domaci\workspace\MJCompiler\test\program.mj
+INFO  20:45:03,649 - #2 program
+INFO  20:45:03,649 - #18 P
+INFO  20:45:03,649 - #18 int
+INFO  20:45:03,654 - #18 a
+INFO  20:45:03,654 - #44 [
+INFO  20:45:03,654 - #45 ]
+INFO  20:45:03,654 - #38 ;
+INFO  20:45:03,654 - #46 {
+INFO  20:45:03,654 - #12 void
+INFO  20:45:03,654 - #18 main
+INFO  20:45:03,654 - #42 (
+INFO  20:45:03,654 - #43 )
+INFO  20:45:03,654 - #46 {
+INFO  20:45:03,654 - #9 print
+INFO  20:45:03,654 - #42 (
+INFO  20:45:03,654 - #19 2
+INFO  20:45:03,654 - #40 ,
+INFO  20:45:03,654 - #19 10
+INFO  20:45:03,659 - #43 )
+INFO  20:45:03,659 - #38 ;
+INFO  20:45:03,659 - #47 }
+INFO  20:45:03,659 - #47 }
+INFO  20:45:03,664 - Program(
+  ProgName(
+   P
+  ) [ProgName]
+  NamespaceListEmpty(
+  ) [NamespaceListEmpty]
+  GlobalsListChain(
+    GlobalsListEmpty(
+    ) [GlobalsListEmpty]
+    GlobalsPartVar(
+      VarDecl(
+        TypeIdent(
+         int
+        ) [TypeIdent]
+        VarDeclSublistSingle(
+          VarDeclSubunitArray(
+           a
+          ) [VarDeclSubunitArray]
+        ) [VarDeclSublistSingle]
+      ) [VarDecl]
+    ) [GlobalsPartVar]
+  ) [GlobalsListChain]
+  MethodDeclListChain(
+    MethodDeclListEmpty(
+    ) [MethodDeclListEmpty]
+    MethodDecl(
+      MethodTypeName(
+        RetTypeVoid(
+        ) [RetTypeVoid]
+       main
+      ) [MethodTypeName]
+      FormParsEmpty(
+      ) [FormParsEmpty]
+      VarDeclListEmpty(
+      ) [VarDeclListEmpty]
+      StatementListChain(
+        StatementListEmpty(
+        ) [StatementListEmpty]
+        StatementPrintFormat(
+          ExprPositive(
+            Term(
+              FactorNumber(
+               2
+              ) [FactorNumber]
+              TermSublistEmpty(
+              ) [TermSublistEmpty]
+            ) [Term]
+            ExprSublistEmpty(
+            ) [ExprSublistEmpty]
+          ) [ExprPositive]
+         10
+        ) [StatementPrintFormat]
+      ) [StatementListChain]
+    ) [MethodDecl]
+  ) [MethodDeclListChain]
+) [Program]
+INFO  20:45:03,664 - ================SEMANTICKA OBRADA===================
+INFO  20:45:03,669 - Deklarisana globalna promenljiva, linija: 5, Var a: Arr of int, 0, 0 
+INFO  20:45:03,669 - =================STATS==================
+INFO  20:45:03,669 - Simbolicke konstante: 0
+INFO  20:45:03,669 - Globalne promenljive: 1
+INFO  20:45:03,669 - Lokalne promenljive: 0
+INFO  20:45:03,669 - nVars = 1
+INFO  20:45:03,669 - ===================================
+INFO  20:45:03,674 - Parsiranje uspesno zavrseno!

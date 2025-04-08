@@ -1,0 +1,36 @@
+INFO  15:50:58,860 - Compiling source file: D:\pp1domaci\workspace\MJCompiler\test\program.mj
+INFO  15:50:58,885 - #2 program
+INFO  15:50:58,885 - #18 MyProg
+INFO  15:50:58,885 - #18 inti
+INFO  15:50:58,885 - #18 a
+INFO  15:50:58,885 - #38 ;
+INFO  15:50:58,885 - #46 {
+INFO  15:50:58,885 - #47 }
+INFO  15:50:58,890 - Program(
+  ProgName(
+   MyProg
+  ) [ProgName]
+  NamespaceListEmpty(
+  ) [NamespaceListEmpty]
+  GlobalsListChain(
+    GlobalsListEmpty(
+    ) [GlobalsListEmpty]
+    GlobalsPartVar(
+      VarDecl(
+        TypeIdent(
+         inti
+        ) [TypeIdent]
+        VarDeclSublistSingle(
+          VarDeclSubunitIdent(
+           a
+          ) [VarDeclSubunitIdent]
+        ) [VarDeclSublistSingle]
+      ) [VarDecl]
+    ) [GlobalsPartVar]
+  ) [GlobalsListChain]
+  MethodDeclListEmpty(
+  ) [MethodDeclListEmpty]
+) [Program]
+INFO  15:50:58,890 - ===================================
+ERROR 15:50:58,890 - Nije pronadjen tip inti u tabeli simbola! na liniji 2
+INFO  15:50:58,890 - ===================================

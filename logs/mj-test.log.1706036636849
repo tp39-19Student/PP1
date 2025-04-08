@@ -1,0 +1,170 @@
+INFO  20:03:39,141 - Compiling source file: D:\pp1domaci\workspace\MJCompiler\test\program.mj
+INFO  20:03:39,166 - #2 program
+INFO  20:03:39,166 - #18 test
+INFO  20:03:39,166 - #17 namespace
+INFO  20:03:39,166 - #18 a
+INFO  20:03:39,166 - #46 {
+INFO  20:03:39,166 - #18 int
+INFO  20:03:39,166 - #18 t
+INFO  20:03:39,166 - #38 ;
+INFO  20:03:39,166 - #18 bool
+INFO  20:03:39,166 - #18 a
+INFO  20:03:39,166 - #38 ;
+INFO  20:03:39,166 - #18 char
+INFO  20:03:39,166 - #18 b
+INFO  20:03:39,166 - #38 ;
+INFO  20:03:39,166 - #6 const
+INFO  20:03:39,166 - #18 int
+INFO  20:03:39,166 - #18 c
+INFO  20:03:39,166 - #35 =
+INFO  20:03:39,166 - #19 99
+INFO  20:03:39,166 - #38 ;
+INFO  20:03:39,166 - #46 {
+INFO  20:03:39,166 - #12 void
+INFO  20:03:39,176 - #18 main
+INFO  20:03:39,176 - #42 (
+INFO  20:03:39,176 - #18 int
+INFO  20:03:39,176 - #18 a
+INFO  20:03:39,176 - #40 ,
+INFO  20:03:39,176 - #18 int
+INFO  20:03:39,176 - #18 b
+INFO  20:03:39,176 - #43 )
+INFO  20:03:39,176 - #18 int
+INFO  20:03:39,176 - #18 c
+INFO  20:03:39,176 - #38 ;
+INFO  20:03:39,176 - #46 {
+INFO  20:03:39,176 - #47 }
+INFO  20:03:39,176 - #47 }
+INFO  20:03:39,176 - #47 }
+INFO  20:03:39,176 - #46 {
+INFO  20:03:39,176 - #47 }
+INFO  20:03:39,181 - Program(
+  ProgName(
+   test
+  ) [ProgName]
+  NamespaceListChain(
+    NamespaceListEmpty(
+    ) [NamespaceListEmpty]
+    Namespace(
+      NamespaceName(
+       a
+      ) [NamespaceName]
+      GlobalsListChain(
+        GlobalsListChain(
+          GlobalsListChain(
+            GlobalsListChain(
+              GlobalsListEmpty(
+              ) [GlobalsListEmpty]
+              GlobalsPartVar(
+                VarDecl(
+                  TypeIdent(
+                   int
+                  ) [TypeIdent]
+                  VarDeclSublistSingle(
+                    VarDeclSubunitIdent(
+                     t
+                    ) [VarDeclSubunitIdent]
+                  ) [VarDeclSublistSingle]
+                ) [VarDecl]
+              ) [GlobalsPartVar]
+            ) [GlobalsListChain]
+            GlobalsPartVar(
+              VarDecl(
+                TypeIdent(
+                 bool
+                ) [TypeIdent]
+                VarDeclSublistSingle(
+                  VarDeclSubunitIdent(
+                   a
+                  ) [VarDeclSubunitIdent]
+                ) [VarDeclSublistSingle]
+              ) [VarDecl]
+            ) [GlobalsPartVar]
+          ) [GlobalsListChain]
+          GlobalsPartVar(
+            VarDecl(
+              TypeIdent(
+               char
+              ) [TypeIdent]
+              VarDeclSublistSingle(
+                VarDeclSubunitIdent(
+                 b
+                ) [VarDeclSubunitIdent]
+              ) [VarDeclSublistSingle]
+            ) [VarDecl]
+          ) [GlobalsPartVar]
+        ) [GlobalsListChain]
+        GlobalsPartConst(
+          ConstDecl(
+            TypeIdent(
+             int
+            ) [TypeIdent]
+            ConstDeclSublistSingle(
+              ConstDeclSubunitInt(
+               c
+               99
+              ) [ConstDeclSubunitInt]
+            ) [ConstDeclSublistSingle]
+          ) [ConstDecl]
+        ) [GlobalsPartConst]
+      ) [GlobalsListChain]
+      MethodDeclListChain(
+        MethodDeclListEmpty(
+        ) [MethodDeclListEmpty]
+        MethodDecl(
+          MethodTypeName(
+            RetTypeVoid(
+            ) [RetTypeVoid]
+           main
+          ) [MethodTypeName]
+          FormParsNotEmpty(
+            FormParsListChain(
+              FormParsListSingle(
+                FormParamOne(
+                  TypeIdent(
+                   int
+                  ) [TypeIdent]
+                 a
+                ) [FormParamOne]
+              ) [FormParsListSingle]
+              FormParamOne(
+                TypeIdent(
+                 int
+                ) [TypeIdent]
+               b
+              ) [FormParamOne]
+            ) [FormParsListChain]
+          ) [FormParsNotEmpty]
+          VarDeclListChain(
+            VarDeclListEmpty(
+            ) [VarDeclListEmpty]
+            VarDecl(
+              TypeIdent(
+               int
+              ) [TypeIdent]
+              VarDeclSublistSingle(
+                VarDeclSubunitIdent(
+                 c
+                ) [VarDeclSubunitIdent]
+              ) [VarDeclSublistSingle]
+            ) [VarDecl]
+          ) [VarDeclListChain]
+          StatementListEmpty(
+          ) [StatementListEmpty]
+        ) [MethodDecl]
+      ) [MethodDeclListChain]
+    ) [Namespace]
+  ) [NamespaceListChain]
+  GlobalsListEmpty(
+  ) [GlobalsListEmpty]
+  MethodDeclListEmpty(
+  ) [MethodDeclListEmpty]
+) [Program]
+INFO  20:03:39,186 - ===================================
+INFO  20:03:39,186 - Deklarisanaglobalna promenljiva tipa int, linija: 3
+INFO  20:03:39,186 - Deklarisanaglobalna promenljiva tipa bool, linija: 4
+INFO  20:03:39,186 - Deklarisanaglobalna promenljiva tipa char, linija: 5
+INFO  20:03:39,186 - Deklarisana simbolicka konstanta tipa int, vrednost: 99, linija: 6
+INFO  20:03:39,186 - Deklarisanalokalna promenljiva tipa int, linija: 8
+INFO  20:03:39,186 - ===================================
+INFO  20:03:39,186 - Parsiranje uspesno zavrseno!

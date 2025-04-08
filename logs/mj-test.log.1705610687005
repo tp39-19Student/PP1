@@ -1,0 +1,150 @@
+INFO  21:36:44,438 - Compiling source file: D:\pp1domaci\workspace\MJCompiler\test\program.mj
+INFO  21:36:44,458 - #2 program
+INFO  21:36:44,458 - #18 a
+INFO  21:36:44,458 - #18 int
+INFO  21:36:44,458 - #18 a
+INFO  21:36:44,458 - #38 ;
+INFO  21:36:44,463 - #46 {
+INFO  21:36:44,463 - #12 void
+INFO  21:36:44,463 - #18 main
+INFO  21:36:44,463 - #42 (
+INFO  21:36:44,463 - #43 )
+INFO  21:36:44,463 - #46 {
+INFO  21:36:44,463 - #7 if
+INFO  21:36:44,463 - #42 (
+INFO  21:36:44,463 - #18 a
+INFO  21:36:44,463 - #43 )
+INFO  21:36:44,463 - #7 if
+INFO  21:36:44,463 - #42 (
+INFO  21:36:44,463 - #18 b
+INFO  21:36:44,463 - #43 )
+INFO  21:36:44,463 - #18 a
+INFO  21:36:44,463 - #35 =
+INFO  21:36:44,463 - #19 1
+INFO  21:36:44,468 - #38 ;
+INFO  21:36:44,468 - #5 else
+INFO  21:36:44,468 - #18 a
+INFO  21:36:44,468 - #35 =
+INFO  21:36:44,468 - #19 2
+INFO  21:36:44,468 - #38 ;
+INFO  21:36:44,468 - #47 }
+INFO  21:36:44,468 - #47 }
+INFO  21:36:44,468 - Program(
+  NamespaceListEmpty(
+  ) [NamespaceListEmpty]
+  GlobalsListChain(
+    GlobalsListEmpty(
+    ) [GlobalsListEmpty]
+    GlobalsPartVar(
+      VarDecl(
+        TypeIdent(
+        ) [TypeIdent]
+        VarDeclSublistSingle(
+          VarDeclSubunitIdent(
+          ) [VarDeclSubunitIdent]
+        ) [VarDeclSublistSingle]
+      ) [VarDecl]
+    ) [GlobalsPartVar]
+  ) [GlobalsListChain]
+  MethodDeclListChain(
+    MethodDeclListEmpty(
+    ) [MethodDeclListEmpty]
+    MethodDecl(
+      RetTypeVoid(
+      ) [RetTypeVoid]
+      FormParsEmpty(
+      ) [FormParsEmpty]
+      VarDeclListEmpty(
+      ) [VarDeclListEmpty]
+      StatementListChain(
+        StatementListEmpty(
+        ) [StatementListEmpty]
+        StatementIfNoElse(
+          ConditionSingle(
+            CondTermSingle(
+              CondFactBool(
+                ExprPositive(
+                  Term(
+                    FactorDesignator(
+                      DesignatorNoNamespace(
+                        DesignatorSublistEmpty(
+                        ) [DesignatorSublistEmpty]
+                      ) [DesignatorNoNamespace]
+                    ) [FactorDesignator]
+                    TermSublistEmpty(
+                    ) [TermSublistEmpty]
+                  ) [Term]
+                  ExprSublistEmpty(
+                  ) [ExprSublistEmpty]
+                ) [ExprPositive]
+              ) [CondFactBool]
+            ) [CondTermSingle]
+          ) [ConditionSingle]
+          StatementIfElse(
+            ConditionSingle(
+              CondTermSingle(
+                CondFactBool(
+                  ExprPositive(
+                    Term(
+                      FactorDesignator(
+                        DesignatorNoNamespace(
+                          DesignatorSublistEmpty(
+                          ) [DesignatorSublistEmpty]
+                        ) [DesignatorNoNamespace]
+                      ) [FactorDesignator]
+                      TermSublistEmpty(
+                      ) [TermSublistEmpty]
+                    ) [Term]
+                    ExprSublistEmpty(
+                    ) [ExprSublistEmpty]
+                  ) [ExprPositive]
+                ) [CondFactBool]
+              ) [CondTermSingle]
+            ) [ConditionSingle]
+            StatementDesignator(
+              DesignatorStatementAssign(
+                DesignatorNoNamespace(
+                  DesignatorSublistEmpty(
+                  ) [DesignatorSublistEmpty]
+                ) [DesignatorNoNamespace]
+                AssignopEq(
+                ) [AssignopEq]
+                ExprPositive(
+                  Term(
+                    FactorNumber(
+                    ) [FactorNumber]
+                    TermSublistEmpty(
+                    ) [TermSublistEmpty]
+                  ) [Term]
+                  ExprSublistEmpty(
+                  ) [ExprSublistEmpty]
+                ) [ExprPositive]
+              ) [DesignatorStatementAssign]
+            ) [StatementDesignator]
+            StatementDesignator(
+              DesignatorStatementAssign(
+                DesignatorNoNamespace(
+                  DesignatorSublistEmpty(
+                  ) [DesignatorSublistEmpty]
+                ) [DesignatorNoNamespace]
+                AssignopEq(
+                ) [AssignopEq]
+                ExprPositive(
+                  Term(
+                    FactorNumber(
+                    ) [FactorNumber]
+                    TermSublistEmpty(
+                    ) [TermSublistEmpty]
+                  ) [Term]
+                  ExprSublistEmpty(
+                  ) [ExprSublistEmpty]
+                ) [ExprPositive]
+              ) [DesignatorStatementAssign]
+            ) [StatementDesignator]
+          ) [StatementIfElse]
+        ) [StatementIfNoElse]
+      ) [StatementListChain]
+    ) [MethodDecl]
+  ) [MethodDeclListChain]
+) [Program]
+INFO  21:36:44,468 - ===================================

@@ -1,0 +1,1341 @@
+INFO  21:31:03,539 - Compiling source file: D:\pp1domaci\workspace\MJCompiler\test\program.mj
+INFO  21:31:03,559 - #2 program
+INFO  21:31:03,559 - #18 test301
+INFO  21:31:03,559 - #17 namespace
+INFO  21:31:03,559 - #18 Konstante
+INFO  21:31:03,559 - #46 {
+INFO  21:31:03,559 - #6 const
+INFO  21:31:03,559 - #18 int
+INFO  21:31:03,559 - #18 nula
+INFO  21:31:03,559 - #35 =
+INFO  21:31:03,559 - #19 0
+INFO  21:31:03,559 - #38 ;
+INFO  21:31:03,559 - #6 const
+INFO  21:31:03,559 - #18 int
+INFO  21:31:03,559 - #18 jedan
+INFO  21:31:03,564 - #35 =
+INFO  21:31:03,564 - #19 1
+INFO  21:31:03,564 - #38 ;
+INFO  21:31:03,564 - #6 const
+INFO  21:31:03,564 - #18 int
+INFO  21:31:03,564 - #18 pet
+INFO  21:31:03,564 - #35 =
+INFO  21:31:03,564 - #19 5
+INFO  21:31:03,564 - #38 ;
+INFO  21:31:03,564 - #46 {
+INFO  21:31:03,564 - #47 }
+INFO  21:31:03,564 - #47 }
+INFO  21:31:03,564 - #17 namespace
+INFO  21:31:03,564 - #18 Nizovi
+INFO  21:31:03,564 - #46 {
+INFO  21:31:03,564 - #18 int
+INFO  21:31:03,564 - #18 niz
+INFO  21:31:03,564 - #44 [
+INFO  21:31:03,564 - #45 ]
+INFO  21:31:03,564 - #38 ;
+INFO  21:31:03,564 - #18 char
+INFO  21:31:03,564 - #18 nizch
+INFO  21:31:03,564 - #44 [
+INFO  21:31:03,564 - #45 ]
+INFO  21:31:03,564 - #38 ;
+INFO  21:31:03,564 - #46 {
+INFO  21:31:03,564 - #47 }
+INFO  21:31:03,564 - #47 }
+INFO  21:31:03,564 - #18 int
+INFO  21:31:03,564 - #18 a
+INFO  21:31:03,564 - #38 ;
+INFO  21:31:03,564 - #46 {
+INFO  21:31:03,564 - #12 void
+INFO  21:31:03,564 - #18 main
+INFO  21:31:03,564 - #42 (
+INFO  21:31:03,564 - #43 )
+INFO  21:31:03,569 - #18 int
+INFO  21:31:03,569 - #18 bodovi
+INFO  21:31:03,569 - #38 ;
+INFO  21:31:03,569 - #18 bool
+INFO  21:31:03,569 - #18 bt
+INFO  21:31:03,569 - #38 ;
+INFO  21:31:03,569 - #46 {
+INFO  21:31:03,569 - #18 bodovi
+INFO  21:31:03,569 - #35 =
+INFO  21:31:03,569 - #19 0
+INFO  21:31:03,569 - #38 ;
+INFO  21:31:03,569 - #18 bodovi
+INFO  21:31:03,569 - #36 ++
+INFO  21:31:03,569 - #38 ;
+INFO  21:31:03,569 - #18 bodovi
+INFO  21:31:03,569 - #35 =
+INFO  21:31:03,569 - #18 bodovi
+INFO  21:31:03,569 - #22 +
+INFO  21:31:03,569 - #18 Konstante
+INFO  21:31:03,574 - #39 :
+INFO  21:31:03,574 - #39 :
+INFO  21:31:03,574 - #18 jedan
+INFO  21:31:03,574 - #38 ;
+INFO  21:31:03,574 - #18 bodovi
+INFO  21:31:03,574 - #35 =
+INFO  21:31:03,574 - #18 bodovi
+INFO  21:31:03,574 - #24 *
+INFO  21:31:03,574 - #18 Konstante
+INFO  21:31:03,574 - #39 :
+INFO  21:31:03,574 - #39 :
+INFO  21:31:03,574 - #18 pet
+INFO  21:31:03,574 - #38 ;
+INFO  21:31:03,574 - #18 bodovi
+INFO  21:31:03,574 - #37 --
+INFO  21:31:03,574 - #38 ;
+INFO  21:31:03,574 - #9 print
+INFO  21:31:03,574 - #42 (
+INFO  21:31:03,574 - #18 bodovi
+INFO  21:31:03,574 - #43 )
+INFO  21:31:03,574 - #38 ;
+INFO  21:31:03,574 - #18 Nizovi
+INFO  21:31:03,574 - #39 :
+INFO  21:31:03,574 - #39 :
+INFO  21:31:03,574 - #18 niz
+INFO  21:31:03,574 - #35 =
+INFO  21:31:03,574 - #8 new
+INFO  21:31:03,574 - #18 int
+INFO  21:31:03,574 - #44 [
+INFO  21:31:03,574 - #19 3
+INFO  21:31:03,574 - #45 ]
+INFO  21:31:03,574 - #38 ;
+INFO  21:31:03,574 - #18 Nizovi
+INFO  21:31:03,574 - #39 :
+INFO  21:31:03,574 - #39 :
+INFO  21:31:03,574 - #18 niz
+INFO  21:31:03,574 - #44 [
+INFO  21:31:03,574 - #18 Konstante
+INFO  21:31:03,574 - #39 :
+INFO  21:31:03,574 - #39 :
+INFO  21:31:03,574 - #18 nula
+INFO  21:31:03,574 - #45 ]
+INFO  21:31:03,574 - #35 =
+INFO  21:31:03,574 - #18 Konstante
+INFO  21:31:03,574 - #39 :
+INFO  21:31:03,574 - #39 :
+INFO  21:31:03,574 - #18 jedan
+INFO  21:31:03,574 - #38 ;
+INFO  21:31:03,574 - #18 Nizovi
+INFO  21:31:03,574 - #39 :
+INFO  21:31:03,574 - #39 :
+INFO  21:31:03,574 - #18 niz
+INFO  21:31:03,574 - #44 [
+INFO  21:31:03,574 - #19 1
+INFO  21:31:03,574 - #45 ]
+INFO  21:31:03,574 - #35 =
+INFO  21:31:03,574 - #19 2
+INFO  21:31:03,579 - #38 ;
+INFO  21:31:03,579 - #18 Nizovi
+INFO  21:31:03,579 - #39 :
+INFO  21:31:03,579 - #39 :
+INFO  21:31:03,579 - #18 niz
+INFO  21:31:03,579 - #44 [
+INFO  21:31:03,579 - #18 Nizovi
+INFO  21:31:03,579 - #39 :
+INFO  21:31:03,579 - #39 :
+INFO  21:31:03,579 - #18 niz
+INFO  21:31:03,579 - #44 [
+INFO  21:31:03,579 - #18 Konstante
+INFO  21:31:03,579 - #39 :
+INFO  21:31:03,579 - #39 :
+INFO  21:31:03,579 - #18 jedan
+INFO  21:31:03,579 - #45 ]
+INFO  21:31:03,579 - #45 ]
+INFO  21:31:03,579 - #35 =
+INFO  21:31:03,579 - #18 Nizovi
+INFO  21:31:03,579 - #39 :
+INFO  21:31:03,579 - #39 :
+INFO  21:31:03,579 - #18 niz
+INFO  21:31:03,579 - #44 [
+INFO  21:31:03,579 - #18 Nizovi
+INFO  21:31:03,579 - #39 :
+INFO  21:31:03,579 - #39 :
+INFO  21:31:03,579 - #18 niz
+INFO  21:31:03,579 - #44 [
+INFO  21:31:03,579 - #19 0
+INFO  21:31:03,579 - #45 ]
+INFO  21:31:03,579 - #45 ]
+INFO  21:31:03,579 - #24 *
+INFO  21:31:03,579 - #19 3
+INFO  21:31:03,579 - #38 ;
+INFO  21:31:03,579 - #18 bodovi
+INFO  21:31:03,579 - #35 =
+INFO  21:31:03,579 - #18 Nizovi
+INFO  21:31:03,579 - #39 :
+INFO  21:31:03,579 - #39 :
+INFO  21:31:03,579 - #18 niz
+INFO  21:31:03,579 - #44 [
+INFO  21:31:03,579 - #19 2
+INFO  21:31:03,579 - #45 ]
+INFO  21:31:03,579 - #25 /
+INFO  21:31:03,579 - #18 Nizovi
+INFO  21:31:03,579 - #39 :
+INFO  21:31:03,579 - #39 :
+INFO  21:31:03,579 - #18 niz
+INFO  21:31:03,579 - #44 [
+INFO  21:31:03,579 - #19 0
+INFO  21:31:03,579 - #45 ]
+INFO  21:31:03,579 - #38 ;
+INFO  21:31:03,579 - #9 print
+INFO  21:31:03,579 - #42 (
+INFO  21:31:03,579 - #18 bodovi
+INFO  21:31:03,579 - #43 )
+INFO  21:31:03,579 - #38 ;
+INFO  21:31:03,579 - #9 print
+INFO  21:31:03,579 - #42 (
+INFO  21:31:03,579 - #18 Nizovi
+INFO  21:31:03,579 - #39 :
+INFO  21:31:03,579 - #39 :
+INFO  21:31:03,579 - #18 niz
+INFO  21:31:03,579 - #44 [
+INFO  21:31:03,579 - #19 2
+INFO  21:31:03,579 - #45 ]
+INFO  21:31:03,579 - #43 )
+INFO  21:31:03,579 - #38 ;
+INFO  21:31:03,579 - #18 Nizovi
+INFO  21:31:03,579 - #39 :
+INFO  21:31:03,579 - #39 :
+INFO  21:31:03,579 - #18 nizch
+INFO  21:31:03,579 - #35 =
+INFO  21:31:03,579 - #8 new
+INFO  21:31:03,579 - #18 char
+INFO  21:31:03,579 - #44 [
+INFO  21:31:03,579 - #19 3
+INFO  21:31:03,579 - #45 ]
+INFO  21:31:03,579 - #38 ;
+INFO  21:31:03,579 - #18 Nizovi
+INFO  21:31:03,579 - #39 :
+INFO  21:31:03,579 - #39 :
+INFO  21:31:03,579 - #18 nizch
+INFO  21:31:03,579 - #44 [
+INFO  21:31:03,579 - #19 0
+INFO  21:31:03,579 - #45 ]
+INFO  21:31:03,579 - #35 =
+INFO  21:31:03,579 - #20 a
+INFO  21:31:03,579 - #38 ;
+INFO  21:31:03,579 - #18 Nizovi
+INFO  21:31:03,579 - #39 :
+INFO  21:31:03,579 - #39 :
+INFO  21:31:03,579 - #18 nizch
+INFO  21:31:03,579 - #44 [
+INFO  21:31:03,579 - #18 Konstante
+INFO  21:31:03,579 - #39 :
+INFO  21:31:03,579 - #39 :
+INFO  21:31:03,579 - #18 jedan
+INFO  21:31:03,579 - #45 ]
+INFO  21:31:03,579 - #35 =
+INFO  21:31:03,579 - #20 b
+INFO  21:31:03,579 - #38 ;
+INFO  21:31:03,579 - #18 Nizovi
+INFO  21:31:03,579 - #39 :
+INFO  21:31:03,579 - #39 :
+INFO  21:31:03,579 - #18 nizch
+INFO  21:31:03,579 - #44 [
+INFO  21:31:03,579 - #18 Konstante
+INFO  21:31:03,579 - #39 :
+INFO  21:31:03,579 - #39 :
+INFO  21:31:03,579 - #18 pet
+INFO  21:31:03,584 - #23 -
+INFO  21:31:03,584 - #19 3
+INFO  21:31:03,584 - #45 ]
+INFO  21:31:03,584 - #35 =
+INFO  21:31:03,584 - #20 c
+INFO  21:31:03,584 - #38 ;
+INFO  21:31:03,584 - #9 print
+INFO  21:31:03,584 - #42 (
+INFO  21:31:03,584 - #18 Nizovi
+INFO  21:31:03,584 - #39 :
+INFO  21:31:03,584 - #39 :
+INFO  21:31:03,584 - #18 nizch
+INFO  21:31:03,584 - #44 [
+INFO  21:31:03,584 - #19 1
+INFO  21:31:03,584 - #45 ]
+INFO  21:31:03,584 - #43 )
+INFO  21:31:03,584 - #38 ;
+INFO  21:31:03,584 - #9 print
+INFO  21:31:03,584 - #42 (
+INFO  21:31:03,584 - #18 Nizovi
+INFO  21:31:03,584 - #39 :
+INFO  21:31:03,584 - #39 :
+INFO  21:31:03,584 - #18 nizch
+INFO  21:31:03,584 - #44 [
+INFO  21:31:03,584 - #18 Konstante
+INFO  21:31:03,584 - #39 :
+INFO  21:31:03,584 - #39 :
+INFO  21:31:03,584 - #18 jedan
+INFO  21:31:03,584 - #24 *
+INFO  21:31:03,584 - #19 2
+INFO  21:31:03,584 - #45 ]
+INFO  21:31:03,584 - #43 )
+INFO  21:31:03,584 - #38 ;
+INFO  21:31:03,584 - #18 a
+INFO  21:31:03,584 - #35 =
+INFO  21:31:03,584 - #19 1
+INFO  21:31:03,584 - #38 ;
+INFO  21:31:03,584 - #10 read
+INFO  21:31:03,584 - #42 (
+INFO  21:31:03,584 - #18 bodovi
+INFO  21:31:03,584 - #43 )
+INFO  21:31:03,584 - #38 ;
+INFO  21:31:03,584 - #18 bodovi
+INFO  21:31:03,584 - #35 =
+INFO  21:31:03,584 - #23 -
+INFO  21:31:03,584 - #18 bodovi
+INFO  21:31:03,584 - #22 +
+INFO  21:31:03,584 - #42 (
+INFO  21:31:03,584 - #18 Konstante
+INFO  21:31:03,584 - #39 :
+INFO  21:31:03,584 - #39 :
+INFO  21:31:03,584 - #18 pet
+INFO  21:31:03,584 - #24 *
+INFO  21:31:03,584 - #18 a
+INFO  21:31:03,584 - #25 /
+INFO  21:31:03,584 - #19 2
+INFO  21:31:03,584 - #23 -
+INFO  21:31:03,584 - #18 Konstante
+INFO  21:31:03,584 - #39 :
+INFO  21:31:03,584 - #39 :
+INFO  21:31:03,584 - #18 jedan
+INFO  21:31:03,584 - #43 )
+INFO  21:31:03,584 - #24 *
+INFO  21:31:03,584 - #18 bodovi
+INFO  21:31:03,584 - #23 -
+INFO  21:31:03,584 - #42 (
+INFO  21:31:03,584 - #19 3
+INFO  21:31:03,584 - #26 %
+INFO  21:31:03,584 - #19 2
+INFO  21:31:03,584 - #22 +
+INFO  21:31:03,584 - #19 3
+INFO  21:31:03,584 - #24 *
+INFO  21:31:03,584 - #19 2
+INFO  21:31:03,584 - #23 -
+INFO  21:31:03,584 - #19 3
+INFO  21:31:03,584 - #43 )
+INFO  21:31:03,584 - #38 ;
+INFO  21:31:03,584 - #9 print
+INFO  21:31:03,584 - #42 (
+INFO  21:31:03,584 - #18 bodovi
+INFO  21:31:03,584 - #43 )
+INFO  21:31:03,584 - #38 ;
+INFO  21:31:03,584 - #47 }
+INFO  21:31:03,584 - #47 }
+INFO  21:31:03,599 - Program(
+  ProgName(
+   test301
+  ) [ProgName]
+  NamespaceListChain(
+    NamespaceListChain(
+      NamespaceListEmpty(
+      ) [NamespaceListEmpty]
+      Namespace(
+        NamespaceName(
+         Konstante
+        ) [NamespaceName]
+        GlobalsListChain(
+          GlobalsListChain(
+            GlobalsListChain(
+              GlobalsListEmpty(
+              ) [GlobalsListEmpty]
+              GlobalsPartConst(
+                ConstDecl(
+                  TypeIdent(
+                   int
+                  ) [TypeIdent]
+                  ConstDeclSublistSingle(
+                    ConstDeclSubunitInt(
+                     nula
+                     0
+                    ) [ConstDeclSubunitInt]
+                  ) [ConstDeclSublistSingle]
+                ) [ConstDecl]
+              ) [GlobalsPartConst]
+            ) [GlobalsListChain]
+            GlobalsPartConst(
+              ConstDecl(
+                TypeIdent(
+                 int
+                ) [TypeIdent]
+                ConstDeclSublistSingle(
+                  ConstDeclSubunitInt(
+                   jedan
+                   1
+                  ) [ConstDeclSubunitInt]
+                ) [ConstDeclSublistSingle]
+              ) [ConstDecl]
+            ) [GlobalsPartConst]
+          ) [GlobalsListChain]
+          GlobalsPartConst(
+            ConstDecl(
+              TypeIdent(
+               int
+              ) [TypeIdent]
+              ConstDeclSublistSingle(
+                ConstDeclSubunitInt(
+                 pet
+                 5
+                ) [ConstDeclSubunitInt]
+              ) [ConstDeclSublistSingle]
+            ) [ConstDecl]
+          ) [GlobalsPartConst]
+        ) [GlobalsListChain]
+        MethodDeclListEmpty(
+        ) [MethodDeclListEmpty]
+      ) [Namespace]
+    ) [NamespaceListChain]
+    Namespace(
+      NamespaceName(
+       Nizovi
+      ) [NamespaceName]
+      GlobalsListChain(
+        GlobalsListChain(
+          GlobalsListEmpty(
+          ) [GlobalsListEmpty]
+          GlobalsPartVar(
+            VarDecl(
+              TypeIdent(
+               int
+              ) [TypeIdent]
+              VarDeclSublistSingle(
+                VarDeclSubunitArray(
+                 niz
+                ) [VarDeclSubunitArray]
+              ) [VarDeclSublistSingle]
+            ) [VarDecl]
+          ) [GlobalsPartVar]
+        ) [GlobalsListChain]
+        GlobalsPartVar(
+          VarDecl(
+            TypeIdent(
+             char
+            ) [TypeIdent]
+            VarDeclSublistSingle(
+              VarDeclSubunitArray(
+               nizch
+              ) [VarDeclSubunitArray]
+            ) [VarDeclSublistSingle]
+          ) [VarDecl]
+        ) [GlobalsPartVar]
+      ) [GlobalsListChain]
+      MethodDeclListEmpty(
+      ) [MethodDeclListEmpty]
+    ) [Namespace]
+  ) [NamespaceListChain]
+  GlobalsListChain(
+    GlobalsListEmpty(
+    ) [GlobalsListEmpty]
+    GlobalsPartVar(
+      VarDecl(
+        TypeIdent(
+         int
+        ) [TypeIdent]
+        VarDeclSublistSingle(
+          VarDeclSubunitIdent(
+           a
+          ) [VarDeclSubunitIdent]
+        ) [VarDeclSublistSingle]
+      ) [VarDecl]
+    ) [GlobalsPartVar]
+  ) [GlobalsListChain]
+  MethodDeclListChain(
+    MethodDeclListEmpty(
+    ) [MethodDeclListEmpty]
+    MethodDecl(
+      MethodTypeName(
+        RetTypeVoid(
+        ) [RetTypeVoid]
+       main
+      ) [MethodTypeName]
+      FormParsEmpty(
+      ) [FormParsEmpty]
+      VarDeclListChain(
+        VarDeclListChain(
+          VarDeclListEmpty(
+          ) [VarDeclListEmpty]
+          VarDecl(
+            TypeIdent(
+             int
+            ) [TypeIdent]
+            VarDeclSublistSingle(
+              VarDeclSubunitIdent(
+               bodovi
+              ) [VarDeclSubunitIdent]
+            ) [VarDeclSublistSingle]
+          ) [VarDecl]
+        ) [VarDeclListChain]
+        VarDecl(
+          TypeIdent(
+           bool
+          ) [TypeIdent]
+          VarDeclSublistSingle(
+            VarDeclSubunitIdent(
+             bt
+            ) [VarDeclSubunitIdent]
+          ) [VarDeclSublistSingle]
+        ) [VarDecl]
+      ) [VarDeclListChain]
+      StatementListChain(
+        StatementListChain(
+          StatementListChain(
+            StatementListChain(
+              StatementListChain(
+                StatementListChain(
+                  StatementListChain(
+                    StatementListChain(
+                      StatementListChain(
+                        StatementListChain(
+                          StatementListChain(
+                            StatementListChain(
+                              StatementListChain(
+                                StatementListChain(
+                                  StatementListChain(
+                                    StatementListChain(
+                                      StatementListChain(
+                                        StatementListChain(
+                                          StatementListChain(
+                                            StatementListChain(
+                                              StatementListChain(
+                                                StatementListChain(
+                                                  StatementListChain(
+                                                    StatementListEmpty(
+                                                    ) [StatementListEmpty]
+                                                    StatementDesignator(
+                                                      DesignatorStatementAssign(
+                                                        DesignatorNoNamespace(
+                                                         bodovi
+                                                        ) [DesignatorNoNamespace]
+                                                        ExprPositive(
+                                                          Term(
+                                                            FactorNumber(
+                                                             0
+                                                            ) [FactorNumber]
+                                                            TermSublistEmpty(
+                                                            ) [TermSublistEmpty]
+                                                          ) [Term]
+                                                          ExprSublistEmpty(
+                                                          ) [ExprSublistEmpty]
+                                                        ) [ExprPositive]
+                                                      ) [DesignatorStatementAssign]
+                                                    ) [StatementDesignator]
+                                                  ) [StatementListChain]
+                                                  StatementDesignator(
+                                                    DesignatorStatementIncrement(
+                                                      DesignatorNoNamespace(
+                                                       bodovi
+                                                      ) [DesignatorNoNamespace]
+                                                    ) [DesignatorStatementIncrement]
+                                                  ) [StatementDesignator]
+                                                ) [StatementListChain]
+                                                StatementDesignator(
+                                                  DesignatorStatementAssign(
+                                                    DesignatorNoNamespace(
+                                                     bodovi
+                                                    ) [DesignatorNoNamespace]
+                                                    ExprPositive(
+                                                      Term(
+                                                        FactorDesignator(
+                                                          DesignatorNoNamespace(
+                                                           bodovi
+                                                          ) [DesignatorNoNamespace]
+                                                        ) [FactorDesignator]
+                                                        TermSublistEmpty(
+                                                        ) [TermSublistEmpty]
+                                                      ) [Term]
+                                                      ExprSublistChain(
+                                                        ExprSublistEmpty(
+                                                        ) [ExprSublistEmpty]
+                                                        ExprSubunit(
+                                                          AddopPlus(
+                                                          ) [AddopPlus]
+                                                          Term(
+                                                            FactorDesignator(
+                                                              DesignatorWithNamespace(
+                                                               Konstante
+                                                               jedan
+                                                              ) [DesignatorWithNamespace]
+                                                            ) [FactorDesignator]
+                                                            TermSublistEmpty(
+                                                            ) [TermSublistEmpty]
+                                                          ) [Term]
+                                                        ) [ExprSubunit]
+                                                      ) [ExprSublistChain]
+                                                    ) [ExprPositive]
+                                                  ) [DesignatorStatementAssign]
+                                                ) [StatementDesignator]
+                                              ) [StatementListChain]
+                                              StatementDesignator(
+                                                DesignatorStatementAssign(
+                                                  DesignatorNoNamespace(
+                                                   bodovi
+                                                  ) [DesignatorNoNamespace]
+                                                  ExprPositive(
+                                                    Term(
+                                                      FactorDesignator(
+                                                        DesignatorNoNamespace(
+                                                         bodovi
+                                                        ) [DesignatorNoNamespace]
+                                                      ) [FactorDesignator]
+                                                      TermSublistChain(
+                                                        TermSublistEmpty(
+                                                        ) [TermSublistEmpty]
+                                                        TermSubunit(
+                                                          MulopMul(
+                                                          ) [MulopMul]
+                                                          FactorDesignator(
+                                                            DesignatorWithNamespace(
+                                                             Konstante
+                                                             pet
+                                                            ) [DesignatorWithNamespace]
+                                                          ) [FactorDesignator]
+                                                        ) [TermSubunit]
+                                                      ) [TermSublistChain]
+                                                    ) [Term]
+                                                    ExprSublistEmpty(
+                                                    ) [ExprSublistEmpty]
+                                                  ) [ExprPositive]
+                                                ) [DesignatorStatementAssign]
+                                              ) [StatementDesignator]
+                                            ) [StatementListChain]
+                                            StatementDesignator(
+                                              DesignatorStatementDecrement(
+                                                DesignatorNoNamespace(
+                                                 bodovi
+                                                ) [DesignatorNoNamespace]
+                                              ) [DesignatorStatementDecrement]
+                                            ) [StatementDesignator]
+                                          ) [StatementListChain]
+                                          StatementPrint(
+                                            ExprPositive(
+                                              Term(
+                                                FactorDesignator(
+                                                  DesignatorNoNamespace(
+                                                   bodovi
+                                                  ) [DesignatorNoNamespace]
+                                                ) [FactorDesignator]
+                                                TermSublistEmpty(
+                                                ) [TermSublistEmpty]
+                                              ) [Term]
+                                              ExprSublistEmpty(
+                                              ) [ExprSublistEmpty]
+                                            ) [ExprPositive]
+                                          ) [StatementPrint]
+                                        ) [StatementListChain]
+                                        StatementDesignator(
+                                          DesignatorStatementAssign(
+                                            DesignatorWithNamespace(
+                                             Nizovi
+                                             niz
+                                            ) [DesignatorWithNamespace]
+                                            ExprPositive(
+                                              Term(
+                                                FactorNewArray(
+                                                  TypeIdent(
+                                                   int
+                                                  ) [TypeIdent]
+                                                  ExprPositive(
+                                                    Term(
+                                                      FactorNumber(
+                                                       3
+                                                      ) [FactorNumber]
+                                                      TermSublistEmpty(
+                                                      ) [TermSublistEmpty]
+                                                    ) [Term]
+                                                    ExprSublistEmpty(
+                                                    ) [ExprSublistEmpty]
+                                                  ) [ExprPositive]
+                                                ) [FactorNewArray]
+                                                TermSublistEmpty(
+                                                ) [TermSublistEmpty]
+                                              ) [Term]
+                                              ExprSublistEmpty(
+                                              ) [ExprSublistEmpty]
+                                            ) [ExprPositive]
+                                          ) [DesignatorStatementAssign]
+                                        ) [StatementDesignator]
+                                      ) [StatementListChain]
+                                      StatementDesignator(
+                                        DesignatorStatementAssign(
+                                          DesignatorWithNamespaceArray(
+                                           Nizovi
+                                           niz
+                                            ExprPositive(
+                                              Term(
+                                                FactorDesignator(
+                                                  DesignatorWithNamespace(
+                                                   Konstante
+                                                   nula
+                                                  ) [DesignatorWithNamespace]
+                                                ) [FactorDesignator]
+                                                TermSublistEmpty(
+                                                ) [TermSublistEmpty]
+                                              ) [Term]
+                                              ExprSublistEmpty(
+                                              ) [ExprSublistEmpty]
+                                            ) [ExprPositive]
+                                          ) [DesignatorWithNamespaceArray]
+                                          ExprPositive(
+                                            Term(
+                                              FactorDesignator(
+                                                DesignatorWithNamespace(
+                                                 Konstante
+                                                 jedan
+                                                ) [DesignatorWithNamespace]
+                                              ) [FactorDesignator]
+                                              TermSublistEmpty(
+                                              ) [TermSublistEmpty]
+                                            ) [Term]
+                                            ExprSublistEmpty(
+                                            ) [ExprSublistEmpty]
+                                          ) [ExprPositive]
+                                        ) [DesignatorStatementAssign]
+                                      ) [StatementDesignator]
+                                    ) [StatementListChain]
+                                    StatementDesignator(
+                                      DesignatorStatementAssign(
+                                        DesignatorWithNamespaceArray(
+                                         Nizovi
+                                         niz
+                                          ExprPositive(
+                                            Term(
+                                              FactorNumber(
+                                               1
+                                              ) [FactorNumber]
+                                              TermSublistEmpty(
+                                              ) [TermSublistEmpty]
+                                            ) [Term]
+                                            ExprSublistEmpty(
+                                            ) [ExprSublistEmpty]
+                                          ) [ExprPositive]
+                                        ) [DesignatorWithNamespaceArray]
+                                        ExprPositive(
+                                          Term(
+                                            FactorNumber(
+                                             2
+                                            ) [FactorNumber]
+                                            TermSublistEmpty(
+                                            ) [TermSublistEmpty]
+                                          ) [Term]
+                                          ExprSublistEmpty(
+                                          ) [ExprSublistEmpty]
+                                        ) [ExprPositive]
+                                      ) [DesignatorStatementAssign]
+                                    ) [StatementDesignator]
+                                  ) [StatementListChain]
+                                  StatementDesignator(
+                                    DesignatorStatementAssign(
+                                      DesignatorWithNamespaceArray(
+                                       Nizovi
+                                       niz
+                                        ExprPositive(
+                                          Term(
+                                            FactorDesignator(
+                                              DesignatorWithNamespaceArray(
+                                               Nizovi
+                                               niz
+                                                ExprPositive(
+                                                  Term(
+                                                    FactorDesignator(
+                                                      DesignatorWithNamespace(
+                                                       Konstante
+                                                       jedan
+                                                      ) [DesignatorWithNamespace]
+                                                    ) [FactorDesignator]
+                                                    TermSublistEmpty(
+                                                    ) [TermSublistEmpty]
+                                                  ) [Term]
+                                                  ExprSublistEmpty(
+                                                  ) [ExprSublistEmpty]
+                                                ) [ExprPositive]
+                                              ) [DesignatorWithNamespaceArray]
+                                            ) [FactorDesignator]
+                                            TermSublistEmpty(
+                                            ) [TermSublistEmpty]
+                                          ) [Term]
+                                          ExprSublistEmpty(
+                                          ) [ExprSublistEmpty]
+                                        ) [ExprPositive]
+                                      ) [DesignatorWithNamespaceArray]
+                                      ExprPositive(
+                                        Term(
+                                          FactorDesignator(
+                                            DesignatorWithNamespaceArray(
+                                             Nizovi
+                                             niz
+                                              ExprPositive(
+                                                Term(
+                                                  FactorDesignator(
+                                                    DesignatorWithNamespaceArray(
+                                                     Nizovi
+                                                     niz
+                                                      ExprPositive(
+                                                        Term(
+                                                          FactorNumber(
+                                                           0
+                                                          ) [FactorNumber]
+                                                          TermSublistEmpty(
+                                                          ) [TermSublistEmpty]
+                                                        ) [Term]
+                                                        ExprSublistEmpty(
+                                                        ) [ExprSublistEmpty]
+                                                      ) [ExprPositive]
+                                                    ) [DesignatorWithNamespaceArray]
+                                                  ) [FactorDesignator]
+                                                  TermSublistEmpty(
+                                                  ) [TermSublistEmpty]
+                                                ) [Term]
+                                                ExprSublistEmpty(
+                                                ) [ExprSublistEmpty]
+                                              ) [ExprPositive]
+                                            ) [DesignatorWithNamespaceArray]
+                                          ) [FactorDesignator]
+                                          TermSublistChain(
+                                            TermSublistEmpty(
+                                            ) [TermSublistEmpty]
+                                            TermSubunit(
+                                              MulopMul(
+                                              ) [MulopMul]
+                                              FactorNumber(
+                                               3
+                                              ) [FactorNumber]
+                                            ) [TermSubunit]
+                                          ) [TermSublistChain]
+                                        ) [Term]
+                                        ExprSublistEmpty(
+                                        ) [ExprSublistEmpty]
+                                      ) [ExprPositive]
+                                    ) [DesignatorStatementAssign]
+                                  ) [StatementDesignator]
+                                ) [StatementListChain]
+                                StatementDesignator(
+                                  DesignatorStatementAssign(
+                                    DesignatorNoNamespace(
+                                     bodovi
+                                    ) [DesignatorNoNamespace]
+                                    ExprPositive(
+                                      Term(
+                                        FactorDesignator(
+                                          DesignatorWithNamespaceArray(
+                                           Nizovi
+                                           niz
+                                            ExprPositive(
+                                              Term(
+                                                FactorNumber(
+                                                 2
+                                                ) [FactorNumber]
+                                                TermSublistEmpty(
+                                                ) [TermSublistEmpty]
+                                              ) [Term]
+                                              ExprSublistEmpty(
+                                              ) [ExprSublistEmpty]
+                                            ) [ExprPositive]
+                                          ) [DesignatorWithNamespaceArray]
+                                        ) [FactorDesignator]
+                                        TermSublistChain(
+                                          TermSublistEmpty(
+                                          ) [TermSublistEmpty]
+                                          TermSubunit(
+                                            MulopDiv(
+                                            ) [MulopDiv]
+                                            FactorDesignator(
+                                              DesignatorWithNamespaceArray(
+                                               Nizovi
+                                               niz
+                                                ExprPositive(
+                                                  Term(
+                                                    FactorNumber(
+                                                     0
+                                                    ) [FactorNumber]
+                                                    TermSublistEmpty(
+                                                    ) [TermSublistEmpty]
+                                                  ) [Term]
+                                                  ExprSublistEmpty(
+                                                  ) [ExprSublistEmpty]
+                                                ) [ExprPositive]
+                                              ) [DesignatorWithNamespaceArray]
+                                            ) [FactorDesignator]
+                                          ) [TermSubunit]
+                                        ) [TermSublistChain]
+                                      ) [Term]
+                                      ExprSublistEmpty(
+                                      ) [ExprSublistEmpty]
+                                    ) [ExprPositive]
+                                  ) [DesignatorStatementAssign]
+                                ) [StatementDesignator]
+                              ) [StatementListChain]
+                              StatementPrint(
+                                ExprPositive(
+                                  Term(
+                                    FactorDesignator(
+                                      DesignatorNoNamespace(
+                                       bodovi
+                                      ) [DesignatorNoNamespace]
+                                    ) [FactorDesignator]
+                                    TermSublistEmpty(
+                                    ) [TermSublistEmpty]
+                                  ) [Term]
+                                  ExprSublistEmpty(
+                                  ) [ExprSublistEmpty]
+                                ) [ExprPositive]
+                              ) [StatementPrint]
+                            ) [StatementListChain]
+                            StatementPrint(
+                              ExprPositive(
+                                Term(
+                                  FactorDesignator(
+                                    DesignatorWithNamespaceArray(
+                                     Nizovi
+                                     niz
+                                      ExprPositive(
+                                        Term(
+                                          FactorNumber(
+                                           2
+                                          ) [FactorNumber]
+                                          TermSublistEmpty(
+                                          ) [TermSublistEmpty]
+                                        ) [Term]
+                                        ExprSublistEmpty(
+                                        ) [ExprSublistEmpty]
+                                      ) [ExprPositive]
+                                    ) [DesignatorWithNamespaceArray]
+                                  ) [FactorDesignator]
+                                  TermSublistEmpty(
+                                  ) [TermSublistEmpty]
+                                ) [Term]
+                                ExprSublistEmpty(
+                                ) [ExprSublistEmpty]
+                              ) [ExprPositive]
+                            ) [StatementPrint]
+                          ) [StatementListChain]
+                          StatementDesignator(
+                            DesignatorStatementAssign(
+                              DesignatorWithNamespace(
+                               Nizovi
+                               nizch
+                              ) [DesignatorWithNamespace]
+                              ExprPositive(
+                                Term(
+                                  FactorNewArray(
+                                    TypeIdent(
+                                     char
+                                    ) [TypeIdent]
+                                    ExprPositive(
+                                      Term(
+                                        FactorNumber(
+                                         3
+                                        ) [FactorNumber]
+                                        TermSublistEmpty(
+                                        ) [TermSublistEmpty]
+                                      ) [Term]
+                                      ExprSublistEmpty(
+                                      ) [ExprSublistEmpty]
+                                    ) [ExprPositive]
+                                  ) [FactorNewArray]
+                                  TermSublistEmpty(
+                                  ) [TermSublistEmpty]
+                                ) [Term]
+                                ExprSublistEmpty(
+                                ) [ExprSublistEmpty]
+                              ) [ExprPositive]
+                            ) [DesignatorStatementAssign]
+                          ) [StatementDesignator]
+                        ) [StatementListChain]
+                        StatementDesignator(
+                          DesignatorStatementAssign(
+                            DesignatorWithNamespaceArray(
+                             Nizovi
+                             nizch
+                              ExprPositive(
+                                Term(
+                                  FactorNumber(
+                                   0
+                                  ) [FactorNumber]
+                                  TermSublistEmpty(
+                                  ) [TermSublistEmpty]
+                                ) [Term]
+                                ExprSublistEmpty(
+                                ) [ExprSublistEmpty]
+                              ) [ExprPositive]
+                            ) [DesignatorWithNamespaceArray]
+                            ExprPositive(
+                              Term(
+                                FactorCharacter(
+                                 a
+                                ) [FactorCharacter]
+                                TermSublistEmpty(
+                                ) [TermSublistEmpty]
+                              ) [Term]
+                              ExprSublistEmpty(
+                              ) [ExprSublistEmpty]
+                            ) [ExprPositive]
+                          ) [DesignatorStatementAssign]
+                        ) [StatementDesignator]
+                      ) [StatementListChain]
+                      StatementDesignator(
+                        DesignatorStatementAssign(
+                          DesignatorWithNamespaceArray(
+                           Nizovi
+                           nizch
+                            ExprPositive(
+                              Term(
+                                FactorDesignator(
+                                  DesignatorWithNamespace(
+                                   Konstante
+                                   jedan
+                                  ) [DesignatorWithNamespace]
+                                ) [FactorDesignator]
+                                TermSublistEmpty(
+                                ) [TermSublistEmpty]
+                              ) [Term]
+                              ExprSublistEmpty(
+                              ) [ExprSublistEmpty]
+                            ) [ExprPositive]
+                          ) [DesignatorWithNamespaceArray]
+                          ExprPositive(
+                            Term(
+                              FactorCharacter(
+                               b
+                              ) [FactorCharacter]
+                              TermSublistEmpty(
+                              ) [TermSublistEmpty]
+                            ) [Term]
+                            ExprSublistEmpty(
+                            ) [ExprSublistEmpty]
+                          ) [ExprPositive]
+                        ) [DesignatorStatementAssign]
+                      ) [StatementDesignator]
+                    ) [StatementListChain]
+                    StatementDesignator(
+                      DesignatorStatementAssign(
+                        DesignatorWithNamespaceArray(
+                         Nizovi
+                         nizch
+                          ExprPositive(
+                            Term(
+                              FactorDesignator(
+                                DesignatorWithNamespace(
+                                 Konstante
+                                 pet
+                                ) [DesignatorWithNamespace]
+                              ) [FactorDesignator]
+                              TermSublistEmpty(
+                              ) [TermSublistEmpty]
+                            ) [Term]
+                            ExprSublistChain(
+                              ExprSublistEmpty(
+                              ) [ExprSublistEmpty]
+                              ExprSubunit(
+                                AddopMinus(
+                                ) [AddopMinus]
+                                Term(
+                                  FactorNumber(
+                                   3
+                                  ) [FactorNumber]
+                                  TermSublistEmpty(
+                                  ) [TermSublistEmpty]
+                                ) [Term]
+                              ) [ExprSubunit]
+                            ) [ExprSublistChain]
+                          ) [ExprPositive]
+                        ) [DesignatorWithNamespaceArray]
+                        ExprPositive(
+                          Term(
+                            FactorCharacter(
+                             c
+                            ) [FactorCharacter]
+                            TermSublistEmpty(
+                            ) [TermSublistEmpty]
+                          ) [Term]
+                          ExprSublistEmpty(
+                          ) [ExprSublistEmpty]
+                        ) [ExprPositive]
+                      ) [DesignatorStatementAssign]
+                    ) [StatementDesignator]
+                  ) [StatementListChain]
+                  StatementPrint(
+                    ExprPositive(
+                      Term(
+                        FactorDesignator(
+                          DesignatorWithNamespaceArray(
+                           Nizovi
+                           nizch
+                            ExprPositive(
+                              Term(
+                                FactorNumber(
+                                 1
+                                ) [FactorNumber]
+                                TermSublistEmpty(
+                                ) [TermSublistEmpty]
+                              ) [Term]
+                              ExprSublistEmpty(
+                              ) [ExprSublistEmpty]
+                            ) [ExprPositive]
+                          ) [DesignatorWithNamespaceArray]
+                        ) [FactorDesignator]
+                        TermSublistEmpty(
+                        ) [TermSublistEmpty]
+                      ) [Term]
+                      ExprSublistEmpty(
+                      ) [ExprSublistEmpty]
+                    ) [ExprPositive]
+                  ) [StatementPrint]
+                ) [StatementListChain]
+                StatementPrint(
+                  ExprPositive(
+                    Term(
+                      FactorDesignator(
+                        DesignatorWithNamespaceArray(
+                         Nizovi
+                         nizch
+                          ExprPositive(
+                            Term(
+                              FactorDesignator(
+                                DesignatorWithNamespace(
+                                 Konstante
+                                 jedan
+                                ) [DesignatorWithNamespace]
+                              ) [FactorDesignator]
+                              TermSublistChain(
+                                TermSublistEmpty(
+                                ) [TermSublistEmpty]
+                                TermSubunit(
+                                  MulopMul(
+                                  ) [MulopMul]
+                                  FactorNumber(
+                                   2
+                                  ) [FactorNumber]
+                                ) [TermSubunit]
+                              ) [TermSublistChain]
+                            ) [Term]
+                            ExprSublistEmpty(
+                            ) [ExprSublistEmpty]
+                          ) [ExprPositive]
+                        ) [DesignatorWithNamespaceArray]
+                      ) [FactorDesignator]
+                      TermSublistEmpty(
+                      ) [TermSublistEmpty]
+                    ) [Term]
+                    ExprSublistEmpty(
+                    ) [ExprSublistEmpty]
+                  ) [ExprPositive]
+                ) [StatementPrint]
+              ) [StatementListChain]
+              StatementDesignator(
+                DesignatorStatementAssign(
+                  DesignatorNoNamespace(
+                   a
+                  ) [DesignatorNoNamespace]
+                  ExprPositive(
+                    Term(
+                      FactorNumber(
+                       1
+                      ) [FactorNumber]
+                      TermSublistEmpty(
+                      ) [TermSublistEmpty]
+                    ) [Term]
+                    ExprSublistEmpty(
+                    ) [ExprSublistEmpty]
+                  ) [ExprPositive]
+                ) [DesignatorStatementAssign]
+              ) [StatementDesignator]
+            ) [StatementListChain]
+            StatementRead(
+              DesignatorNoNamespace(
+               bodovi
+              ) [DesignatorNoNamespace]
+            ) [StatementRead]
+          ) [StatementListChain]
+          StatementDesignator(
+            DesignatorStatementAssign(
+              DesignatorNoNamespace(
+               bodovi
+              ) [DesignatorNoNamespace]
+              ExprNegative(
+                Term(
+                  FactorDesignator(
+                    DesignatorNoNamespace(
+                     bodovi
+                    ) [DesignatorNoNamespace]
+                  ) [FactorDesignator]
+                  TermSublistEmpty(
+                  ) [TermSublistEmpty]
+                ) [Term]
+                ExprSublistChain(
+                  ExprSublistChain(
+                    ExprSublistEmpty(
+                    ) [ExprSublistEmpty]
+                    ExprSubunit(
+                      AddopPlus(
+                      ) [AddopPlus]
+                      Term(
+                        FactorSubexpression(
+                          ExprPositive(
+                            Term(
+                              FactorDesignator(
+                                DesignatorWithNamespace(
+                                 Konstante
+                                 pet
+                                ) [DesignatorWithNamespace]
+                              ) [FactorDesignator]
+                              TermSublistChain(
+                                TermSublistChain(
+                                  TermSublistEmpty(
+                                  ) [TermSublistEmpty]
+                                  TermSubunit(
+                                    MulopMul(
+                                    ) [MulopMul]
+                                    FactorDesignator(
+                                      DesignatorNoNamespace(
+                                       a
+                                      ) [DesignatorNoNamespace]
+                                    ) [FactorDesignator]
+                                  ) [TermSubunit]
+                                ) [TermSublistChain]
+                                TermSubunit(
+                                  MulopDiv(
+                                  ) [MulopDiv]
+                                  FactorNumber(
+                                   2
+                                  ) [FactorNumber]
+                                ) [TermSubunit]
+                              ) [TermSublistChain]
+                            ) [Term]
+                            ExprSublistChain(
+                              ExprSublistEmpty(
+                              ) [ExprSublistEmpty]
+                              ExprSubunit(
+                                AddopMinus(
+                                ) [AddopMinus]
+                                Term(
+                                  FactorDesignator(
+                                    DesignatorWithNamespace(
+                                     Konstante
+                                     jedan
+                                    ) [DesignatorWithNamespace]
+                                  ) [FactorDesignator]
+                                  TermSublistEmpty(
+                                  ) [TermSublistEmpty]
+                                ) [Term]
+                              ) [ExprSubunit]
+                            ) [ExprSublistChain]
+                          ) [ExprPositive]
+                        ) [FactorSubexpression]
+                        TermSublistChain(
+                          TermSublistEmpty(
+                          ) [TermSublistEmpty]
+                          TermSubunit(
+                            MulopMul(
+                            ) [MulopMul]
+                            FactorDesignator(
+                              DesignatorNoNamespace(
+                               bodovi
+                              ) [DesignatorNoNamespace]
+                            ) [FactorDesignator]
+                          ) [TermSubunit]
+                        ) [TermSublistChain]
+                      ) [Term]
+                    ) [ExprSubunit]
+                  ) [ExprSublistChain]
+                  ExprSubunit(
+                    AddopMinus(
+                    ) [AddopMinus]
+                    Term(
+                      FactorSubexpression(
+                        ExprPositive(
+                          Term(
+                            FactorNumber(
+                             3
+                            ) [FactorNumber]
+                            TermSublistChain(
+                              TermSublistEmpty(
+                              ) [TermSublistEmpty]
+                              TermSubunit(
+                                MulopMod(
+                                ) [MulopMod]
+                                FactorNumber(
+                                 2
+                                ) [FactorNumber]
+                              ) [TermSubunit]
+                            ) [TermSublistChain]
+                          ) [Term]
+                          ExprSublistChain(
+                            ExprSublistChain(
+                              ExprSublistEmpty(
+                              ) [ExprSublistEmpty]
+                              ExprSubunit(
+                                AddopPlus(
+                                ) [AddopPlus]
+                                Term(
+                                  FactorNumber(
+                                   3
+                                  ) [FactorNumber]
+                                  TermSublistChain(
+                                    TermSublistEmpty(
+                                    ) [TermSublistEmpty]
+                                    TermSubunit(
+                                      MulopMul(
+                                      ) [MulopMul]
+                                      FactorNumber(
+                                       2
+                                      ) [FactorNumber]
+                                    ) [TermSubunit]
+                                  ) [TermSublistChain]
+                                ) [Term]
+                              ) [ExprSubunit]
+                            ) [ExprSublistChain]
+                            ExprSubunit(
+                              AddopMinus(
+                              ) [AddopMinus]
+                              Term(
+                                FactorNumber(
+                                 3
+                                ) [FactorNumber]
+                                TermSublistEmpty(
+                                ) [TermSublistEmpty]
+                              ) [Term]
+                            ) [ExprSubunit]
+                          ) [ExprSublistChain]
+                        ) [ExprPositive]
+                      ) [FactorSubexpression]
+                      TermSublistEmpty(
+                      ) [TermSublistEmpty]
+                    ) [Term]
+                  ) [ExprSubunit]
+                ) [ExprSublistChain]
+              ) [ExprNegative]
+            ) [DesignatorStatementAssign]
+          ) [StatementDesignator]
+        ) [StatementListChain]
+        StatementPrint(
+          ExprPositive(
+            Term(
+              FactorDesignator(
+                DesignatorNoNamespace(
+                 bodovi
+                ) [DesignatorNoNamespace]
+              ) [FactorDesignator]
+              TermSublistEmpty(
+              ) [TermSublistEmpty]
+            ) [Term]
+            ExprSublistEmpty(
+            ) [ExprSublistEmpty]
+          ) [ExprPositive]
+        ) [StatementPrint]
+      ) [StatementListChain]
+    ) [MethodDecl]
+  ) [MethodDeclListChain]
+) [Program]
+INFO  21:31:03,599 - ===================================
+INFO  21:31:03,604 - Deklarisana simbolicka konstanta (nula) tipa int, vrednost: 0, linija: 6
+INFO  21:31:03,604 - Deklarisana simbolicka konstanta (jedan) tipa int, vrednost: 1, linija: 7
+INFO  21:31:03,604 - Deklarisana simbolicka konstanta (pet) tipa int, vrednost: 5, linija: 8
+INFO  21:31:03,604 - Deklarisana globalna promenljiva (niz) tipa niz[int], linija: 14
+INFO  21:31:03,604 - Deklarisana globalna promenljiva (nizch) tipa niz[char], linija: 15
+INFO  21:31:03,604 - Deklarisana globalna promenljiva (a) tipa int, linija: 20
+INFO  21:31:03,604 - Deklarisana lokalna promenljiva (bodovi) tipa int, linija: 24
+INFO  21:31:03,604 - Deklarisana lokalna promenljiva (bt) tipa bool, linija: 25
+INFO  21:31:03,604 - =================STATS==================
+INFO  21:31:03,604 - Simbolicke konstante: 0
+INFO  21:31:03,604 - Globalne promenljive: 3
+INFO  21:31:03,604 - Lokalne promenljive: 2
+INFO  21:31:03,604 - ===================================
+INFO  21:31:03,604 - Parsiranje uspesno zavrseno!

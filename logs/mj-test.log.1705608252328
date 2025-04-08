@@ -1,0 +1,199 @@
+INFO  21:03:54,719 - Compiling source file: D:\pp1domaci\workspace\MJCompiler\test\program.mj
+INFO  21:03:54,739 - #2 program
+INFO  21:03:54,739 - #18 a
+INFO  21:03:54,739 - #18 int
+INFO  21:03:54,744 - #18 a
+INFO  21:03:54,744 - #40 ,
+INFO  21:03:54,744 - #18 b
+INFO  21:03:54,744 - #38 ;
+INFO  21:03:54,744 - #18 bool
+INFO  21:03:54,744 - #18 c
+INFO  21:03:54,744 - #22 +
+ERROR 21:03:54,744 - 
+Sintaksna greska na liniji 4
+INFO  21:03:54,744 - #38 ;
+INFO  21:03:54,744 - #18 int
+INFO  21:03:54,744 - #18 a
+INFO  21:03:54,744 - #40 ,
+ERROR 21:03:54,744 - Izvrsen oporavak od greske (definicija promenljive)
+INFO  21:03:54,744 - #18 b
+INFO  21:03:54,744 - #23 -
+ERROR 21:03:54,744 - 
+Sintaksna greska na liniji 5
+INFO  21:03:54,744 - #38 ;
+INFO  21:03:54,744 - #46 {
+INFO  21:03:54,744 - #18 int
+INFO  21:03:54,744 - #18 main
+ERROR 21:03:54,749 - Izvrsen oporavak od greske (definicija promenljive)
+INFO  21:03:54,749 - #42 (
+INFO  21:03:54,749 - #43 )
+INFO  21:03:54,749 - #46 {
+INFO  21:03:54,749 - #18 a
+INFO  21:03:54,749 - #35 =
+INFO  21:03:54,749 - #19 2
+INFO  21:03:54,749 - #38 ;
+INFO  21:03:54,749 - #7 if
+INFO  21:03:54,749 - #42 (
+INFO  21:03:54,749 - #18 a
+INFO  21:03:54,749 - #27 ==
+INFO  21:03:54,749 - #19 3
+INFO  21:03:54,749 - #43 )
+INFO  21:03:54,749 - #46 {
+INFO  21:03:54,749 - #18 b
+INFO  21:03:54,754 - #35 =
+INFO  21:03:54,754 - #19 3
+INFO  21:03:54,754 - #38 ;
+INFO  21:03:54,754 - #47 }
+INFO  21:03:54,754 - #47 }
+INFO  21:03:54,754 - #47 }
+INFO  21:03:54,754 - Program(
+  NamespaceListEmpty(
+  ) [NamespaceListEmpty]
+  GlobalsListChain(
+    GlobalsListChain(
+      GlobalsListChain(
+        GlobalsListEmpty(
+        ) [GlobalsListEmpty]
+        GlobalsPartVar(
+          VarDecl(
+            TypeIdent(
+            ) [TypeIdent]
+            VarDeclSublistChain(
+              VarDeclSublistSingle(
+                VarDeclSubunitIdent(
+                ) [VarDeclSubunitIdent]
+              ) [VarDeclSublistSingle]
+              VarDeclSubunitIdent(
+              ) [VarDeclSubunitIdent]
+            ) [VarDeclSublistChain]
+          ) [VarDecl]
+        ) [GlobalsPartVar]
+      ) [GlobalsListChain]
+      GlobalsPartVar(
+        VarDecl(
+          TypeIdent(
+          ) [TypeIdent]
+          VarDeclSublistSingle(
+            VarDeclSubunitError(
+            ) [VarDeclSubunitError]
+          ) [VarDeclSublistSingle]
+        ) [VarDecl]
+      ) [GlobalsPartVar]
+    ) [GlobalsListChain]
+    GlobalsPartVar(
+      VarDecl(
+        TypeIdent(
+        ) [TypeIdent]
+        VarDeclSublistChain(
+          VarDeclSublistSingle(
+            VarDeclSubunitIdent(
+            ) [VarDeclSubunitIdent]
+          ) [VarDeclSublistSingle]
+          VarDeclSubunitError(
+          ) [VarDeclSubunitError]
+        ) [VarDeclSublistChain]
+      ) [VarDecl]
+    ) [GlobalsPartVar]
+  ) [GlobalsListChain]
+  MethodDeclListChain(
+    MethodDeclListEmpty(
+    ) [MethodDeclListEmpty]
+    MethodDecl(
+      RetTypeType(
+        TypeIdent(
+        ) [TypeIdent]
+      ) [RetTypeType]
+      FormParsEmpty(
+      ) [FormParsEmpty]
+      VarDeclListEmpty(
+      ) [VarDeclListEmpty]
+      StatementListChain(
+        StatementListChain(
+          StatementListEmpty(
+          ) [StatementListEmpty]
+          StatementDesignator(
+            DesignatorStatementAssign(
+              DesignatorNoNamespace(
+                DesignatorSublistEmpty(
+                ) [DesignatorSublistEmpty]
+              ) [DesignatorNoNamespace]
+              AssignopEq(
+              ) [AssignopEq]
+              ExprPositive(
+                Term(
+                  FactorNumber(
+                  ) [FactorNumber]
+                  TermSublistEmpty(
+                  ) [TermSublistEmpty]
+                ) [Term]
+                ExprSublistEmpty(
+                ) [ExprSublistEmpty]
+              ) [ExprPositive]
+            ) [DesignatorStatementAssign]
+          ) [StatementDesignator]
+        ) [StatementListChain]
+        StatementIfNoElse(
+          ConditionDerived2(
+            CondTermDerived2(
+              CondFactDerived2(
+                ExprPositive(
+                  Term(
+                    FactorDesignator(
+                      DesignatorNoNamespace(
+                        DesignatorSublistEmpty(
+                        ) [DesignatorSublistEmpty]
+                      ) [DesignatorNoNamespace]
+                    ) [FactorDesignator]
+                    TermSublistEmpty(
+                    ) [TermSublistEmpty]
+                  ) [Term]
+                  ExprSublistEmpty(
+                  ) [ExprSublistEmpty]
+                ) [ExprPositive]
+                RelopEqComp(
+                ) [RelopEqComp]
+                ExprPositive(
+                  Term(
+                    FactorNumber(
+                    ) [FactorNumber]
+                    TermSublistEmpty(
+                    ) [TermSublistEmpty]
+                  ) [Term]
+                  ExprSublistEmpty(
+                  ) [ExprSublistEmpty]
+                ) [ExprPositive]
+              ) [CondFactDerived2]
+            ) [CondTermDerived2]
+          ) [ConditionDerived2]
+          StatementBlock(
+            StatementListChain(
+              StatementListEmpty(
+              ) [StatementListEmpty]
+              StatementDesignator(
+                DesignatorStatementAssign(
+                  DesignatorNoNamespace(
+                    DesignatorSublistEmpty(
+                    ) [DesignatorSublistEmpty]
+                  ) [DesignatorNoNamespace]
+                  AssignopEq(
+                  ) [AssignopEq]
+                  ExprPositive(
+                    Term(
+                      FactorNumber(
+                      ) [FactorNumber]
+                      TermSublistEmpty(
+                      ) [TermSublistEmpty]
+                    ) [Term]
+                    ExprSublistEmpty(
+                    ) [ExprSublistEmpty]
+                  ) [ExprPositive]
+                ) [DesignatorStatementAssign]
+              ) [StatementDesignator]
+            ) [StatementListChain]
+          ) [StatementBlock]
+        ) [StatementIfNoElse]
+      ) [StatementListChain]
+    ) [MethodDecl]
+  ) [MethodDeclListChain]
+) [Program]
+INFO  21:03:54,754 - ===================================

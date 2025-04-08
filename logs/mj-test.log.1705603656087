@@ -1,0 +1,73 @@
+INFO  19:47:21,022 - Compiling source file: D:\pp1domaci\workspace\MJCompiler\test\program.mj
+INFO  19:47:21,047 - #2 program
+INFO  19:47:21,047 - #18 a
+INFO  19:47:21,047 - #46 {
+INFO  19:47:21,047 - #18 int
+INFO  19:47:21,048 - #18 main
+INFO  19:47:21,048 - #42 (
+INFO  19:47:21,048 - #43 )
+INFO  19:47:21,049 - #18 int
+INFO  19:47:21,049 - #18 a
+INFO  19:47:21,049 - #38 ;
+INFO  19:47:21,050 - #46 {
+INFO  19:47:21,050 - #18 a
+INFO  19:47:21,050 - #35 =
+INFO  19:47:21,051 - #19 2
+INFO  19:47:21,051 - #38 ;
+INFO  19:47:21,052 - #47 }
+INFO  19:47:21,052 - #47 }
+INFO  19:47:21,053 - ProgramDerived1(
+  NamespaceListDerived2(
+  ) [NamespaceListDerived2]
+  GlobalsListDerived2(
+  ) [GlobalsListDerived2]
+  MethodDeclListDerived1(
+    MethodDeclListDerived2(
+    ) [MethodDeclListDerived2]
+    MethodDeclDerived1(
+      RetTypeDerived1(
+        TypeDerived1(
+        ) [TypeDerived1]
+      ) [RetTypeDerived1]
+      FormParsDerived1(
+      ) [FormParsDerived1]
+      VarDeclListDerived1(
+        VarDeclListDerived2(
+        ) [VarDeclListDerived2]
+        VarDeclDerived1(
+          TypeDerived1(
+          ) [TypeDerived1]
+          VarDeclSublistDerived2(
+            VarDeclSubunitDerived1(
+            ) [VarDeclSubunitDerived1]
+          ) [VarDeclSublistDerived2]
+        ) [VarDeclDerived1]
+      ) [VarDeclListDerived1]
+      StatementListDerived1(
+        StatementListDerived2(
+        ) [StatementListDerived2]
+        StatementDerived1(
+          DesignatorStatementDerived1(
+            DesignatorDerived2(
+              DesignatorSublistDerived2(
+              ) [DesignatorSublistDerived2]
+            ) [DesignatorDerived2]
+            AssignopDerived1(
+            ) [AssignopDerived1]
+            ExprDerived1(
+              TermDerived1(
+                FactorDerived3(
+                ) [FactorDerived3]
+                TermSublistDerived2(
+                ) [TermSublistDerived2]
+              ) [TermDerived1]
+              ExprSublistDerived2(
+              ) [ExprSublistDerived2]
+            ) [ExprDerived1]
+          ) [DesignatorStatementDerived1]
+        ) [StatementDerived1]
+      ) [StatementListDerived1]
+    ) [MethodDeclDerived1]
+  ) [MethodDeclListDerived1]
+) [ProgramDerived1]
+INFO  19:47:21,055 - ===================================

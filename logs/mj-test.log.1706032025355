@@ -1,0 +1,88 @@
+INFO  18:46:15,838 - Compiling source file: D:\pp1domaci\workspace\MJCompiler\test\program.mj
+INFO  18:46:15,863 - #2 program
+INFO  18:46:15,863 - #18 MyProg
+INFO  18:46:15,863 - #17 namespace
+INFO  18:46:15,863 - #18 n1
+INFO  18:46:15,863 - #46 {
+INFO  18:46:15,863 - #18 int
+INFO  18:46:15,863 - #18 bbc
+INFO  18:46:15,863 - #38 ;
+INFO  18:46:15,863 - #18 char
+INFO  18:46:15,863 - #18 bbbbc
+INFO  18:46:15,863 - #38 ;
+INFO  18:46:15,863 - #18 bool
+INFO  18:46:15,863 - #18 asfdc
+INFO  18:46:15,863 - #44 [
+INFO  18:46:15,863 - #45 ]
+INFO  18:46:15,863 - #38 ;
+INFO  18:46:15,863 - #46 {
+INFO  18:46:15,863 - #47 }
+INFO  18:46:15,863 - #47 }
+INFO  18:46:15,863 - #46 {
+INFO  18:46:15,868 - #47 }
+INFO  18:46:15,873 - Program(
+  ProgName(
+   MyProg
+  ) [ProgName]
+  NamespaceListChain(
+    NamespaceListEmpty(
+    ) [NamespaceListEmpty]
+    Namespace(
+      NamespaceName(
+       n1
+      ) [NamespaceName]
+      GlobalsListChain(
+        GlobalsListChain(
+          GlobalsListChain(
+            GlobalsListEmpty(
+            ) [GlobalsListEmpty]
+            GlobalsPartVar(
+              VarDecl(
+                TypeIdent(
+                 int
+                ) [TypeIdent]
+                VarDeclSublistSingle(
+                  VarDeclSubunitIdent(
+                   bbc
+                  ) [VarDeclSubunitIdent]
+                ) [VarDeclSublistSingle]
+              ) [VarDecl]
+            ) [GlobalsPartVar]
+          ) [GlobalsListChain]
+          GlobalsPartVar(
+            VarDecl(
+              TypeIdent(
+               char
+              ) [TypeIdent]
+              VarDeclSublistSingle(
+                VarDeclSubunitIdent(
+                 bbbbc
+                ) [VarDeclSubunitIdent]
+              ) [VarDeclSublistSingle]
+            ) [VarDecl]
+          ) [GlobalsPartVar]
+        ) [GlobalsListChain]
+        GlobalsPartVar(
+          VarDecl(
+            TypeIdent(
+             bool
+            ) [TypeIdent]
+            VarDeclSublistSingle(
+              VarDeclSubunitArray(
+               asfdc
+              ) [VarDeclSubunitArray]
+            ) [VarDeclSublistSingle]
+          ) [VarDecl]
+        ) [GlobalsPartVar]
+      ) [GlobalsListChain]
+      MethodDeclListEmpty(
+      ) [MethodDeclListEmpty]
+    ) [Namespace]
+  ) [NamespaceListChain]
+  GlobalsListEmpty(
+  ) [GlobalsListEmpty]
+  MethodDeclListEmpty(
+  ) [MethodDeclListEmpty]
+) [Program]
+INFO  18:46:15,879 - ===================================
+INFO  18:46:15,879 - ===================================

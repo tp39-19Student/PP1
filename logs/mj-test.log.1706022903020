@@ -1,0 +1,35 @@
+INFO  16:11:47,569 - Compiling source file: D:\pp1domaci\workspace\MJCompiler\test\program.mj
+INFO  16:11:47,599 - #2 program
+INFO  16:11:47,599 - #18 MyProg
+INFO  16:11:47,599 - #18 bool
+INFO  16:11:47,604 - #18 a
+INFO  16:11:47,604 - #38 ;
+INFO  16:11:47,604 - #46 {
+INFO  16:11:47,604 - #47 }
+INFO  16:14:02,041 - Program(
+  ProgName(
+   MyProg
+  ) [ProgName]
+  NamespaceListEmpty(
+  ) [NamespaceListEmpty]
+  GlobalsListChain(
+    GlobalsListEmpty(
+    ) [GlobalsListEmpty]
+    GlobalsPartVar(
+      VarDecl(
+        TypeIdent(
+         bool
+        ) [TypeIdent]
+        VarDeclSublistSingle(
+          VarDeclSubunitIdent(
+           a
+          ) [VarDeclSubunitIdent]
+        ) [VarDeclSublistSingle]
+      ) [VarDecl]
+    ) [GlobalsPartVar]
+  ) [GlobalsListChain]
+  MethodDeclListEmpty(
+  ) [MethodDeclListEmpty]
+) [Program]
+INFO  16:14:02,046 - ===================================
+INFO  16:14:02,050 - ===================================

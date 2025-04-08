@@ -1,0 +1,361 @@
+INFO  16:35:36,293 - Compiling source file: D:\pp1domaci\workspace\MJCompiler\test\program.mj
+INFO  16:35:36,313 - #2 program
+INFO  16:35:36,313 - #18 P
+INFO  16:35:36,313 - #17 namespace
+INFO  16:35:36,314 - #18 test
+INFO  16:35:36,314 - #46 {
+INFO  16:35:36,314 - #18 int
+INFO  16:35:36,315 - #18 a
+INFO  16:35:36,315 - #38 ;
+INFO  16:35:36,315 - #18 int
+INFO  16:35:36,316 - #18 b
+INFO  16:35:36,316 - #38 ;
+INFO  16:35:36,316 - #18 int
+INFO  16:35:36,316 - #18 niz
+INFO  16:35:36,316 - #44 [
+INFO  16:35:36,316 - #45 ]
+INFO  16:35:36,316 - #38 ;
+INFO  16:35:36,316 - #46 {
+INFO  16:35:36,316 - #47 }
+INFO  16:35:36,317 - #47 }
+INFO  16:35:36,317 - #18 int
+INFO  16:35:36,317 - #18 a
+INFO  16:35:36,317 - #38 ;
+INFO  16:35:36,317 - #46 {
+INFO  16:35:36,317 - #12 void
+INFO  16:35:36,318 - #18 main
+INFO  16:35:36,318 - #42 (
+INFO  16:35:36,318 - #43 )
+INFO  16:35:36,319 - #18 char
+INFO  16:35:36,319 - #18 a
+INFO  16:35:36,319 - #38 ;
+INFO  16:35:36,319 - #18 int
+INFO  16:35:36,319 - #18 b
+INFO  16:35:36,319 - #40 ,
+INFO  16:35:36,319 - #18 c
+INFO  16:35:36,319 - #38 ;
+INFO  16:35:36,319 - #46 {
+INFO  16:35:36,319 - #18 test
+INFO  16:35:36,320 - #39 :
+INFO  16:35:36,320 - #39 :
+INFO  16:35:36,320 - #18 a
+INFO  16:35:36,320 - #35 =
+INFO  16:35:36,320 - #19 1
+INFO  16:35:36,320 - #38 ;
+INFO  16:35:36,321 - #18 test
+INFO  16:35:36,321 - #39 :
+INFO  16:35:36,322 - #39 :
+INFO  16:35:36,322 - #18 a
+INFO  16:35:36,322 - #36 ++
+INFO  16:35:36,322 - #38 ;
+INFO  16:35:36,322 - #9 print
+INFO  16:35:36,322 - #42 (
+INFO  16:35:36,322 - #18 a
+INFO  16:35:36,322 - #43 )
+INFO  16:35:36,322 - #38 ;
+INFO  16:35:36,322 - #18 niz
+INFO  16:35:36,322 - #36 ++
+INFO  16:35:36,322 - #38 ;
+INFO  16:35:36,322 - #18 niz
+INFO  16:35:36,322 - #35 =
+INFO  16:35:36,323 - #19 2
+INFO  16:35:36,323 - #38 ;
+INFO  16:35:36,323 - #18 niz
+INFO  16:35:36,323 - #35 =
+INFO  16:35:36,323 - #8 new
+INFO  16:35:36,324 - #18 int
+INFO  16:35:36,324 - #44 [
+INFO  16:35:36,324 - #19 2
+INFO  16:35:36,324 - #45 ]
+INFO  16:35:36,324 - #38 ;
+INFO  16:35:36,324 - #18 b
+INFO  16:35:36,324 - #36 ++
+INFO  16:35:36,324 - #38 ;
+INFO  16:35:36,324 - #18 test
+INFO  16:35:36,324 - #39 :
+INFO  16:35:36,324 - #39 :
+INFO  16:35:36,324 - #18 b
+INFO  16:35:36,324 - #36 ++
+INFO  16:35:36,324 - #38 ;
+INFO  16:35:36,324 - #47 }
+INFO  16:35:36,324 - #47 }
+INFO  16:35:36,332 - Program(
+  ProgName(
+   P
+  ) [ProgName]
+  NamespaceListChain(
+    NamespaceListEmpty(
+    ) [NamespaceListEmpty]
+    Namespace(
+      NamespaceName(
+       test
+      ) [NamespaceName]
+      GlobalsListChain(
+        GlobalsListChain(
+          GlobalsListChain(
+            GlobalsListEmpty(
+            ) [GlobalsListEmpty]
+            GlobalsPartVar(
+              VarDecl(
+                TypeIdent(
+                 int
+                ) [TypeIdent]
+                VarDeclSublistSingle(
+                  VarDeclSubunitIdent(
+                   a
+                  ) [VarDeclSubunitIdent]
+                ) [VarDeclSublistSingle]
+              ) [VarDecl]
+            ) [GlobalsPartVar]
+          ) [GlobalsListChain]
+          GlobalsPartVar(
+            VarDecl(
+              TypeIdent(
+               int
+              ) [TypeIdent]
+              VarDeclSublistSingle(
+                VarDeclSubunitIdent(
+                 b
+                ) [VarDeclSubunitIdent]
+              ) [VarDeclSublistSingle]
+            ) [VarDecl]
+          ) [GlobalsPartVar]
+        ) [GlobalsListChain]
+        GlobalsPartVar(
+          VarDecl(
+            TypeIdent(
+             int
+            ) [TypeIdent]
+            VarDeclSublistSingle(
+              VarDeclSubunitArray(
+               niz
+              ) [VarDeclSubunitArray]
+            ) [VarDeclSublistSingle]
+          ) [VarDecl]
+        ) [GlobalsPartVar]
+      ) [GlobalsListChain]
+      MethodDeclListEmpty(
+      ) [MethodDeclListEmpty]
+    ) [Namespace]
+  ) [NamespaceListChain]
+  GlobalsListChain(
+    GlobalsListEmpty(
+    ) [GlobalsListEmpty]
+    GlobalsPartVar(
+      VarDecl(
+        TypeIdent(
+         int
+        ) [TypeIdent]
+        VarDeclSublistSingle(
+          VarDeclSubunitIdent(
+           a
+          ) [VarDeclSubunitIdent]
+        ) [VarDeclSublistSingle]
+      ) [VarDecl]
+    ) [GlobalsPartVar]
+  ) [GlobalsListChain]
+  MethodDeclListChain(
+    MethodDeclListEmpty(
+    ) [MethodDeclListEmpty]
+    MethodDecl(
+      MethodTypeName(
+        RetTypeVoid(
+        ) [RetTypeVoid]
+       main
+      ) [MethodTypeName]
+      FormParsEmpty(
+      ) [FormParsEmpty]
+      VarDeclListChain(
+        VarDeclListChain(
+          VarDeclListEmpty(
+          ) [VarDeclListEmpty]
+          VarDecl(
+            TypeIdent(
+             char
+            ) [TypeIdent]
+            VarDeclSublistSingle(
+              VarDeclSubunitIdent(
+               a
+              ) [VarDeclSubunitIdent]
+            ) [VarDeclSublistSingle]
+          ) [VarDecl]
+        ) [VarDeclListChain]
+        VarDecl(
+          TypeIdent(
+           int
+          ) [TypeIdent]
+          VarDeclSublistChain(
+            VarDeclSublistSingle(
+              VarDeclSubunitIdent(
+               b
+              ) [VarDeclSubunitIdent]
+            ) [VarDeclSublistSingle]
+            VarDeclSubunitIdent(
+             c
+            ) [VarDeclSubunitIdent]
+          ) [VarDeclSublistChain]
+        ) [VarDecl]
+      ) [VarDeclListChain]
+      StatementListChain(
+        StatementListChain(
+          StatementListChain(
+            StatementListChain(
+              StatementListChain(
+                StatementListChain(
+                  StatementListChain(
+                    StatementListChain(
+                      StatementListEmpty(
+                      ) [StatementListEmpty]
+                      StatementDesignator(
+                        DesignatorStatementAssign(
+                          DesignatorWithNamespace(
+                           test
+                           a
+                          ) [DesignatorWithNamespace]
+                          ExprPositive(
+                            Term(
+                              FactorNumber(
+                               1
+                              ) [FactorNumber]
+                              TermSublistEmpty(
+                              ) [TermSublistEmpty]
+                            ) [Term]
+                            ExprSublistEmpty(
+                            ) [ExprSublistEmpty]
+                          ) [ExprPositive]
+                        ) [DesignatorStatementAssign]
+                      ) [StatementDesignator]
+                    ) [StatementListChain]
+                    StatementDesignator(
+                      DesignatorStatementIncrement(
+                        DesignatorWithNamespace(
+                         test
+                         a
+                        ) [DesignatorWithNamespace]
+                      ) [DesignatorStatementIncrement]
+                    ) [StatementDesignator]
+                  ) [StatementListChain]
+                  StatementPrint(
+                    ExprPositive(
+                      Term(
+                        FactorDesignator(
+                          DesignatorNoNamespace(
+                           a
+                          ) [DesignatorNoNamespace]
+                        ) [FactorDesignator]
+                        TermSublistEmpty(
+                        ) [TermSublistEmpty]
+                      ) [Term]
+                      ExprSublistEmpty(
+                      ) [ExprSublistEmpty]
+                    ) [ExprPositive]
+                  ) [StatementPrint]
+                ) [StatementListChain]
+                StatementDesignator(
+                  DesignatorStatementIncrement(
+                    DesignatorNoNamespace(
+                     niz
+                    ) [DesignatorNoNamespace]
+                  ) [DesignatorStatementIncrement]
+                ) [StatementDesignator]
+              ) [StatementListChain]
+              StatementDesignator(
+                DesignatorStatementAssign(
+                  DesignatorNoNamespace(
+                   niz
+                  ) [DesignatorNoNamespace]
+                  ExprPositive(
+                    Term(
+                      FactorNumber(
+                       2
+                      ) [FactorNumber]
+                      TermSublistEmpty(
+                      ) [TermSublistEmpty]
+                    ) [Term]
+                    ExprSublistEmpty(
+                    ) [ExprSublistEmpty]
+                  ) [ExprPositive]
+                ) [DesignatorStatementAssign]
+              ) [StatementDesignator]
+            ) [StatementListChain]
+            StatementDesignator(
+              DesignatorStatementAssign(
+                DesignatorNoNamespace(
+                 niz
+                ) [DesignatorNoNamespace]
+                ExprPositive(
+                  Term(
+                    FactorNewArray(
+                      TypeIdent(
+                       int
+                      ) [TypeIdent]
+                      ExprPositive(
+                        Term(
+                          FactorNumber(
+                           2
+                          ) [FactorNumber]
+                          TermSublistEmpty(
+                          ) [TermSublistEmpty]
+                        ) [Term]
+                        ExprSublistEmpty(
+                        ) [ExprSublistEmpty]
+                      ) [ExprPositive]
+                    ) [FactorNewArray]
+                    TermSublistEmpty(
+                    ) [TermSublistEmpty]
+                  ) [Term]
+                  ExprSublistEmpty(
+                  ) [ExprSublistEmpty]
+                ) [ExprPositive]
+              ) [DesignatorStatementAssign]
+            ) [StatementDesignator]
+          ) [StatementListChain]
+          StatementDesignator(
+            DesignatorStatementIncrement(
+              DesignatorNoNamespace(
+               b
+              ) [DesignatorNoNamespace]
+            ) [DesignatorStatementIncrement]
+          ) [StatementDesignator]
+        ) [StatementListChain]
+        StatementDesignator(
+          DesignatorStatementIncrement(
+            DesignatorWithNamespace(
+             test
+             b
+            ) [DesignatorWithNamespace]
+          ) [DesignatorStatementIncrement]
+        ) [StatementDesignator]
+      ) [StatementListChain]
+    ) [MethodDecl]
+  ) [MethodDeclListChain]
+) [Program]
+INFO  16:35:36,333 - ================SEMANTICKA OBRADA===================
+INFO  16:35:36,335 - Deklarisana globalna promenljiva, linija: 6, Var a: int, 0, 0 
+INFO  16:35:36,335 - Deklarisana globalna promenljiva, linija: 7, Var b: int, 1, 0 
+INFO  16:35:36,335 - Deklarisana globalna promenljiva, linija: 8, Var niz: Arr of int, 2, 0 
+INFO  16:35:36,335 - Deklarisana globalna promenljiva, linija: 12, Var a: int, 0, 0 
+INFO  16:35:36,335 - Deklarisana lokalna promenljiva, linija: 14, Var a: char, 0, 1 
+INFO  16:35:36,335 - Deklarisana lokalna promenljiva, linija: 14, Var b: int, 1, 1 
+INFO  16:35:36,335 - Deklarisana lokalna promenljiva, linija: 14, Var c: int, 2, 1 
+INFO  16:35:36,335 - Pretraga na 15(test::a), Nadjeno Var a: int, 0, 0 
+INFO  16:35:36,336 - Pretraga na 16(test::a), Nadjeno Var a: int, 0, 0 
+INFO  16:35:36,336 - Pretraga na 17(a), Nadjeno Var a: char, 0, 1 
+ERROR 16:35:36,336 - Simbol niz nije deklarisan! na liniji 19
+INFO  16:35:36,336 - Pretraga na 19(niz), nije nadjeno!
+ERROR 16:35:36,336 - Designator mora da bude tipa int! na liniji 19
+ERROR 16:35:36,336 - Simbol niz nije deklarisan! na liniji 20
+INFO  16:35:36,336 - Pretraga na 20(niz), nije nadjeno!
+ERROR 16:35:36,336 - Desna strana nije kompatibilna pri dodeli sa levom! na liniji 20
+ERROR 16:35:36,336 - Simbol niz nije deklarisan! na liniji 21
+INFO  16:35:36,336 - Pretraga na 21(niz), nije nadjeno!
+ERROR 16:35:36,336 - Desna strana nije kompatibilna pri dodeli sa levom! na liniji 21
+INFO  16:35:36,336 - Pretraga na 23(b), Nadjeno Var b: int, 1, 1 
+INFO  16:35:36,336 - Pretraga na 24(test::b), Nadjeno Var b: int, 1, 0 
+INFO  16:35:36,336 - =================STATS==================
+INFO  16:35:36,336 - Simbolicke konstante: 0
+INFO  16:35:36,336 - Globalne promenljive: 4
+INFO  16:35:36,336 - Lokalne promenljive: 3
+INFO  16:35:36,336 - nVars = 4
+INFO  16:35:36,336 - ===================================
+ERROR 16:35:36,337 - Parsiranje NIJE uspesno zavrseno!

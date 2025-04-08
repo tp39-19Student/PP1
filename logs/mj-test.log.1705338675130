@@ -1,0 +1,12 @@
+INFO  18:10:21,304 - Compiling source file: D:\pp1domaci\workspace\MJCompiler\test\program.mj
+INFO  18:10:21,319 - #2 program
+INFO  18:10:21,319 - #18 MyProg1
+INFO  18:10:21,319 - #17 namespace
+INFO  18:10:21,319 - #18 test
+INFO  18:10:21,319 - #46 {
+INFO  18:10:21,319 - #18 bool
+INFO  18:10:21,319 - #18 h
+INFO  18:10:21,319 - #35 =
+ERROR 18:10:21,319 - 
+Sintaksna greska na liniji 3
+ERROR 18:10:21,319 - Fatalna greska, parsiranje se ne moze nastaviti na liniji 3

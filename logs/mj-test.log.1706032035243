@@ -1,0 +1,41 @@
+INFO  18:47:05,355 - Compiling source file: D:\pp1domaci\workspace\MJCompiler\test\program.mj
+INFO  18:47:05,385 - #2 program
+INFO  18:47:05,385 - #18 MyProg
+INFO  18:47:05,385 - #17 namespace
+INFO  18:47:05,385 - #18 n1
+INFO  18:47:05,385 - #46 {
+INFO  18:47:05,385 - #18 int
+INFO  18:47:05,385 - #18 bbc
+INFO  18:47:05,385 - #38 ;
+INFO  18:47:05,385 - #18 char
+INFO  18:47:05,385 - #18 bbbbc
+INFO  18:47:05,385 - #38 ;
+INFO  18:47:05,385 - #18 bool
+INFO  18:47:05,385 - #18 asfdc
+INFO  18:47:05,385 - #44 [
+INFO  18:47:05,385 - #45 ]
+INFO  18:47:05,385 - #38 ;
+INFO  18:47:05,385 - #46 {
+INFO  18:47:05,385 - #47 }
+INFO  18:47:05,385 - #47 }
+INFO  18:47:05,385 - #17 namespace
+INFO  18:47:05,385 - #18 n2
+INFO  18:47:05,390 - #46 {
+INFO  18:47:05,390 - #18 int
+INFO  18:47:05,390 - #18 bbc
+INFO  18:47:05,390 - #38 ;
+INFO  18:47:05,390 - #47 }
+ERROR 18:47:05,390 - 
+Sintaksna greska na liniji 13
+INFO  18:47:05,390 - #18 int
+INFO  18:47:05,390 - #18 bbc
+INFO  18:47:05,390 - #38 ;
+INFO  18:47:05,390 - #18 int
+INFO  18:47:05,390 - #18 a
+INFO  18:47:05,390 - #38 ;
+ERROR 18:47:05,390 - Izvrsen oporavak od greske (definicija promenljive)
+INFO  18:47:05,390 - #46 {
+INFO  18:47:05,390 - #47 }
+ERROR 18:47:05,390 - 
+Sintaksna greska na liniji 17
+ERROR 18:47:05,390 - Fatalna greska, parsiranje se ne moze nastaviti na liniji 17

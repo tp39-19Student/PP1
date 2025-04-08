@@ -1,0 +1,255 @@
+
+
+package rs.ac.bg.etf.pp1;
+
+import java_cup.runtime.*;
+import org.apache.log4j.*;
+import rs.ac.bg.etf.pp1.ast.*;
+
+parser code {:
+
+	boolean errorDetected;
+	
+	Logger log = Logger.getLogger(getClass());
+	
+   
+    // slede redefinisani metodi za prijavu gresaka radi izmene teksta poruke
+     
+    public void report_fatal_error(String message, Object info) throws java.lang.Exception {
+      done_parsing();
+      report_error(message, info);
+    }
+  
+    public void syntax_error(Symbol cur_token) {
+        report_error("\nSintaksna greska", cur_token);
+    }
+  
+    public void unrecovered_syntax_error(Symbol cur_token) throws java.lang.Exception {
+        report_fatal_error("Fatalna greska, parsiranje se ne moze nastaviti", cur_token);
+    }
+
+    public void report_error(String message, Object info) {
+    	errorDetected = true;
+    	StringBuilder msg = new StringBuilder(message); 
+    	if (info instanceof Symbol)
+            msg.append (" na liniji ").append(((Symbol)info).left);
+        log.error(msg.toString());
+    }
+	
+	
+:}
+
+
+init with {:
+	errorDetected = false;
+:}
+
+scan with {:
+	Symbol s = this.getScanner().next_token();
+	if (s != null && s.value != null) 
+		log.info(s.toString() + " " + s.value.toString());
+	return s;
+:}
+
+terminal PROG, BREAK, CLASS, ELSE, CONST, IF, NEW, PRINT, READ, RET, VOID, EXT, CONT, FOR, STAT, NSPACE;
+
+terminal String IDENT;
+terminal Integer NUMBER;
+terminal Character CHAR;
+terminal Boolean BOOL;
+
+terminal PLUS, MINUS, MUL, DIV, MOD, EQCOMP, NEQ, GT, GEQ, LT, LEQ, BAND, BOR;
+terminal EQ, INC, DEC, SEMI, COLON, COMMA, DOT;
+terminal LPAREN, RPAREN, LBOX, RBOX, LBRACE, RBRACE, LAMBDA;
+
+nonterminal Program, Namespace, NamespaceList, GlobalsList, MethodDeclList;
+nonterminal GlobalsPart, ConstDecl, VarDecl;
+nonterminal MethodDecl;
+nonterminal ConstDeclSublist, ConstDeclSubunit, VarDeclSublist, VarDeclSubunit;
+nonterminal FormPars, VarDeclList, StatementList;
+nonterminal FormParsList, FormParam;
+nonterminal Statement;
+nonterminal DesignatorStatement;
+nonterminal Addop, Mulop;
+/* nonterminal Matched, Unmatched; */
+
+nonterminal rs.etf.pp1.symboltable.concepts.Obj ProgName, MethodTypeName, NamespaceName, Designator;
+nonterminal rs.etf.pp1.symboltable.concepts.Struct Type, RetType, Expr, Factor, Term, TermSublist, TermSubunit, ExprSublist, ExprSubunit;
+
+precedence left ELSE;
+
+
+Program ::= (Program) PROG ProgName:p NamespaceList GlobalsList LBRACE MethodDeclList RBRACE;
+
+ProgName ::= (ProgName) IDENT:name;
+
+NamespaceList ::= (NamespaceListChain) NamespaceList Namespace
+				|
+				(NamespaceListEmpty) /* epsilon */
+				;
+
+Namespace ::= (Namespace) NamespaceName:n LBRACE GlobalsList LBRACE MethodDeclList RBRACE RBRACE;
+
+NamespaceName ::= (NamespaceName) NSPACE IDENT:namespaceName;
+
+GlobalsList ::= (GlobalsListChain) GlobalsList GlobalsPart
+			|
+			(GlobalsListEmpty) /* epsilon */
+			;
+			
+GlobalsPart ::= (GlobalsPartConst) ConstDecl
+			|
+			(GlobalsPartVar) VarDecl
+			;
+			
+ConstDecl ::= (ConstDecl) CONST Type ConstDeclSublist SEMI;
+
+ConstDeclSublist ::= (ConstDeclSublistChain) ConstDeclSublist COMMA ConstDeclSubunit
+				|
+				(ConstDeclSublistSingle) ConstDeclSubunit;
+				
+ConstDeclSubunit ::= (ConstDeclSubunitInt) IDENT:constName EQ NUMBER:value
+				| 
+				(ConstDeclSubunitChar) IDENT:constName EQ CHAR:value
+				| 
+				(ConstDeclSubunitBool) IDENT:constName EQ BOOL:value
+				;
+
+VarDecl ::= (VarDecl) Type VarDeclSublist SEMI;
+
+VarDeclSublist ::= (VarDeclSublistChain) VarDeclSublist COMMA VarDeclSubunit
+				|
+				(VarDeclSublistSingle) VarDeclSubunit
+				;
+				
+VarDeclSubunit ::= (VarDeclSubunitIdent) IDENT:varName
+				|
+				(VarDeclSubunitArray) IDENT:varName LBOX RBOX
+				|
+				(VarDeclSubunitError) error
+				{: parser.report_error("Izvrsen oporavak od greske (definicija promenljive)", null); :}
+				;
+
+Type ::= (TypeIdent) IDENT:typeName
+	|
+	(TypeNamespace) IDENT:namespaceName COLON COLON IDENT:typeName
+	;
+
+MethodDeclList ::= (MethodDeclListChain) MethodDeclList MethodDecl
+				|
+				(MethodDeclListEmpty) /* epsilon */
+				;
+			
+MethodDecl ::= (MethodDecl) MethodTypeName LPAREN FormPars RPAREN VarDeclList LBRACE StatementList RBRACE;
+
+MethodTypeName ::= (MethodTypeName) RetType IDENT:name;
+
+RetType ::= (RetTypeType) Type
+		|
+		(RetTypeVoid) VOID
+		;
+		
+FormPars ::= (FormParsEmpty) /* epsilon */
+		|
+		(FormParsNotEmpty) FormParsList
+		;
+		
+FormParsList ::= (FormParsListChain) FormParsList COMMA FormParam
+			|
+			(FormParsListSingle) FormParam
+			;
+			
+FormParam ::= (FormParamOne) Type IDENT:paramName
+		|
+		(FormParamArray) Type IDENT:paramName LBOX RBOX
+		;
+		
+VarDeclList ::= (VarDeclListChain) VarDeclList VarDecl
+			|
+			(VarDeclListEmpty) /* epsilon */
+			;
+			
+StatementList ::= (StatementListChain) StatementList Statement
+			|
+			(StatementListEmpty) /* epsilon */
+			;
+	
+			
+Statement ::= (StatementDesignator) DesignatorStatement
+		|
+		(StatementRead) READ LPAREN Designator RPAREN SEMI
+		|
+		(StatementPrint) PRINT LPAREN Expr RPAREN SEMI
+		|
+		(StatementPrintFormat) PRINT LPAREN Expr COMMA NUMBER:value RPAREN SEMI
+		;
+
+
+Expr ::= (ExprPositive) Term ExprSublist
+	|
+	(ExprNegative) MINUS Term ExprSublist
+	;
+
+ExprSublist ::= (ExprSublistChain) ExprSublist ExprSubunit
+			|
+			(ExprSublistEmpty) /* Lambda */
+			;
+			
+ExprSubunit ::= (ExprSubunit) Addop Term;
+
+Term ::= (Term) Factor TermSublist;
+
+TermSublist ::= (TermSublistChain) TermSublist TermSubunit
+			|
+			(TermSublistEmpty) /* lambda */
+			;
+
+TermSubunit ::= (TermSubunit) Mulop Factor;
+
+Factor ::= (FactorDesignator) Designator
+		|
+		(FactorNumber) NUMBER:value
+		|
+		(FactorCharacter) CHAR:value
+		|
+		(FactorBoolean) BOOL:value
+		|
+		(FactorNewArray) NEW Type LBOX Expr RBOX
+		|
+		(FactorSubexpression) LPAREN Expr RPAREN
+		;
+		
+		
+Designator ::= (DesignatorWithNamespace) IDENT:namespaceName COLON COLON IDENT:desName
+			|
+			(DesignatorNoNamespace) IDENT:desName
+			|
+			(DesignatorWithNamespaceArray) IDENT:namespaceName COLON COLON IDENT:desName LBOX Expr RBOX
+			|
+			(DesignatorNoNamespaceArray) IDENT:desName LBOX Expr RBOX
+			;
+
+
+				
+DesignatorStatement ::= (DesignatorStatementAssign) Designator EQ Expr SEMI
+					|
+					(DesignatorStatementIncrement) Designator INC SEMI
+					|
+					(DesignatorStatementDecrement) Designator DEC SEMI
+					|
+					(DesignatorStatmentError) error SEMI:l
+					{: parser.report_error("Izvrsen oporavak od greske (iskaz) na liniji " + lleft, null); :}
+					;
+
+
+Mulop ::= (MulopMul) MUL
+	|
+	(MulopDiv) DIV
+	|
+	(MulopMod) MOD
+	;
+	
+Addop ::= (AddopPlus) PLUS
+	|
+	(AddopMinus) MINUS
+	;

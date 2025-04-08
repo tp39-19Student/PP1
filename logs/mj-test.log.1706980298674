@@ -1,0 +1,175 @@
+INFO  18:07:41,087 - Compiling source file: D:\pp1domaci\workspace\MJCompiler\test\program.mj
+INFO  18:07:41,107 - #2 program
+INFO  18:07:41,107 - #18 P
+INFO  18:07:41,107 - #46 {
+INFO  18:07:41,107 - #12 void
+INFO  18:07:41,107 - #18 main
+INFO  18:07:41,112 - #42 (
+INFO  18:07:41,112 - #18 int
+INFO  18:07:41,112 - #18 a
+INFO  18:07:41,112 - #43 )
+INFO  18:07:41,112 - #18 char
+INFO  18:07:41,112 - #18 c
+INFO  18:07:41,112 - #38 ;
+INFO  18:07:41,112 - #18 bool
+INFO  18:07:41,112 - #18 d
+INFO  18:07:41,112 - #40 ,
+INFO  18:07:41,112 - #18 e
+INFO  18:07:41,112 - #38 ;
+INFO  18:07:41,112 - #46 {
+INFO  18:07:41,112 - #9 print
+INFO  18:07:41,112 - #42 (
+INFO  18:07:41,112 - #19 19
+INFO  18:07:41,112 - #43 )
+INFO  18:07:41,117 - #38 ;
+INFO  18:07:41,117 - #9 print
+INFO  18:07:41,117 - #42 (
+INFO  18:07:41,117 - #21 true
+INFO  18:07:41,117 - #43 )
+INFO  18:07:41,117 - #38 ;
+INFO  18:07:41,117 - #9 print
+INFO  18:07:41,117 - #42 (
+INFO  18:07:41,117 - #21 false
+INFO  18:07:41,117 - #43 )
+INFO  18:07:41,117 - #38 ;
+INFO  18:07:41,117 - #9 print
+INFO  18:07:41,117 - #42 (
+INFO  18:07:41,117 - #20 c
+INFO  18:07:41,117 - #43 )
+INFO  18:07:41,117 - #38 ;
+INFO  18:07:41,117 - #47 }
+INFO  18:07:41,117 - #47 }
+INFO  18:07:41,122 - Program(
+  ProgName(
+   P
+  ) [ProgName]
+  NamespaceListEmpty(
+  ) [NamespaceListEmpty]
+  GlobalsListEmpty(
+  ) [GlobalsListEmpty]
+  MethodDeclListChain(
+    MethodDeclListEmpty(
+    ) [MethodDeclListEmpty]
+    MethodDecl(
+      MethodTypeName(
+        RetTypeVoid(
+        ) [RetTypeVoid]
+       main
+      ) [MethodTypeName]
+      FormParsNotEmpty(
+        FormParsListSingle(
+          FormParamOne(
+            TypeIdent(
+             int
+            ) [TypeIdent]
+           a
+          ) [FormParamOne]
+        ) [FormParsListSingle]
+      ) [FormParsNotEmpty]
+      VarDeclListChain(
+        VarDeclListChain(
+          VarDeclListEmpty(
+          ) [VarDeclListEmpty]
+          VarDecl(
+            TypeIdent(
+             char
+            ) [TypeIdent]
+            VarDeclSublistSingle(
+              VarDeclSubunitIdent(
+               c
+              ) [VarDeclSubunitIdent]
+            ) [VarDeclSublistSingle]
+          ) [VarDecl]
+        ) [VarDeclListChain]
+        VarDecl(
+          TypeIdent(
+           bool
+          ) [TypeIdent]
+          VarDeclSublistChain(
+            VarDeclSublistSingle(
+              VarDeclSubunitIdent(
+               d
+              ) [VarDeclSubunitIdent]
+            ) [VarDeclSublistSingle]
+            VarDeclSubunitIdent(
+             e
+            ) [VarDeclSubunitIdent]
+          ) [VarDeclSublistChain]
+        ) [VarDecl]
+      ) [VarDeclListChain]
+      StatementListChain(
+        StatementListChain(
+          StatementListChain(
+            StatementListChain(
+              StatementListEmpty(
+              ) [StatementListEmpty]
+              StatementPrint(
+                ExprPositive(
+                  Term(
+                    FactorNumber(
+                     19
+                    ) [FactorNumber]
+                    TermSublistEmpty(
+                    ) [TermSublistEmpty]
+                  ) [Term]
+                  ExprSublistEmpty(
+                  ) [ExprSublistEmpty]
+                ) [ExprPositive]
+              ) [StatementPrint]
+            ) [StatementListChain]
+            StatementPrint(
+              ExprPositive(
+                Term(
+                  FactorBoolean(
+                   true
+                  ) [FactorBoolean]
+                  TermSublistEmpty(
+                  ) [TermSublistEmpty]
+                ) [Term]
+                ExprSublistEmpty(
+                ) [ExprSublistEmpty]
+              ) [ExprPositive]
+            ) [StatementPrint]
+          ) [StatementListChain]
+          StatementPrint(
+            ExprPositive(
+              Term(
+                FactorBoolean(
+                 false
+                ) [FactorBoolean]
+                TermSublistEmpty(
+                ) [TermSublistEmpty]
+              ) [Term]
+              ExprSublistEmpty(
+              ) [ExprSublistEmpty]
+            ) [ExprPositive]
+          ) [StatementPrint]
+        ) [StatementListChain]
+        StatementPrint(
+          ExprPositive(
+            Term(
+              FactorCharacter(
+               c
+              ) [FactorCharacter]
+              TermSublistEmpty(
+              ) [TermSublistEmpty]
+            ) [Term]
+            ExprSublistEmpty(
+            ) [ExprSublistEmpty]
+          ) [ExprPositive]
+        ) [StatementPrint]
+      ) [StatementListChain]
+    ) [MethodDecl]
+  ) [MethodDeclListChain]
+) [Program]
+INFO  18:07:41,122 - ================SEMANTICKA OBRADA===================
+INFO  18:07:41,127 - Deklarisana lokalna promenljiva, linija: 5, Var c: char, 1, 1 
+INFO  18:07:41,127 - Deklarisana lokalna promenljiva, linija: 5, Var d: bool, 2, 1 
+INFO  18:07:41,127 - Deklarisana lokalna promenljiva, linija: 5, Var e: bool, 3, 1 
+INFO  18:07:41,127 - =================STATS==================
+INFO  18:07:41,127 - Simbolicke konstante: 0
+INFO  18:07:41,127 - Globalne promenljive: 0
+INFO  18:07:41,127 - Lokalne promenljive: 3
+INFO  18:07:41,127 - nVars = 0
+INFO  18:07:41,127 - ===================================
+INFO  18:07:41,132 - Parsiranje uspesno zavrseno!

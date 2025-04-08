@@ -1,0 +1,247 @@
+INFO  19:44:03,289 - Compiling source file: D:\pp1domaci\workspace\MJCompiler\test\program.mj
+INFO  19:44:03,314 - #2 program
+INFO  19:44:03,314 - #18 MyProg
+INFO  19:44:03,314 - #17 namespace
+INFO  19:44:03,314 - #18 n1
+INFO  19:44:03,314 - #46 {
+INFO  19:44:03,314 - #46 {
+INFO  19:44:03,314 - #18 int
+INFO  19:44:03,314 - #18 calc
+INFO  19:44:03,314 - #42 (
+INFO  19:44:03,314 - #18 int
+INFO  19:44:03,314 - #18 a
+INFO  19:44:03,314 - #40 ,
+INFO  19:44:03,314 - #18 int
+INFO  19:44:03,319 - #18 b
+INFO  19:44:03,319 - #43 )
+INFO  19:44:03,319 - #18 int
+INFO  19:44:03,319 - #18 c
+INFO  19:44:03,319 - #38 ;
+INFO  19:44:03,319 - #46 {
+INFO  19:44:03,319 - #18 c
+INFO  19:44:03,319 - #35 =
+INFO  19:44:03,319 - #18 a
+INFO  19:44:03,319 - #22 +
+INFO  19:44:03,319 - #18 b
+INFO  19:44:03,324 - #38 ;
+INFO  19:44:03,324 - #11 return
+INFO  19:44:03,324 - #18 c
+INFO  19:44:03,324 - #38 ;
+INFO  19:44:03,324 - #47 }
+INFO  19:44:03,324 - #47 }
+INFO  19:44:03,324 - #47 }
+INFO  19:44:03,324 - #18 int
+INFO  19:44:03,324 - #18 a
+INFO  19:44:03,324 - #38 ;
+INFO  19:44:03,324 - #6 const
+INFO  19:44:03,324 - #18 bool
+INFO  19:44:03,324 - #18 b
+INFO  19:44:03,324 - #35 =
+INFO  19:44:03,324 - #21 true
+INFO  19:44:03,324 - #38 ;
+INFO  19:44:03,324 - #18 char
+INFO  19:44:03,324 - #18 c
+INFO  19:44:03,324 - #44 [
+INFO  19:44:03,324 - #45 ]
+INFO  19:44:03,324 - #38 ;
+INFO  19:44:03,324 - #46 {
+INFO  19:44:03,324 - #12 void
+INFO  19:44:03,324 - #18 main
+INFO  19:44:03,324 - #42 (
+INFO  19:44:03,324 - #43 )
+INFO  19:44:03,324 - #46 {
+INFO  19:44:03,324 - #47 }
+INFO  19:44:03,324 - #47 }
+INFO  19:44:03,334 - Program(
+  ProgName(
+   MyProg
+  ) [ProgName]
+  NamespaceListChain(
+    NamespaceListEmpty(
+    ) [NamespaceListEmpty]
+    Namespace(
+      NamespaceName(
+       n1
+      ) [NamespaceName]
+      GlobalsListEmpty(
+      ) [GlobalsListEmpty]
+      MethodDeclListChain(
+        MethodDeclListEmpty(
+        ) [MethodDeclListEmpty]
+        MethodDecl(
+          MethodTypeName(
+            RetTypeType(
+              TypeIdent(
+               int
+              ) [TypeIdent]
+            ) [RetTypeType]
+           calc
+          ) [MethodTypeName]
+          FormParsNotEmpty(
+            FormParsListChain(
+              FormParsListSingle(
+                FormParamOne(
+                  TypeIdent(
+                   int
+                  ) [TypeIdent]
+                 a
+                ) [FormParamOne]
+              ) [FormParsListSingle]
+              FormParamOne(
+                TypeIdent(
+                 int
+                ) [TypeIdent]
+               b
+              ) [FormParamOne]
+            ) [FormParsListChain]
+          ) [FormParsNotEmpty]
+          VarDeclListChain(
+            VarDeclListEmpty(
+            ) [VarDeclListEmpty]
+            VarDecl(
+              TypeIdent(
+               int
+              ) [TypeIdent]
+              VarDeclSublistSingle(
+                VarDeclSubunitIdent(
+                 c
+                ) [VarDeclSubunitIdent]
+              ) [VarDeclSublistSingle]
+            ) [VarDecl]
+          ) [VarDeclListChain]
+          StatementListChain(
+            StatementListChain(
+              StatementListEmpty(
+              ) [StatementListEmpty]
+              StatementDesignator(
+                DesignatorStatementAssign(
+                  DesignatorNoNamespace(
+                   c
+                    DesignatorSublistEmpty(
+                    ) [DesignatorSublistEmpty]
+                  ) [DesignatorNoNamespace]
+                  AssignopEq(
+                  ) [AssignopEq]
+                  ExprPositive(
+                    Term(
+                      FactorDesignator(
+                        DesignatorNoNamespace(
+                         a
+                          DesignatorSublistEmpty(
+                          ) [DesignatorSublistEmpty]
+                        ) [DesignatorNoNamespace]
+                      ) [FactorDesignator]
+                      TermSublistEmpty(
+                      ) [TermSublistEmpty]
+                    ) [Term]
+                    ExprSublistChain(
+                      ExprSublistEmpty(
+                      ) [ExprSublistEmpty]
+                      ExprSubunit(
+                        AddopPlus(
+                        ) [AddopPlus]
+                        Term(
+                          FactorDesignator(
+                            DesignatorNoNamespace(
+                             b
+                              DesignatorSublistEmpty(
+                              ) [DesignatorSublistEmpty]
+                            ) [DesignatorNoNamespace]
+                          ) [FactorDesignator]
+                          TermSublistEmpty(
+                          ) [TermSublistEmpty]
+                        ) [Term]
+                      ) [ExprSubunit]
+                    ) [ExprSublistChain]
+                  ) [ExprPositive]
+                ) [DesignatorStatementAssign]
+              ) [StatementDesignator]
+            ) [StatementListChain]
+            StatementReturnValue(
+              ExprPositive(
+                Term(
+                  FactorDesignator(
+                    DesignatorNoNamespace(
+                     c
+                      DesignatorSublistEmpty(
+                      ) [DesignatorSublistEmpty]
+                    ) [DesignatorNoNamespace]
+                  ) [FactorDesignator]
+                  TermSublistEmpty(
+                  ) [TermSublistEmpty]
+                ) [Term]
+                ExprSublistEmpty(
+                ) [ExprSublistEmpty]
+              ) [ExprPositive]
+            ) [StatementReturnValue]
+          ) [StatementListChain]
+        ) [MethodDecl]
+      ) [MethodDeclListChain]
+    ) [Namespace]
+  ) [NamespaceListChain]
+  GlobalsListChain(
+    GlobalsListChain(
+      GlobalsListChain(
+        GlobalsListEmpty(
+        ) [GlobalsListEmpty]
+        GlobalsPartVar(
+          VarDecl(
+            TypeIdent(
+             int
+            ) [TypeIdent]
+            VarDeclSublistSingle(
+              VarDeclSubunitIdent(
+               a
+              ) [VarDeclSubunitIdent]
+            ) [VarDeclSublistSingle]
+          ) [VarDecl]
+        ) [GlobalsPartVar]
+      ) [GlobalsListChain]
+      GlobalsPartConst(
+        ConstDecl(
+          TypeIdent(
+           bool
+          ) [TypeIdent]
+          ConstDeclSublistSingle(
+            ConstDeclSubunitBool(
+             b
+             true
+            ) [ConstDeclSubunitBool]
+          ) [ConstDeclSublistSingle]
+        ) [ConstDecl]
+      ) [GlobalsPartConst]
+    ) [GlobalsListChain]
+    GlobalsPartVar(
+      VarDecl(
+        TypeIdent(
+         char
+        ) [TypeIdent]
+        VarDeclSublistSingle(
+          VarDeclSubunitArray(
+           c
+          ) [VarDeclSubunitArray]
+        ) [VarDeclSublistSingle]
+      ) [VarDecl]
+    ) [GlobalsPartVar]
+  ) [GlobalsListChain]
+  MethodDeclListChain(
+    MethodDeclListEmpty(
+    ) [MethodDeclListEmpty]
+    MethodDecl(
+      MethodTypeName(
+        RetTypeVoid(
+        ) [RetTypeVoid]
+       main
+      ) [MethodTypeName]
+      FormParsEmpty(
+      ) [FormParsEmpty]
+      VarDeclListEmpty(
+      ) [VarDeclListEmpty]
+      StatementListEmpty(
+      ) [StatementListEmpty]
+    ) [MethodDecl]
+  ) [MethodDeclListChain]
+) [Program]
+INFO  19:44:03,334 - ===================================
+INFO  19:44:03,334 - ===================================
+INFO  19:44:03,334 - Parsiranje uspesno zavrseno!

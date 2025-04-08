@@ -1,0 +1,18 @@
+INFO  17:48:57,672 - Compiling source file: D:\pp1domaci\workspace\MJCompiler\test\program.mj
+INFO  17:48:57,697 - #2 program
+INFO  17:48:57,697 - #18 MyProg
+INFO  17:48:57,697 - #46 {
+INFO  17:48:57,697 - #47 }
+INFO  17:48:57,702 - Program(
+  ProgName(
+   MyProg
+  ) [ProgName]
+  NamespaceListEmpty(
+  ) [NamespaceListEmpty]
+  GlobalsListEmpty(
+  ) [GlobalsListEmpty]
+  MethodDeclListEmpty(
+  ) [MethodDeclListEmpty]
+) [Program]
+INFO  17:48:57,707 - ===================================
+INFO  17:48:57,707 - ===================================

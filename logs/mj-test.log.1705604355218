@@ -1,0 +1,35 @@
+INFO  19:58:55,999 - Compiling source file: D:\pp1domaci\workspace\MJCompiler\test\program.mj
+INFO  19:58:56,024 - #2 program
+INFO  19:58:56,024 - #18 a
+INFO  19:58:56,024 - #18 int
+INFO  19:58:56,024 - #18 a
+INFO  19:58:56,024 - #40 ,
+INFO  19:58:56,024 - #18 b
+INFO  19:58:56,024 - #38 ;
+INFO  19:58:56,024 - #18 bool
+INFO  19:58:56,024 - #18 c
+INFO  19:58:56,024 - #22 +
+ERROR 19:58:56,024 - 
+Sintaksna greska na liniji 4
+INFO  19:58:56,029 - #38 ;
+INFO  19:58:56,029 - #18 int
+INFO  19:58:56,029 - #18 a
+INFO  19:58:56,029 - #40 ,
+ERROR 19:58:56,029 - Izvrsen oporavak od greske (definicija promenljive)
+INFO  19:58:56,029 - #18 b
+INFO  19:58:56,029 - #23 -
+ERROR 19:58:56,029 - 
+Sintaksna greska na liniji 5
+INFO  19:58:56,029 - #46 {
+INFO  19:58:56,029 - #18 int
+INFO  19:58:56,029 - #18 main
+INFO  19:58:56,029 - #42 (
+INFO  19:58:56,029 - #43 )
+INFO  19:58:56,029 - #46 {
+INFO  19:58:56,029 - #18 a
+INFO  19:58:56,029 - #35 =
+INFO  19:58:56,029 - #19 2
+INFO  19:58:56,029 - #38 ;
+INFO  19:58:56,029 - #47 }
+INFO  19:58:56,029 - #47 }
+ERROR 19:58:56,029 - Fatalna greska, parsiranje se ne moze nastaviti na liniji 12

@@ -1,0 +1,24 @@
+INFO  16:00:13,762 - Compiling source file: D:\pp1domaci\workspace\MJCompiler\test\program.mj
+INFO  16:00:13,776 - #2 program
+INFO  16:00:13,776 - #18 MyProg1
+INFO  16:00:13,776 - #17 namespace
+INFO  16:00:13,777 - #18 test
+INFO  16:00:13,777 - #46 {
+INFO  16:00:13,777 - #6 const
+INFO  16:00:13,777 - #18 bool
+INFO  16:00:13,777 - #18 h
+INFO  16:00:13,778 - #35 =
+INFO  16:00:13,778 - #21 false
+INFO  16:00:13,778 - #38 ;
+INFO  16:00:13,779 - #18 int
+INFO  16:00:13,779 - #18 a
+INFO  16:00:13,779 - #44 [
+INFO  16:00:13,779 - #45 ]
+INFO  16:00:13,779 - #40 ,
+INFO  16:00:13,780 - #18 b
+INFO  16:00:13,780 - #38 ;
+INFO  16:00:13,780 - #46 {
+INFO  16:00:13,780 - #3 break
+ERROR 16:00:13,780 - 
+Sintaksna greska na liniji 6
+ERROR 16:00:13,782 - Fatalna greska, parsiranje se ne moze nastaviti na liniji 6

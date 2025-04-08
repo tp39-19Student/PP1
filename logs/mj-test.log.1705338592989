@@ -1,0 +1,56 @@
+INFO  18:09:14,785 - Compiling source file: D:\pp1domaci\workspace\MJCompiler\test\program.mj
+INFO  18:09:14,795 - #2 program
+INFO  18:09:14,795 - #18 MyProg1
+INFO  18:09:14,795 - #17 namespace
+INFO  18:09:14,795 - #18 test
+INFO  18:09:14,795 - #46 {
+INFO  18:09:14,795 - #46 {
+INFO  18:09:14,795 - #47 }
+INFO  18:09:14,795 - #47 }
+INFO  18:09:14,795 - #6 const
+INFO  18:09:14,795 - #18 int
+INFO  18:09:14,795 - #18 a
+INFO  18:09:14,795 - #35 =
+INFO  18:09:14,795 - #19 3
+INFO  18:09:14,795 - #40 ,
+INFO  18:09:14,800 - #18 b
+INFO  18:09:14,800 - #35 =
+INFO  18:09:14,800 - #19 2
+INFO  18:09:14,800 - #38 ;
+INFO  18:09:14,800 - #46 {
+INFO  18:09:14,800 - #47 }
+INFO  18:09:14,800 - ProgramDerived1(
+  NamespaceListDerived1(
+    NamespaceListDerived2(
+    ) [NamespaceListDerived2]
+    NamespaceDerived1(
+      CVCDeclListDerived3(
+      ) [CVCDeclListDerived3]
+      MethodDeclListDerived2(
+      ) [MethodDeclListDerived2]
+    ) [NamespaceDerived1]
+  ) [NamespaceListDerived1]
+  CVCDeclListDerived1(
+    CVCDeclListDerived3(
+    ) [CVCDeclListDerived3]
+    ConstDeclDerived1(
+      TypeDerived1(
+      ) [TypeDerived1]
+      ConstDeclSublistDerived1(
+        ConstDeclSublistDerived2(
+          ConstDeclSubunitDerived1(
+            ValueDerived1(
+            ) [ValueDerived1]
+          ) [ConstDeclSubunitDerived1]
+        ) [ConstDeclSublistDerived2]
+        ConstDeclSubunitDerived1(
+          ValueDerived1(
+          ) [ValueDerived1]
+        ) [ConstDeclSubunitDerived1]
+      ) [ConstDeclSublistDerived1]
+    ) [ConstDeclDerived1]
+  ) [CVCDeclListDerived1]
+  MethodDeclListDerived2(
+  ) [MethodDeclListDerived2]
+) [ProgramDerived1]
+INFO  18:09:14,800 - ===================================

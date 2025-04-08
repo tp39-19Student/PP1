@@ -1,0 +1,34 @@
+INFO  19:45:59,302 - Compiling source file: D:\pp1domaci\workspace\MJCompiler\test\program.mj
+INFO  19:45:59,325 - #2 program
+INFO  19:45:59,325 - #18 a
+INFO  19:45:59,325 - #46 {
+INFO  19:45:59,326 - #18 int
+INFO  19:45:59,326 - #18 main
+INFO  19:45:59,327 - #42 (
+INFO  19:45:59,327 - #43 )
+INFO  19:45:59,327 - #46 {
+INFO  19:45:59,327 - #47 }
+INFO  19:45:59,328 - #47 }
+INFO  19:45:59,328 - ProgramDerived1(
+  NamespaceListDerived2(
+  ) [NamespaceListDerived2]
+  GlobalsListDerived2(
+  ) [GlobalsListDerived2]
+  MethodDeclListDerived1(
+    MethodDeclListDerived2(
+    ) [MethodDeclListDerived2]
+    MethodDeclDerived1(
+      RetTypeDerived1(
+        TypeDerived1(
+        ) [TypeDerived1]
+      ) [RetTypeDerived1]
+      FormParsDerived1(
+      ) [FormParsDerived1]
+      VarDeclListDerived2(
+      ) [VarDeclListDerived2]
+      StatementListDerived2(
+      ) [StatementListDerived2]
+    ) [MethodDeclDerived1]
+  ) [MethodDeclListDerived1]
+) [ProgramDerived1]
+INFO  19:45:59,330 - ===================================

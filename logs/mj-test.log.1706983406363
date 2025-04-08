@@ -1,0 +1,112 @@
+INFO  19:03:15,926 - Compiling source file: D:\pp1domaci\workspace\MJCompiler\test\program.mj
+INFO  19:03:15,946 - #2 program
+INFO  19:03:15,946 - #18 P
+INFO  19:03:15,946 - #18 int
+INFO  19:03:15,946 - #18 a
+INFO  19:03:15,946 - #38 ;
+INFO  19:03:15,946 - #46 {
+INFO  19:03:15,946 - #12 void
+INFO  19:03:15,946 - #18 main
+INFO  19:03:15,946 - #42 (
+INFO  19:03:15,946 - #43 )
+INFO  19:03:15,946 - #46 {
+INFO  19:03:15,951 - #18 a
+INFO  19:03:15,951 - #35 =
+INFO  19:03:15,951 - #21 false
+INFO  19:03:15,951 - #38 ;
+INFO  19:03:15,951 - #9 print
+INFO  19:03:15,951 - #42 (
+INFO  19:03:15,951 - #18 a
+INFO  19:03:15,951 - #43 )
+INFO  19:03:15,951 - #38 ;
+INFO  19:03:15,951 - #47 }
+INFO  19:03:15,951 - #47 }
+INFO  19:03:15,961 - Program(
+  ProgName(
+   P
+  ) [ProgName]
+  NamespaceListEmpty(
+  ) [NamespaceListEmpty]
+  GlobalsListChain(
+    GlobalsListEmpty(
+    ) [GlobalsListEmpty]
+    GlobalsPartVar(
+      VarDecl(
+        TypeIdent(
+         int
+        ) [TypeIdent]
+        VarDeclSublistSingle(
+          VarDeclSubunitIdent(
+           a
+          ) [VarDeclSubunitIdent]
+        ) [VarDeclSublistSingle]
+      ) [VarDecl]
+    ) [GlobalsPartVar]
+  ) [GlobalsListChain]
+  MethodDeclListChain(
+    MethodDeclListEmpty(
+    ) [MethodDeclListEmpty]
+    MethodDecl(
+      MethodTypeName(
+        RetTypeVoid(
+        ) [RetTypeVoid]
+       main
+      ) [MethodTypeName]
+      FormParsEmpty(
+      ) [FormParsEmpty]
+      VarDeclListEmpty(
+      ) [VarDeclListEmpty]
+      StatementListChain(
+        StatementListChain(
+          StatementListEmpty(
+          ) [StatementListEmpty]
+          StatementDesignator(
+            DesignatorStatementAssign(
+              DesignatorNoNamespace(
+               a
+              ) [DesignatorNoNamespace]
+              ExprPositive(
+                Term(
+                  FactorBoolean(
+                   false
+                  ) [FactorBoolean]
+                  TermSublistEmpty(
+                  ) [TermSublistEmpty]
+                ) [Term]
+                ExprSublistEmpty(
+                ) [ExprSublistEmpty]
+              ) [ExprPositive]
+            ) [DesignatorStatementAssign]
+          ) [StatementDesignator]
+        ) [StatementListChain]
+        StatementPrint(
+          ExprPositive(
+            Term(
+              FactorDesignator(
+                DesignatorNoNamespace(
+                 a
+                ) [DesignatorNoNamespace]
+              ) [FactorDesignator]
+              TermSublistEmpty(
+              ) [TermSublistEmpty]
+            ) [Term]
+            ExprSublistEmpty(
+            ) [ExprSublistEmpty]
+          ) [ExprPositive]
+        ) [StatementPrint]
+      ) [StatementListChain]
+    ) [MethodDecl]
+  ) [MethodDeclListChain]
+) [Program]
+INFO  19:03:15,961 - ================SEMANTICKA OBRADA===================
+INFO  19:03:15,961 - Deklarisana globalna promenljiva, linija: 3, Var a: int, 0, 0 
+INFO  19:03:15,961 - Pretraga na 7(a), Nadjeno Var a: int, 0, 0 
+ERROR 19:03:15,961 - Desna strana nije kompatibilna pri dodeli sa levom! na liniji 7
+INFO  19:03:15,961 - Pretraga na 8(a), Nadjeno Var a: int, 0, 0 
+INFO  19:03:15,961 - =================STATS==================
+INFO  19:03:15,961 - Simbolicke konstante: 0
+INFO  19:03:15,961 - Globalne promenljive: 1
+INFO  19:03:15,961 - Lokalne promenljive: 0
+INFO  19:03:15,961 - nVars = 1
+INFO  19:03:15,961 - ===================================
+ERROR 19:03:15,961 - Parsiranje NIJE uspesno zavrseno!

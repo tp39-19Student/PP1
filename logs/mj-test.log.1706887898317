@@ -1,0 +1,177 @@
+INFO  16:31:19,537 - Compiling source file: D:\pp1domaci\workspace\MJCompiler\test\program.mj
+INFO  16:31:19,557 - #2 program
+INFO  16:31:19,557 - #18 P
+INFO  16:31:19,557 - #17 namespace
+INFO  16:31:19,558 - #18 test
+INFO  16:31:19,558 - #46 {
+INFO  16:31:19,558 - #18 int
+INFO  16:31:19,558 - #18 b
+INFO  16:31:19,558 - #38 ;
+INFO  16:31:19,559 - #46 {
+INFO  16:31:19,559 - #47 }
+INFO  16:31:19,560 - #47 }
+INFO  16:31:19,560 - #18 int
+INFO  16:31:19,560 - #18 a
+INFO  16:31:19,560 - #38 ;
+INFO  16:31:19,560 - #46 {
+INFO  16:31:19,560 - #12 void
+INFO  16:31:19,560 - #18 main
+INFO  16:31:19,561 - #42 (
+INFO  16:31:19,561 - #43 )
+INFO  16:31:19,561 - #18 char
+INFO  16:31:19,562 - #18 a
+INFO  16:31:19,562 - #38 ;
+INFO  16:31:19,562 - #46 {
+INFO  16:31:19,562 - #18 a
+INFO  16:31:19,563 - #35 =
+INFO  16:31:19,563 - #19 1
+INFO  16:31:19,563 - #38 ;
+INFO  16:31:19,564 - #18 a
+INFO  16:31:19,564 - #36 ++
+INFO  16:31:19,564 - #38 ;
+INFO  16:31:19,564 - #9 print
+INFO  16:31:19,564 - #42 (
+INFO  16:31:19,564 - #18 a
+INFO  16:31:19,564 - #43 )
+INFO  16:31:19,564 - #38 ;
+INFO  16:31:19,564 - #47 }
+INFO  16:31:19,565 - #47 }
+INFO  16:31:19,572 - Program(
+  ProgName(
+   P
+  ) [ProgName]
+  NamespaceListChain(
+    NamespaceListEmpty(
+    ) [NamespaceListEmpty]
+    Namespace(
+      NamespaceName(
+       test
+      ) [NamespaceName]
+      GlobalsListChain(
+        GlobalsListEmpty(
+        ) [GlobalsListEmpty]
+        GlobalsPartVar(
+          VarDecl(
+            TypeIdent(
+             int
+            ) [TypeIdent]
+            VarDeclSublistSingle(
+              VarDeclSubunitIdent(
+               b
+              ) [VarDeclSubunitIdent]
+            ) [VarDeclSublistSingle]
+          ) [VarDecl]
+        ) [GlobalsPartVar]
+      ) [GlobalsListChain]
+      MethodDeclListEmpty(
+      ) [MethodDeclListEmpty]
+    ) [Namespace]
+  ) [NamespaceListChain]
+  GlobalsListChain(
+    GlobalsListEmpty(
+    ) [GlobalsListEmpty]
+    GlobalsPartVar(
+      VarDecl(
+        TypeIdent(
+         int
+        ) [TypeIdent]
+        VarDeclSublistSingle(
+          VarDeclSubunitIdent(
+           a
+          ) [VarDeclSubunitIdent]
+        ) [VarDeclSublistSingle]
+      ) [VarDecl]
+    ) [GlobalsPartVar]
+  ) [GlobalsListChain]
+  MethodDeclListChain(
+    MethodDeclListEmpty(
+    ) [MethodDeclListEmpty]
+    MethodDecl(
+      MethodTypeName(
+        RetTypeVoid(
+        ) [RetTypeVoid]
+       main
+      ) [MethodTypeName]
+      FormParsEmpty(
+      ) [FormParsEmpty]
+      VarDeclListChain(
+        VarDeclListEmpty(
+        ) [VarDeclListEmpty]
+        VarDecl(
+          TypeIdent(
+           char
+          ) [TypeIdent]
+          VarDeclSublistSingle(
+            VarDeclSubunitIdent(
+             a
+            ) [VarDeclSubunitIdent]
+          ) [VarDeclSublistSingle]
+        ) [VarDecl]
+      ) [VarDeclListChain]
+      StatementListChain(
+        StatementListChain(
+          StatementListChain(
+            StatementListEmpty(
+            ) [StatementListEmpty]
+            StatementDesignator(
+              DesignatorStatementAssign(
+                DesignatorNoNamespace(
+                 a
+                ) [DesignatorNoNamespace]
+                ExprPositive(
+                  Term(
+                    FactorNumber(
+                     1
+                    ) [FactorNumber]
+                    TermSublistEmpty(
+                    ) [TermSublistEmpty]
+                  ) [Term]
+                  ExprSublistEmpty(
+                  ) [ExprSublistEmpty]
+                ) [ExprPositive]
+              ) [DesignatorStatementAssign]
+            ) [StatementDesignator]
+          ) [StatementListChain]
+          StatementDesignator(
+            DesignatorStatementIncrement(
+              DesignatorNoNamespace(
+               a
+              ) [DesignatorNoNamespace]
+            ) [DesignatorStatementIncrement]
+          ) [StatementDesignator]
+        ) [StatementListChain]
+        StatementPrint(
+          ExprPositive(
+            Term(
+              FactorDesignator(
+                DesignatorNoNamespace(
+                 a
+                ) [DesignatorNoNamespace]
+              ) [FactorDesignator]
+              TermSublistEmpty(
+              ) [TermSublistEmpty]
+            ) [Term]
+            ExprSublistEmpty(
+            ) [ExprSublistEmpty]
+          ) [ExprPositive]
+        ) [StatementPrint]
+      ) [StatementListChain]
+    ) [MethodDecl]
+  ) [MethodDeclListChain]
+) [Program]
+INFO  16:31:19,572 - ================SEMANTICKA OBRADA===================
+INFO  16:31:19,574 - Deklarisana globalna promenljiva, linija: 6, Var b: int, 0, 0 
+INFO  16:31:19,575 - Deklarisana globalna promenljiva, linija: 10, Var a: int, 0, 0 
+INFO  16:31:19,575 - Deklarisana lokalna promenljiva, linija: 12, Var a: char, 0, 1 
+INFO  16:31:19,575 - Pretraga na 13(a), Nadjeno Var a: char, 0, 1 
+ERROR 16:31:19,575 - Desna strana nije kompatibilna pri dodeli sa levom! na liniji 13
+INFO  16:31:19,575 - Pretraga na 14(a), Nadjeno Var a: char, 0, 1 
+ERROR 16:31:19,575 - Designator mora da bude tipa int! na liniji 14
+INFO  16:31:19,575 - Pretraga na 15(a), Nadjeno Var a: char, 0, 1 
+INFO  16:31:19,575 - =================STATS==================
+INFO  16:31:19,575 - Simbolicke konstante: 0
+INFO  16:31:19,575 - Globalne promenljive: 2
+INFO  16:31:19,575 - Lokalne promenljive: 1
+INFO  16:31:19,575 - nVars = 2
+INFO  16:31:19,575 - ===================================
+ERROR 16:31:19,576 - Parsiranje NIJE uspesno zavrseno!

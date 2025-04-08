@@ -1,0 +1,110 @@
+INFO  19:54:21,691 - Compiling source file: D:\pp1domaci\workspace\MJCompiler\test\program.mj
+INFO  19:54:21,716 - #2 program
+INFO  19:54:21,716 - #18 test
+INFO  19:54:21,716 - #17 namespace
+INFO  19:54:21,716 - #18 a
+INFO  19:54:21,716 - #46 {
+INFO  19:54:21,716 - #18 int
+INFO  19:54:21,716 - #18 t
+INFO  19:54:21,716 - #38 ;
+INFO  19:54:21,716 - #46 {
+INFO  19:54:21,716 - #12 void
+INFO  19:54:21,716 - #18 main
+INFO  19:54:21,721 - #42 (
+INFO  19:54:21,721 - #18 int
+INFO  19:54:21,721 - #18 a
+INFO  19:54:21,721 - #40 ,
+INFO  19:54:21,721 - #18 int
+INFO  19:54:21,721 - #18 b
+INFO  19:54:21,721 - #43 )
+INFO  19:54:21,721 - #18 int
+INFO  19:54:21,721 - #18 c
+INFO  19:54:21,721 - #38 ;
+INFO  19:54:21,721 - #46 {
+INFO  19:54:21,721 - #47 }
+INFO  19:54:21,721 - #47 }
+INFO  19:54:21,721 - #47 }
+INFO  19:54:21,721 - #46 {
+INFO  19:54:21,721 - #47 }
+INFO  19:54:21,731 - Program(
+  ProgName(
+   test
+  ) [ProgName]
+  NamespaceListChain(
+    NamespaceListEmpty(
+    ) [NamespaceListEmpty]
+    Namespace(
+      NamespaceName(
+       a
+      ) [NamespaceName]
+      GlobalsListChain(
+        GlobalsListEmpty(
+        ) [GlobalsListEmpty]
+        GlobalsPartVar(
+          VarDecl(
+            TypeIdent(
+             int
+            ) [TypeIdent]
+            VarDeclSublistSingle(
+              VarDeclSubunitIdent(
+               t
+              ) [VarDeclSubunitIdent]
+            ) [VarDeclSublistSingle]
+          ) [VarDecl]
+        ) [GlobalsPartVar]
+      ) [GlobalsListChain]
+      MethodDeclListChain(
+        MethodDeclListEmpty(
+        ) [MethodDeclListEmpty]
+        MethodDecl(
+          MethodTypeName(
+            RetTypeVoid(
+            ) [RetTypeVoid]
+           main
+          ) [MethodTypeName]
+          FormParsNotEmpty(
+            FormParsListChain(
+              FormParsListSingle(
+                FormParamOne(
+                  TypeIdent(
+                   int
+                  ) [TypeIdent]
+                 a
+                ) [FormParamOne]
+              ) [FormParsListSingle]
+              FormParamOne(
+                TypeIdent(
+                 int
+                ) [TypeIdent]
+               b
+              ) [FormParamOne]
+            ) [FormParsListChain]
+          ) [FormParsNotEmpty]
+          VarDeclListChain(
+            VarDeclListEmpty(
+            ) [VarDeclListEmpty]
+            VarDecl(
+              TypeIdent(
+               int
+              ) [TypeIdent]
+              VarDeclSublistSingle(
+                VarDeclSubunitIdent(
+                 c
+                ) [VarDeclSubunitIdent]
+              ) [VarDeclSublistSingle]
+            ) [VarDecl]
+          ) [VarDeclListChain]
+          StatementListEmpty(
+          ) [StatementListEmpty]
+        ) [MethodDecl]
+      ) [MethodDeclListChain]
+    ) [Namespace]
+  ) [NamespaceListChain]
+  GlobalsListEmpty(
+  ) [GlobalsListEmpty]
+  MethodDeclListEmpty(
+  ) [MethodDeclListEmpty]
+) [Program]
+INFO  19:54:21,731 - ===================================
+INFO  19:54:21,731 - ===================================
+INFO  19:54:21,731 - Parsiranje uspesno zavrseno!

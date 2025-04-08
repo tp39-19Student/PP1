@@ -1,0 +1,40 @@
+INFO  17:57:52,225 - Compiling source file: D:\pp1domaci\workspace\MJCompiler\test\program.mj
+INFO  17:57:52,230 - #2 program
+INFO  17:57:52,230 - #18 MyProg1
+INFO  17:57:52,230 - #17 namespace
+INFO  17:57:52,230 - #18 test
+INFO  17:57:52,230 - #46 {
+INFO  17:57:52,230 - #46 {
+INFO  17:57:52,230 - #47 }
+INFO  17:57:52,230 - #47 }
+INFO  17:57:52,235 - #6 const
+INFO  17:57:52,235 - #18 int
+INFO  17:57:52,235 - #18 a
+INFO  17:57:52,235 - #35 =
+INFO  17:57:52,235 - #19 3
+INFO  17:57:52,235 - #38 ;
+INFO  17:57:52,235 - #46 {
+INFO  17:57:52,235 - #47 }
+INFO  17:57:52,235 - ProgramDerived1(
+  NamespaceListDerived1(
+    NamespaceListDerived2(
+    ) [NamespaceListDerived2]
+    NamespaceDerived1(
+      CVCDeclListDerived3(
+      ) [CVCDeclListDerived3]
+      MethodDeclListDerived2(
+      ) [MethodDeclListDerived2]
+    ) [NamespaceDerived1]
+  ) [NamespaceListDerived1]
+  CVCDeclListDerived1(
+    CVCDeclListDerived3(
+    ) [CVCDeclListDerived3]
+    ConstDeclDerived1(
+      TypeDerived1(
+      ) [TypeDerived1]
+    ) [ConstDeclDerived1]
+  ) [CVCDeclListDerived1]
+  MethodDeclListDerived2(
+  ) [MethodDeclListDerived2]
+) [ProgramDerived1]
+INFO  17:57:52,235 - ===================================

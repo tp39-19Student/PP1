@@ -1,0 +1,109 @@
+INFO  18:12:06,276 - Compiling source file: D:\pp1domaci\workspace\MJCompiler\test\program.mj
+INFO  18:12:06,286 - #2 program
+INFO  18:12:06,286 - #18 MyProg1
+INFO  18:12:06,286 - #17 namespace
+INFO  18:12:06,286 - #18 test
+INFO  18:12:06,286 - #46 {
+INFO  18:12:06,286 - #6 const
+INFO  18:12:06,291 - #18 bool
+INFO  18:12:06,291 - #18 h
+INFO  18:12:06,291 - #35 =
+INFO  18:12:06,291 - #21 false
+INFO  18:12:06,291 - #38 ;
+INFO  18:12:06,291 - #18 int
+INFO  18:12:06,291 - #18 a
+INFO  18:12:06,291 - #44 [
+INFO  18:12:06,291 - #45 ]
+INFO  18:12:06,291 - #40 ,
+INFO  18:12:06,291 - #18 b
+INFO  18:12:06,291 - #38 ;
+INFO  18:12:06,291 - #46 {
+INFO  18:12:06,291 - #47 }
+INFO  18:12:06,291 - #47 }
+INFO  18:12:06,291 - #6 const
+INFO  18:12:06,291 - #18 int
+INFO  18:12:06,291 - #18 a
+INFO  18:12:06,291 - #35 =
+INFO  18:12:06,291 - #19 3
+INFO  18:12:06,291 - #40 ,
+INFO  18:12:06,291 - #18 b
+INFO  18:12:06,291 - #35 =
+INFO  18:12:06,291 - #21 true
+INFO  18:12:06,291 - #40 ,
+INFO  18:12:06,296 - #18 c
+INFO  18:12:06,296 - #35 =
+INFO  18:12:06,296 - #20  
+INFO  18:12:06,296 - #38 ;
+INFO  18:12:06,296 - #46 {
+INFO  18:12:06,296 - #47 }
+INFO  18:12:06,296 - ProgramDerived1(
+  NamespaceListDerived1(
+    NamespaceListDerived2(
+    ) [NamespaceListDerived2]
+    NamespaceDerived1(
+      CVCDeclListDerived2(
+        CVCDeclListDerived1(
+          CVCDeclListDerived3(
+          ) [CVCDeclListDerived3]
+          ConstDeclDerived1(
+            TypeDerived1(
+            ) [TypeDerived1]
+            ConstDeclSublistDerived2(
+              ConstDeclSubunitDerived1(
+                ValueDerived3(
+                ) [ValueDerived3]
+              ) [ConstDeclSubunitDerived1]
+            ) [ConstDeclSublistDerived2]
+          ) [ConstDeclDerived1]
+        ) [CVCDeclListDerived1]
+        VarDeclDerived1(
+          TypeDerived1(
+          ) [TypeDerived1]
+          VarDeclSublistDerived1(
+            VarDeclSublistDerived2(
+              VarDeclSubunitDerived1(
+                ArrayBoxDerived1(
+                ) [ArrayBoxDerived1]
+              ) [VarDeclSubunitDerived1]
+            ) [VarDeclSublistDerived2]
+            VarDeclSubunitDerived1(
+              ArrayBoxDerived2(
+              ) [ArrayBoxDerived2]
+            ) [VarDeclSubunitDerived1]
+          ) [VarDeclSublistDerived1]
+        ) [VarDeclDerived1]
+      ) [CVCDeclListDerived2]
+      MethodDeclListDerived2(
+      ) [MethodDeclListDerived2]
+    ) [NamespaceDerived1]
+  ) [NamespaceListDerived1]
+  CVCDeclListDerived1(
+    CVCDeclListDerived3(
+    ) [CVCDeclListDerived3]
+    ConstDeclDerived1(
+      TypeDerived1(
+      ) [TypeDerived1]
+      ConstDeclSublistDerived1(
+        ConstDeclSublistDerived1(
+          ConstDeclSublistDerived2(
+            ConstDeclSubunitDerived1(
+              ValueDerived1(
+              ) [ValueDerived1]
+            ) [ConstDeclSubunitDerived1]
+          ) [ConstDeclSublistDerived2]
+          ConstDeclSubunitDerived1(
+            ValueDerived3(
+            ) [ValueDerived3]
+          ) [ConstDeclSubunitDerived1]
+        ) [ConstDeclSublistDerived1]
+        ConstDeclSubunitDerived1(
+          ValueDerived2(
+          ) [ValueDerived2]
+        ) [ConstDeclSubunitDerived1]
+      ) [ConstDeclSublistDerived1]
+    ) [ConstDeclDerived1]
+  ) [CVCDeclListDerived1]
+  MethodDeclListDerived2(
+  ) [MethodDeclListDerived2]
+) [ProgramDerived1]
+INFO  18:12:06,296 - ===================================

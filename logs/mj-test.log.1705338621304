@@ -1,0 +1,66 @@
+INFO  18:09:52,989 - Compiling source file: D:\pp1domaci\workspace\MJCompiler\test\program.mj
+INFO  18:09:52,999 - #2 program
+INFO  18:09:52,999 - #18 MyProg1
+INFO  18:09:52,999 - #17 namespace
+INFO  18:09:52,999 - #18 test
+INFO  18:09:52,999 - #46 {
+INFO  18:09:52,999 - #46 {
+INFO  18:09:52,999 - #47 }
+INFO  18:09:53,004 - #47 }
+INFO  18:09:53,004 - #6 const
+INFO  18:09:53,004 - #18 int
+INFO  18:09:53,004 - #18 a
+INFO  18:09:53,004 - #35 =
+INFO  18:09:53,004 - #19 3
+INFO  18:09:53,004 - #40 ,
+INFO  18:09:53,004 - #18 b
+INFO  18:09:53,004 - #35 =
+INFO  18:09:53,004 - #21 true
+INFO  18:09:53,004 - #40 ,
+INFO  18:09:53,004 - #18 c
+INFO  18:09:53,004 - #35 =
+INFO  18:09:53,004 - #20  
+INFO  18:09:53,004 - #38 ;
+INFO  18:09:53,004 - #46 {
+INFO  18:09:53,004 - #47 }
+INFO  18:09:53,004 - ProgramDerived1(
+  NamespaceListDerived1(
+    NamespaceListDerived2(
+    ) [NamespaceListDerived2]
+    NamespaceDerived1(
+      CVCDeclListDerived3(
+      ) [CVCDeclListDerived3]
+      MethodDeclListDerived2(
+      ) [MethodDeclListDerived2]
+    ) [NamespaceDerived1]
+  ) [NamespaceListDerived1]
+  CVCDeclListDerived1(
+    CVCDeclListDerived3(
+    ) [CVCDeclListDerived3]
+    ConstDeclDerived1(
+      TypeDerived1(
+      ) [TypeDerived1]
+      ConstDeclSublistDerived1(
+        ConstDeclSublistDerived1(
+          ConstDeclSublistDerived2(
+            ConstDeclSubunitDerived1(
+              ValueDerived1(
+              ) [ValueDerived1]
+            ) [ConstDeclSubunitDerived1]
+          ) [ConstDeclSublistDerived2]
+          ConstDeclSubunitDerived1(
+            ValueDerived3(
+            ) [ValueDerived3]
+          ) [ConstDeclSubunitDerived1]
+        ) [ConstDeclSublistDerived1]
+        ConstDeclSubunitDerived1(
+          ValueDerived2(
+          ) [ValueDerived2]
+        ) [ConstDeclSubunitDerived1]
+      ) [ConstDeclSublistDerived1]
+    ) [ConstDeclDerived1]
+  ) [CVCDeclListDerived1]
+  MethodDeclListDerived2(
+  ) [MethodDeclListDerived2]
+) [ProgramDerived1]
+INFO  18:09:53,004 - ===================================

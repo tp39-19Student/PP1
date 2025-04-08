@@ -1,0 +1,107 @@
+INFO  19:23:38,748 - Compiling source file: D:\pp1domaci\workspace\MJCompiler\test\program.mj
+INFO  19:23:38,763 - #2 program
+INFO  19:23:38,763 - #18 P
+INFO  19:23:38,763 - #18 int
+INFO  19:23:38,770 - #18 a
+INFO  19:23:38,770 - #44 [
+INFO  19:23:38,770 - #45 ]
+INFO  19:23:38,770 - #38 ;
+INFO  19:23:38,770 - #46 {
+INFO  19:23:38,770 - #12 void
+INFO  19:23:38,770 - #18 main
+INFO  19:23:38,770 - #42 (
+INFO  19:23:38,770 - #43 )
+INFO  19:23:38,770 - #46 {
+INFO  19:23:38,770 - #18 a
+INFO  19:23:38,770 - #35 =
+INFO  19:23:38,770 - #8 new
+INFO  19:23:38,770 - #18 int
+INFO  19:23:38,770 - #44 [
+INFO  19:23:38,770 - #19 2
+INFO  19:23:38,770 - #45 ]
+INFO  19:23:38,770 - #38 ;
+INFO  19:23:38,770 - #47 }
+INFO  19:23:38,770 - #47 }
+INFO  19:23:38,770 - Program(
+  ProgName(
+   P
+  ) [ProgName]
+  NamespaceListEmpty(
+  ) [NamespaceListEmpty]
+  GlobalsListChain(
+    GlobalsListEmpty(
+    ) [GlobalsListEmpty]
+    GlobalsPartVar(
+      VarDecl(
+        TypeIdent(
+         int
+        ) [TypeIdent]
+        VarDeclSublistSingle(
+          VarDeclSubunitArray(
+           a
+          ) [VarDeclSubunitArray]
+        ) [VarDeclSublistSingle]
+      ) [VarDecl]
+    ) [GlobalsPartVar]
+  ) [GlobalsListChain]
+  MethodDeclListChain(
+    MethodDeclListEmpty(
+    ) [MethodDeclListEmpty]
+    MethodDecl(
+      MethodTypeName(
+        RetTypeVoid(
+        ) [RetTypeVoid]
+       main
+      ) [MethodTypeName]
+      FormParsEmpty(
+      ) [FormParsEmpty]
+      VarDeclListEmpty(
+      ) [VarDeclListEmpty]
+      StatementListChain(
+        StatementListEmpty(
+        ) [StatementListEmpty]
+        StatementDesignator(
+          DesignatorStatementAssign(
+            DesignatorNoNamespace(
+             a
+            ) [DesignatorNoNamespace]
+            ExprPositive(
+              Term(
+                FactorNewArray(
+                  TypeIdent(
+                   int
+                  ) [TypeIdent]
+                  ExprPositive(
+                    Term(
+                      FactorNumber(
+                       2
+                      ) [FactorNumber]
+                      TermSublistEmpty(
+                      ) [TermSublistEmpty]
+                    ) [Term]
+                    ExprSublistEmpty(
+                    ) [ExprSublistEmpty]
+                  ) [ExprPositive]
+                ) [FactorNewArray]
+                TermSublistEmpty(
+                ) [TermSublistEmpty]
+              ) [Term]
+              ExprSublistEmpty(
+              ) [ExprSublistEmpty]
+            ) [ExprPositive]
+          ) [DesignatorStatementAssign]
+        ) [StatementDesignator]
+      ) [StatementListChain]
+    ) [MethodDecl]
+  ) [MethodDeclListChain]
+) [Program]
+INFO  19:23:38,770 - ================SEMANTICKA OBRADA===================
+INFO  19:23:38,785 - Deklarisana globalna promenljiva, linija: 5, Var a: Arr of int, 0, 0 
+INFO  19:23:38,785 - Pretraga na 9(a), Nadjeno Var a: Arr of int, 0, 0 
+INFO  19:23:38,785 - =================STATS==================
+INFO  19:23:38,785 - Simbolicke konstante: 0
+INFO  19:23:38,785 - Globalne promenljive: 1
+INFO  19:23:38,785 - Lokalne promenljive: 0
+INFO  19:23:38,785 - nVars = 1
+INFO  19:23:38,785 - ===================================
+INFO  19:23:38,785 - Parsiranje uspesno zavrseno!

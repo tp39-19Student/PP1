@@ -1,0 +1,36 @@
+INFO  16:06:01,107 - Compiling source file: D:\pp1domaci\workspace\MJCompiler\test\program.mj
+INFO  16:06:01,132 - #2 program
+INFO  16:06:01,132 - #18 MyProg
+INFO  16:06:01,132 - #18 boole
+INFO  16:06:01,132 - #18 a
+INFO  16:06:01,132 - #38 ;
+INFO  16:06:01,132 - #46 {
+INFO  16:06:01,137 - #47 }
+INFO  16:06:01,142 - Program(
+  ProgName(
+   MyProg
+  ) [ProgName]
+  NamespaceListEmpty(
+  ) [NamespaceListEmpty]
+  GlobalsListChain(
+    GlobalsListEmpty(
+    ) [GlobalsListEmpty]
+    GlobalsPartVar(
+      VarDecl(
+        TypeIdent(
+         boole
+        ) [TypeIdent]
+        VarDeclSublistSingle(
+          VarDeclSubunitIdent(
+           a
+          ) [VarDeclSubunitIdent]
+        ) [VarDeclSublistSingle]
+      ) [VarDecl]
+    ) [GlobalsPartVar]
+  ) [GlobalsListChain]
+  MethodDeclListEmpty(
+  ) [MethodDeclListEmpty]
+) [Program]
+INFO  16:06:01,142 - ===================================
+ERROR 16:06:01,142 - Nije pronadjen tip boole u tabeli simbola! na liniji 2
+INFO  16:06:01,142 - ===================================

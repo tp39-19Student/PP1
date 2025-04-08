@@ -1,0 +1,165 @@
+INFO  19:59:15,218 - Compiling source file: D:\pp1domaci\workspace\MJCompiler\test\program.mj
+INFO  19:59:15,243 - #2 program
+INFO  19:59:15,243 - #18 a
+INFO  19:59:15,243 - #18 int
+INFO  19:59:15,243 - #18 a
+INFO  19:59:15,248 - #40 ,
+INFO  19:59:15,248 - #18 b
+INFO  19:59:15,248 - #38 ;
+INFO  19:59:15,248 - #18 bool
+INFO  19:59:15,248 - #18 c
+INFO  19:59:15,248 - #22 +
+ERROR 19:59:15,248 - 
+Sintaksna greska na liniji 4
+INFO  19:59:15,248 - #38 ;
+INFO  19:59:15,248 - #18 int
+INFO  19:59:15,248 - #18 a
+INFO  19:59:15,248 - #40 ,
+ERROR 19:59:15,248 - Izvrsen oporavak od greske (definicija promenljive)
+INFO  19:59:15,248 - #18 b
+INFO  19:59:15,248 - #23 -
+ERROR 19:59:15,248 - 
+Sintaksna greska na liniji 5
+INFO  19:59:15,248 - #38 ;
+INFO  19:59:15,248 - #46 {
+INFO  19:59:15,248 - #18 int
+INFO  19:59:15,248 - #18 main
+ERROR 19:59:15,248 - Izvrsen oporavak od greske (definicija promenljive)
+INFO  19:59:15,248 - #42 (
+INFO  19:59:15,248 - #43 )
+INFO  19:59:15,248 - #46 {
+INFO  19:59:15,253 - #18 a
+INFO  19:59:15,253 - #35 =
+INFO  19:59:15,253 - #19 2
+INFO  19:59:15,253 - #38 ;
+INFO  19:59:15,253 - #18 a
+INFO  19:59:15,253 - #35 =
+INFO  19:59:15,253 - #19 19
+INFO  19:59:15,253 - #18 uhofie
+ERROR 19:59:15,253 - 
+Sintaksna greska na liniji 11
+INFO  19:59:15,253 - #38 ;
+INFO  19:59:15,253 - #18 a
+INFO  19:59:15,253 - #35 =
+INFO  19:59:15,253 - #19 2
+ERROR 19:59:15,253 - Izvrsen oporavak od greske (iskaz dodele)
+INFO  19:59:15,253 - #38 ;
+INFO  19:59:15,253 - #47 }
+INFO  19:59:15,253 - #47 }
+INFO  19:59:15,253 - ProgramDerived1(
+  NamespaceListDerived2(
+  ) [NamespaceListDerived2]
+  GlobalsListDerived1(
+    GlobalsListDerived1(
+      GlobalsListDerived1(
+        GlobalsListDerived2(
+        ) [GlobalsListDerived2]
+        GlobalsPartDerived2(
+          VarDeclDerived1(
+            TypeDerived1(
+            ) [TypeDerived1]
+            VarDeclSublistDerived1(
+              VarDeclSublistDerived2(
+                VarDeclSubunitDerived1(
+                ) [VarDeclSubunitDerived1]
+              ) [VarDeclSublistDerived2]
+              VarDeclSubunitDerived1(
+              ) [VarDeclSubunitDerived1]
+            ) [VarDeclSublistDerived1]
+          ) [VarDeclDerived1]
+        ) [GlobalsPartDerived2]
+      ) [GlobalsListDerived1]
+      GlobalsPartDerived2(
+        VarDeclDerived1(
+          TypeDerived1(
+          ) [TypeDerived1]
+          VarDeclSublistDerived2(
+            VarDeclSubunitDerived3(
+            ) [VarDeclSubunitDerived3]
+          ) [VarDeclSublistDerived2]
+        ) [VarDeclDerived1]
+      ) [GlobalsPartDerived2]
+    ) [GlobalsListDerived1]
+    GlobalsPartDerived2(
+      VarDeclDerived1(
+        TypeDerived1(
+        ) [TypeDerived1]
+        VarDeclSublistDerived1(
+          VarDeclSublistDerived2(
+            VarDeclSubunitDerived1(
+            ) [VarDeclSubunitDerived1]
+          ) [VarDeclSublistDerived2]
+          VarDeclSubunitDerived3(
+          ) [VarDeclSubunitDerived3]
+        ) [VarDeclSublistDerived1]
+      ) [VarDeclDerived1]
+    ) [GlobalsPartDerived2]
+  ) [GlobalsListDerived1]
+  MethodDeclListDerived1(
+    MethodDeclListDerived2(
+    ) [MethodDeclListDerived2]
+    MethodDeclDerived1(
+      RetTypeDerived1(
+        TypeDerived1(
+        ) [TypeDerived1]
+      ) [RetTypeDerived1]
+      FormParsDerived1(
+      ) [FormParsDerived1]
+      VarDeclListDerived2(
+      ) [VarDeclListDerived2]
+      StatementListDerived1(
+        StatementListDerived1(
+          StatementListDerived1(
+            StatementListDerived2(
+            ) [StatementListDerived2]
+            StatementDerived1(
+              DesignatorStatementDerived1(
+                DesignatorDerived2(
+                  DesignatorSublistDerived2(
+                  ) [DesignatorSublistDerived2]
+                ) [DesignatorDerived2]
+                AssignopDerived1(
+                ) [AssignopDerived1]
+                ExprDerived1(
+                  TermDerived1(
+                    FactorDerived3(
+                    ) [FactorDerived3]
+                    TermSublistDerived2(
+                    ) [TermSublistDerived2]
+                  ) [TermDerived1]
+                  ExprSublistDerived2(
+                  ) [ExprSublistDerived2]
+                ) [ExprDerived1]
+              ) [DesignatorStatementDerived1]
+            ) [StatementDerived1]
+          ) [StatementListDerived1]
+          StatementDerived1(
+            DesignatorStatementDerived5(
+            ) [DesignatorStatementDerived5]
+          ) [StatementDerived1]
+        ) [StatementListDerived1]
+        StatementDerived1(
+          DesignatorStatementDerived1(
+            DesignatorDerived2(
+              DesignatorSublistDerived2(
+              ) [DesignatorSublistDerived2]
+            ) [DesignatorDerived2]
+            AssignopDerived1(
+            ) [AssignopDerived1]
+            ExprDerived1(
+              TermDerived1(
+                FactorDerived3(
+                ) [FactorDerived3]
+                TermSublistDerived2(
+                ) [TermSublistDerived2]
+              ) [TermDerived1]
+              ExprSublistDerived2(
+              ) [ExprSublistDerived2]
+            ) [ExprDerived1]
+          ) [DesignatorStatementDerived1]
+        ) [StatementDerived1]
+      ) [StatementListDerived1]
+    ) [MethodDeclDerived1]
+  ) [MethodDeclListDerived1]
+) [ProgramDerived1]
+INFO  19:59:15,253 - ===================================

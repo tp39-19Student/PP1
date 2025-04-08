@@ -1,0 +1,54 @@
+INFO  20:59:23,893 - Compiling source file: D:\pp1domaci\workspace\MJCompiler\test\program.mj
+INFO  20:59:23,918 - #2 program
+INFO  20:59:23,918 - #18 a
+INFO  20:59:23,918 - #18 int
+INFO  20:59:23,918 - #18 a
+INFO  20:59:23,918 - #40 ,
+INFO  20:59:23,923 - #18 b
+INFO  20:59:23,923 - #38 ;
+INFO  20:59:23,923 - #18 bool
+INFO  20:59:23,923 - #18 c
+INFO  20:59:23,923 - #22 +
+ERROR 20:59:23,923 - 
+Sintaksna greska na liniji 4
+INFO  20:59:23,923 - #38 ;
+INFO  20:59:23,923 - #18 int
+INFO  20:59:23,923 - #18 a
+INFO  20:59:23,923 - #40 ,
+ERROR 20:59:23,923 - Izvrsen oporavak od greske (definicija promenljive)
+INFO  20:59:23,923 - #18 b
+INFO  20:59:23,923 - #23 -
+ERROR 20:59:23,923 - 
+Sintaksna greska na liniji 5
+INFO  20:59:23,928 - #38 ;
+INFO  20:59:23,928 - #46 {
+INFO  20:59:23,928 - #18 int
+INFO  20:59:23,928 - #18 main
+ERROR 20:59:23,928 - Izvrsen oporavak od greske (definicija promenljive)
+INFO  20:59:23,933 - #42 (
+INFO  20:59:23,933 - #43 )
+INFO  20:59:23,933 - #46 {
+INFO  20:59:23,933 - #18 a
+INFO  20:59:23,933 - #35 =
+INFO  20:59:23,933 - #19 2
+INFO  20:59:23,933 - #38 ;
+INFO  20:59:23,933 - #7 if
+INFO  20:59:23,933 - #42 (
+INFO  20:59:23,933 - #18 a
+ERROR 20:59:23,933 - 
+Sintaksna greska na liniji 12
+INFO  20:59:23,933 - #27 ==
+INFO  20:59:23,933 - #19 2
+INFO  20:59:23,933 - #43 )
+INFO  20:59:23,933 - #46 {
+INFO  20:59:23,933 - #18 b
+INFO  20:59:23,933 - #35 =
+INFO  20:59:23,933 - #19 3
+INFO  20:59:23,933 - #38 ;
+INFO  20:59:23,933 - #47 }
+INFO  20:59:23,933 - #47 }
+INFO  20:59:23,933 - #47 }
+ERROR 20:59:23,938 - Izvrsen oporavak od greske (iskaz) na liniji 12
+ERROR 20:59:23,938 - 
+Sintaksna greska na liniji 14
+ERROR 20:59:23,938 - Fatalna greska, parsiranje se ne moze nastaviti na liniji 14

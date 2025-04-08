@@ -1,0 +1,23 @@
+INFO  17:01:16,378 - Compiling source file: D:\pp1domaci\workspace\MJCompiler\test\program.mj
+INFO  17:01:16,398 - #2 program
+INFO  17:01:16,398 - #18 a
+INFO  17:01:16,398 - #46 {
+INFO  17:01:16,403 - #47 }
+INFO  17:01:16,408 - Program(
+  ProgName(
+   a
+  ) [ProgName]
+  NamespaceListEmpty(
+  ) [NamespaceListEmpty]
+  GlobalsListEmpty(
+  ) [GlobalsListEmpty]
+  MethodDeclListEmpty(
+  ) [MethodDeclListEmpty]
+) [Program]
+INFO  17:01:16,408 - ================SEMANTICKA OBRADA===================
+INFO  17:01:16,408 - =================STATS==================
+INFO  17:01:16,408 - Simbolicke konstante: 0
+INFO  17:01:16,408 - Globalne promenljive: 0
+INFO  17:01:16,408 - Lokalne promenljive: 0
+INFO  17:01:16,408 - ===================================
+INFO  17:01:16,408 - Parsiranje uspesno zavrseno!

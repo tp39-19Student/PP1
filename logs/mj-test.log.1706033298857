@@ -1,0 +1,58 @@
+INFO  19:06:59,068 - Compiling source file: D:\pp1domaci\workspace\MJCompiler\test\program.mj
+INFO  19:06:59,093 - #2 program
+INFO  19:06:59,093 - #18 MyProg
+INFO  19:06:59,093 - #17 namespace
+INFO  19:06:59,093 - #18 n1
+INFO  19:06:59,093 - #46 {
+INFO  19:06:59,093 - #18 int
+INFO  19:06:59,093 - #18 bbc
+INFO  19:06:59,093 - #38 ;
+INFO  19:06:59,093 - #18 char
+INFO  19:06:59,093 - #18 bbbbc
+INFO  19:06:59,093 - #38 ;
+INFO  19:06:59,093 - #18 bool
+INFO  19:06:59,093 - #18 asfdc
+INFO  19:06:59,093 - #44 [
+INFO  19:06:59,093 - #45 ]
+INFO  19:06:59,093 - #38 ;
+INFO  19:06:59,093 - #46 {
+INFO  19:06:59,093 - #18 int
+INFO  19:06:59,093 - #18 calc
+INFO  19:06:59,098 - #42 (
+INFO  19:06:59,098 - #18 int
+INFO  19:06:59,098 - #18 a
+INFO  19:06:59,098 - #40 ,
+INFO  19:06:59,098 - #18 int
+INFO  19:06:59,098 - #18 b
+INFO  19:06:59,098 - #43 )
+INFO  19:06:59,098 - #18 int
+INFO  19:06:59,098 - #18 c
+INFO  19:06:59,098 - #46 {
+ERROR 19:06:59,098 - 
+Sintaksna greska na liniji 9
+INFO  19:06:59,098 - #18 c
+INFO  19:06:59,098 - #35 =
+INFO  19:06:59,098 - #18 a
+INFO  19:06:59,098 - #22 +
+INFO  19:06:59,098 - #18 b
+INFO  19:06:59,098 - #38 ;
+INFO  19:06:59,098 - #11 return
+INFO  19:06:59,098 - #18 c
+INFO  19:06:59,098 - #38 ;
+INFO  19:06:59,098 - #47 }
+INFO  19:06:59,098 - #47 }
+INFO  19:06:59,098 - #47 }
+INFO  19:06:59,098 - #17 namespace
+INFO  19:06:59,098 - #18 n2
+INFO  19:06:59,098 - #46 {
+INFO  19:06:59,098 - #18 int
+INFO  19:06:59,098 - #18 bbc
+INFO  19:06:59,098 - #38 ;
+INFO  19:06:59,098 - #46 {
+INFO  19:06:59,098 - #47 }
+INFO  19:06:59,098 - #47 }
+ERROR 19:06:59,098 - Izvrsen oporavak od greske (definicija promenljive)
+INFO  19:06:59,098 - #18 int
+ERROR 19:06:59,098 - 
+Sintaksna greska na liniji 21
+ERROR 19:06:59,098 - Fatalna greska, parsiranje se ne moze nastaviti na liniji 21

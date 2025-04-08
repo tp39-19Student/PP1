@@ -1,0 +1,201 @@
+INFO  16:31:38,320 - Compiling source file: D:\pp1domaci\workspace\MJCompiler\test\program.mj
+INFO  16:31:38,338 - #2 program
+INFO  16:31:38,338 - #18 P
+INFO  16:31:38,338 - #17 namespace
+INFO  16:31:38,339 - #18 test
+INFO  16:31:38,339 - #46 {
+INFO  16:31:38,339 - #18 int
+INFO  16:31:38,340 - #18 b
+INFO  16:31:38,340 - #38 ;
+INFO  16:31:38,340 - #46 {
+INFO  16:31:38,341 - #47 }
+INFO  16:31:38,341 - #47 }
+INFO  16:31:38,341 - #18 int
+INFO  16:31:38,341 - #18 a
+INFO  16:31:38,342 - #38 ;
+INFO  16:31:38,342 - #46 {
+INFO  16:31:38,342 - #12 void
+INFO  16:31:38,342 - #18 main
+INFO  16:31:38,342 - #42 (
+INFO  16:31:38,342 - #43 )
+INFO  16:31:38,343 - #18 char
+INFO  16:31:38,343 - #18 a
+INFO  16:31:38,343 - #38 ;
+INFO  16:31:38,344 - #18 int
+INFO  16:31:38,344 - #18 b
+INFO  16:31:38,345 - #40 ,
+INFO  16:31:38,345 - #18 c
+INFO  16:31:38,345 - #38 ;
+INFO  16:31:38,345 - #46 {
+INFO  16:31:38,345 - #18 a
+INFO  16:31:38,345 - #35 =
+INFO  16:31:38,345 - #19 1
+INFO  16:31:38,345 - #38 ;
+INFO  16:31:38,346 - #18 a
+INFO  16:31:38,347 - #36 ++
+INFO  16:31:38,347 - #38 ;
+INFO  16:31:38,347 - #9 print
+INFO  16:31:38,347 - #42 (
+INFO  16:31:38,347 - #18 a
+INFO  16:31:38,347 - #43 )
+INFO  16:31:38,347 - #38 ;
+INFO  16:31:38,347 - #47 }
+INFO  16:31:38,347 - #47 }
+INFO  16:31:38,355 - Program(
+  ProgName(
+   P
+  ) [ProgName]
+  NamespaceListChain(
+    NamespaceListEmpty(
+    ) [NamespaceListEmpty]
+    Namespace(
+      NamespaceName(
+       test
+      ) [NamespaceName]
+      GlobalsListChain(
+        GlobalsListEmpty(
+        ) [GlobalsListEmpty]
+        GlobalsPartVar(
+          VarDecl(
+            TypeIdent(
+             int
+            ) [TypeIdent]
+            VarDeclSublistSingle(
+              VarDeclSubunitIdent(
+               b
+              ) [VarDeclSubunitIdent]
+            ) [VarDeclSublistSingle]
+          ) [VarDecl]
+        ) [GlobalsPartVar]
+      ) [GlobalsListChain]
+      MethodDeclListEmpty(
+      ) [MethodDeclListEmpty]
+    ) [Namespace]
+  ) [NamespaceListChain]
+  GlobalsListChain(
+    GlobalsListEmpty(
+    ) [GlobalsListEmpty]
+    GlobalsPartVar(
+      VarDecl(
+        TypeIdent(
+         int
+        ) [TypeIdent]
+        VarDeclSublistSingle(
+          VarDeclSubunitIdent(
+           a
+          ) [VarDeclSubunitIdent]
+        ) [VarDeclSublistSingle]
+      ) [VarDecl]
+    ) [GlobalsPartVar]
+  ) [GlobalsListChain]
+  MethodDeclListChain(
+    MethodDeclListEmpty(
+    ) [MethodDeclListEmpty]
+    MethodDecl(
+      MethodTypeName(
+        RetTypeVoid(
+        ) [RetTypeVoid]
+       main
+      ) [MethodTypeName]
+      FormParsEmpty(
+      ) [FormParsEmpty]
+      VarDeclListChain(
+        VarDeclListChain(
+          VarDeclListEmpty(
+          ) [VarDeclListEmpty]
+          VarDecl(
+            TypeIdent(
+             char
+            ) [TypeIdent]
+            VarDeclSublistSingle(
+              VarDeclSubunitIdent(
+               a
+              ) [VarDeclSubunitIdent]
+            ) [VarDeclSublistSingle]
+          ) [VarDecl]
+        ) [VarDeclListChain]
+        VarDecl(
+          TypeIdent(
+           int
+          ) [TypeIdent]
+          VarDeclSublistChain(
+            VarDeclSublistSingle(
+              VarDeclSubunitIdent(
+               b
+              ) [VarDeclSubunitIdent]
+            ) [VarDeclSublistSingle]
+            VarDeclSubunitIdent(
+             c
+            ) [VarDeclSubunitIdent]
+          ) [VarDeclSublistChain]
+        ) [VarDecl]
+      ) [VarDeclListChain]
+      StatementListChain(
+        StatementListChain(
+          StatementListChain(
+            StatementListEmpty(
+            ) [StatementListEmpty]
+            StatementDesignator(
+              DesignatorStatementAssign(
+                DesignatorNoNamespace(
+                 a
+                ) [DesignatorNoNamespace]
+                ExprPositive(
+                  Term(
+                    FactorNumber(
+                     1
+                    ) [FactorNumber]
+                    TermSublistEmpty(
+                    ) [TermSublistEmpty]
+                  ) [Term]
+                  ExprSublistEmpty(
+                  ) [ExprSublistEmpty]
+                ) [ExprPositive]
+              ) [DesignatorStatementAssign]
+            ) [StatementDesignator]
+          ) [StatementListChain]
+          StatementDesignator(
+            DesignatorStatementIncrement(
+              DesignatorNoNamespace(
+               a
+              ) [DesignatorNoNamespace]
+            ) [DesignatorStatementIncrement]
+          ) [StatementDesignator]
+        ) [StatementListChain]
+        StatementPrint(
+          ExprPositive(
+            Term(
+              FactorDesignator(
+                DesignatorNoNamespace(
+                 a
+                ) [DesignatorNoNamespace]
+              ) [FactorDesignator]
+              TermSublistEmpty(
+              ) [TermSublistEmpty]
+            ) [Term]
+            ExprSublistEmpty(
+            ) [ExprSublistEmpty]
+          ) [ExprPositive]
+        ) [StatementPrint]
+      ) [StatementListChain]
+    ) [MethodDecl]
+  ) [MethodDeclListChain]
+) [Program]
+INFO  16:31:38,355 - ================SEMANTICKA OBRADA===================
+INFO  16:31:38,357 - Deklarisana globalna promenljiva, linija: 6, Var b: int, 0, 0 
+INFO  16:31:38,357 - Deklarisana globalna promenljiva, linija: 10, Var a: int, 0, 0 
+INFO  16:31:38,357 - Deklarisana lokalna promenljiva, linija: 12, Var a: char, 0, 1 
+INFO  16:31:38,357 - Deklarisana lokalna promenljiva, linija: 12, Var b: int, 1, 1 
+INFO  16:31:38,357 - Deklarisana lokalna promenljiva, linija: 12, Var c: int, 2, 1 
+INFO  16:31:38,357 - Pretraga na 13(a), Nadjeno Var a: char, 0, 1 
+ERROR 16:31:38,358 - Desna strana nije kompatibilna pri dodeli sa levom! na liniji 13
+INFO  16:31:38,358 - Pretraga na 14(a), Nadjeno Var a: char, 0, 1 
+ERROR 16:31:38,358 - Designator mora da bude tipa int! na liniji 14
+INFO  16:31:38,358 - Pretraga na 15(a), Nadjeno Var a: char, 0, 1 
+INFO  16:31:38,358 - =================STATS==================
+INFO  16:31:38,358 - Simbolicke konstante: 0
+INFO  16:31:38,358 - Globalne promenljive: 2
+INFO  16:31:38,358 - Lokalne promenljive: 3
+INFO  16:31:38,359 - nVars = 2
+INFO  16:31:38,359 - ===================================
+ERROR 16:31:38,360 - Parsiranje NIJE uspesno zavrseno!

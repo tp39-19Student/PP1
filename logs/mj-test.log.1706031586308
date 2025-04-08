@@ -1,0 +1,277 @@
+INFO  18:37:42,521 - Compiling source file: D:\pp1domaci\workspace\MJCompiler\test\program.mj
+INFO  18:37:42,546 - #2 program
+INFO  18:37:42,546 - #18 MyProg
+INFO  18:37:42,546 - #17 namespace
+INFO  18:37:42,551 - #18 n1
+INFO  18:37:42,551 - #46 {
+INFO  18:37:42,551 - #18 int
+INFO  18:37:42,551 - #18 bbc
+INFO  18:37:42,551 - #38 ;
+INFO  18:37:42,551 - #18 char
+INFO  18:37:42,551 - #18 bbbbc
+INFO  18:37:42,551 - #38 ;
+INFO  18:37:42,551 - #18 bool
+INFO  18:37:42,551 - #18 asfdc
+INFO  18:37:42,551 - #44 [
+INFO  18:37:42,551 - #45 ]
+INFO  18:37:42,551 - #38 ;
+INFO  18:37:42,551 - #46 {
+INFO  18:37:42,551 - #47 }
+INFO  18:37:42,551 - #47 }
+INFO  18:37:42,551 - #18 int
+INFO  18:37:42,551 - #18 a
+INFO  18:37:42,551 - #40 ,
+INFO  18:37:42,551 - #18 b
+INFO  18:37:42,551 - #38 ;
+INFO  18:37:42,551 - #18 bool
+INFO  18:37:42,551 - #18 c
+INFO  18:37:42,551 - #40 ,
+INFO  18:37:42,551 - #18 d
+INFO  18:37:42,551 - #40 ,
+INFO  18:37:42,556 - #18 e
+INFO  18:37:42,556 - #44 [
+INFO  18:37:42,556 - #45 ]
+INFO  18:37:42,556 - #40 ,
+INFO  18:37:42,556 - #18 f
+INFO  18:37:42,556 - #38 ;
+INFO  18:37:42,556 - #18 char
+INFO  18:37:42,556 - #18 st
+INFO  18:37:42,556 - #44 [
+INFO  18:37:42,556 - #45 ]
+INFO  18:37:42,556 - #38 ;
+INFO  18:37:42,556 - #6 const
+INFO  18:37:42,556 - #18 int
+INFO  18:37:42,556 - #18 cd
+INFO  18:37:42,556 - #35 =
+INFO  18:37:42,556 - #21 false
+INFO  18:37:42,556 - #40 ,
+INFO  18:37:42,556 - #18 ce
+INFO  18:37:42,556 - #35 =
+INFO  18:37:42,556 - #19 17
+INFO  18:37:42,556 - #38 ;
+INFO  18:37:42,556 - #6 const
+INFO  18:37:42,556 - #18 bool
+INFO  18:37:42,556 - #18 cd2
+INFO  18:37:42,556 - #35 =
+INFO  18:37:42,556 - #21 true
+INFO  18:37:42,556 - #40 ,
+INFO  18:37:42,556 - #18 cd3
+INFO  18:37:42,556 - #35 =
+INFO  18:37:42,556 - #21 false
+INFO  18:37:42,556 - #40 ,
+INFO  18:37:42,556 - #18 cd4
+INFO  18:37:42,556 - #35 =
+INFO  18:37:42,556 - #19 15
+INFO  18:37:42,556 - #38 ;
+INFO  18:37:42,556 - #6 const
+INFO  18:37:42,556 - #18 char
+INFO  18:37:42,556 - #18 cc
+INFO  18:37:42,556 - #35 =
+INFO  18:37:42,556 - #20 a
+INFO  18:37:42,556 - #40 ,
+INFO  18:37:42,556 - #18 ccc
+INFO  18:37:42,556 - #35 =
+INFO  18:37:42,556 - #19 0
+INFO  18:37:42,556 - #38 ;
+INFO  18:37:42,556 - #46 {
+INFO  18:37:42,556 - #47 }
+INFO  18:37:42,566 - Program(
+  ProgName(
+   MyProg
+  ) [ProgName]
+  NamespaceListChain(
+    NamespaceListEmpty(
+    ) [NamespaceListEmpty]
+    Namespace(
+      NamespaceName(
+       n1
+      ) [NamespaceName]
+      GlobalsListChain(
+        GlobalsListChain(
+          GlobalsListChain(
+            GlobalsListEmpty(
+            ) [GlobalsListEmpty]
+            GlobalsPartVar(
+              VarDecl(
+                TypeIdent(
+                 int
+                ) [TypeIdent]
+                VarDeclSublistSingle(
+                  VarDeclSubunitIdent(
+                   bbc
+                  ) [VarDeclSubunitIdent]
+                ) [VarDeclSublistSingle]
+              ) [VarDecl]
+            ) [GlobalsPartVar]
+          ) [GlobalsListChain]
+          GlobalsPartVar(
+            VarDecl(
+              TypeIdent(
+               char
+              ) [TypeIdent]
+              VarDeclSublistSingle(
+                VarDeclSubunitIdent(
+                 bbbbc
+                ) [VarDeclSubunitIdent]
+              ) [VarDeclSublistSingle]
+            ) [VarDecl]
+          ) [GlobalsPartVar]
+        ) [GlobalsListChain]
+        GlobalsPartVar(
+          VarDecl(
+            TypeIdent(
+             bool
+            ) [TypeIdent]
+            VarDeclSublistSingle(
+              VarDeclSubunitArray(
+               asfdc
+              ) [VarDeclSubunitArray]
+            ) [VarDeclSublistSingle]
+          ) [VarDecl]
+        ) [GlobalsPartVar]
+      ) [GlobalsListChain]
+      MethodDeclListEmpty(
+      ) [MethodDeclListEmpty]
+    ) [Namespace]
+  ) [NamespaceListChain]
+  GlobalsListChain(
+    GlobalsListChain(
+      GlobalsListChain(
+        GlobalsListChain(
+          GlobalsListChain(
+            GlobalsListChain(
+              GlobalsListEmpty(
+              ) [GlobalsListEmpty]
+              GlobalsPartVar(
+                VarDecl(
+                  TypeIdent(
+                   int
+                  ) [TypeIdent]
+                  VarDeclSublistChain(
+                    VarDeclSublistSingle(
+                      VarDeclSubunitIdent(
+                       a
+                      ) [VarDeclSubunitIdent]
+                    ) [VarDeclSublistSingle]
+                    VarDeclSubunitIdent(
+                     b
+                    ) [VarDeclSubunitIdent]
+                  ) [VarDeclSublistChain]
+                ) [VarDecl]
+              ) [GlobalsPartVar]
+            ) [GlobalsListChain]
+            GlobalsPartVar(
+              VarDecl(
+                TypeIdent(
+                 bool
+                ) [TypeIdent]
+                VarDeclSublistChain(
+                  VarDeclSublistChain(
+                    VarDeclSublistChain(
+                      VarDeclSublistSingle(
+                        VarDeclSubunitIdent(
+                         c
+                        ) [VarDeclSubunitIdent]
+                      ) [VarDeclSublistSingle]
+                      VarDeclSubunitIdent(
+                       d
+                      ) [VarDeclSubunitIdent]
+                    ) [VarDeclSublistChain]
+                    VarDeclSubunitArray(
+                     e
+                    ) [VarDeclSubunitArray]
+                  ) [VarDeclSublistChain]
+                  VarDeclSubunitIdent(
+                   f
+                  ) [VarDeclSubunitIdent]
+                ) [VarDeclSublistChain]
+              ) [VarDecl]
+            ) [GlobalsPartVar]
+          ) [GlobalsListChain]
+          GlobalsPartVar(
+            VarDecl(
+              TypeIdent(
+               char
+              ) [TypeIdent]
+              VarDeclSublistSingle(
+                VarDeclSubunitArray(
+                 st
+                ) [VarDeclSubunitArray]
+              ) [VarDeclSublistSingle]
+            ) [VarDecl]
+          ) [GlobalsPartVar]
+        ) [GlobalsListChain]
+        GlobalsPartConst(
+          ConstDecl(
+            TypeIdent(
+             int
+            ) [TypeIdent]
+            ConstDeclSublistChain(
+              ConstDeclSublistSingle(
+                ConstDeclSubunitBool(
+                 cd
+                 false
+                ) [ConstDeclSubunitBool]
+              ) [ConstDeclSublistSingle]
+              ConstDeclSubunitInt(
+               ce
+               17
+              ) [ConstDeclSubunitInt]
+            ) [ConstDeclSublistChain]
+          ) [ConstDecl]
+        ) [GlobalsPartConst]
+      ) [GlobalsListChain]
+      GlobalsPartConst(
+        ConstDecl(
+          TypeIdent(
+           bool
+          ) [TypeIdent]
+          ConstDeclSublistChain(
+            ConstDeclSublistChain(
+              ConstDeclSublistSingle(
+                ConstDeclSubunitBool(
+                 cd2
+                 true
+                ) [ConstDeclSubunitBool]
+              ) [ConstDeclSublistSingle]
+              ConstDeclSubunitBool(
+               cd3
+               false
+              ) [ConstDeclSubunitBool]
+            ) [ConstDeclSublistChain]
+            ConstDeclSubunitInt(
+             cd4
+             15
+            ) [ConstDeclSubunitInt]
+          ) [ConstDeclSublistChain]
+        ) [ConstDecl]
+      ) [GlobalsPartConst]
+    ) [GlobalsListChain]
+    GlobalsPartConst(
+      ConstDecl(
+        TypeIdent(
+         char
+        ) [TypeIdent]
+        ConstDeclSublistChain(
+          ConstDeclSublistSingle(
+            ConstDeclSubunitChar(
+             cc
+             a
+            ) [ConstDeclSubunitChar]
+          ) [ConstDeclSublistSingle]
+          ConstDeclSubunitInt(
+           ccc
+           0
+          ) [ConstDeclSubunitInt]
+        ) [ConstDeclSublistChain]
+      ) [ConstDecl]
+    ) [GlobalsPartConst]
+  ) [GlobalsListChain]
+  MethodDeclListEmpty(
+  ) [MethodDeclListEmpty]
+) [Program]
+INFO  18:37:42,566 - ===================================
+ERROR 18:37:42,566 - Dodela bool vrednosti konstanti tipa int! na liniji 14
+ERROR 18:37:42,566 - Dodela int vrednosti konstanti tipa bool! na liniji 15
+ERROR 18:37:42,566 - Dodela int vrednosti konstanti tipa char! na liniji 16
+INFO  18:37:42,566 - ===================================

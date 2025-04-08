@@ -1,0 +1,145 @@
+INFO  18:13:22,102 - Compiling source file: D:\pp1domaci\workspace\MJCompiler\test\program.mj
+INFO  18:13:22,127 - #2 program
+INFO  18:13:22,127 - #18 MyProg
+INFO  18:13:22,127 - #18 int
+INFO  18:13:22,127 - #18 a
+INFO  18:13:22,127 - #40 ,
+INFO  18:13:22,127 - #18 b
+INFO  18:13:22,127 - #38 ;
+INFO  18:13:22,127 - #18 bool
+INFO  18:13:22,127 - #18 c
+INFO  18:13:22,127 - #40 ,
+INFO  18:13:22,127 - #18 d
+INFO  18:13:22,127 - #40 ,
+INFO  18:13:22,127 - #18 e
+INFO  18:13:22,127 - #44 [
+INFO  18:13:22,127 - #45 ]
+INFO  18:13:22,127 - #40 ,
+INFO  18:13:22,127 - #18 f
+INFO  18:13:22,127 - #38 ;
+INFO  18:13:22,127 - #6 const
+INFO  18:13:22,127 - #18 int
+INFO  18:13:22,127 - #18 cd
+INFO  18:13:22,127 - #35 =
+INFO  18:13:22,127 - #19 179
+INFO  18:13:22,127 - #38 ;
+INFO  18:13:22,132 - #6 const
+INFO  18:13:22,132 - #18 bool
+INFO  18:13:22,132 - #18 cd2
+INFO  18:13:22,132 - #35 =
+INFO  18:13:22,132 - #21 true
+INFO  18:13:22,132 - #40 ,
+INFO  18:13:22,132 - #18 cd3
+INFO  18:13:22,132 - #35 =
+INFO  18:13:22,132 - #21 false
+INFO  18:13:22,132 - #40 ,
+INFO  18:13:22,132 - #18 cd4
+INFO  18:13:22,132 - #35 =
+INFO  18:13:22,132 - #19 15
+INFO  18:13:22,132 - #38 ;
+INFO  18:13:22,132 - #46 {
+INFO  18:13:22,132 - #47 }
+INFO  18:13:22,137 - Program(
+  ProgName(
+   MyProg
+  ) [ProgName]
+  NamespaceListEmpty(
+  ) [NamespaceListEmpty]
+  GlobalsListChain(
+    GlobalsListChain(
+      GlobalsListChain(
+        GlobalsListChain(
+          GlobalsListEmpty(
+          ) [GlobalsListEmpty]
+          GlobalsPartVar(
+            VarDecl(
+              TypeIdent(
+               int
+              ) [TypeIdent]
+              VarDeclSublistChain(
+                VarDeclSublistSingle(
+                  VarDeclSubunitIdent(
+                   a
+                  ) [VarDeclSubunitIdent]
+                ) [VarDeclSublistSingle]
+                VarDeclSubunitIdent(
+                 b
+                ) [VarDeclSubunitIdent]
+              ) [VarDeclSublistChain]
+            ) [VarDecl]
+          ) [GlobalsPartVar]
+        ) [GlobalsListChain]
+        GlobalsPartVar(
+          VarDecl(
+            TypeIdent(
+             bool
+            ) [TypeIdent]
+            VarDeclSublistChain(
+              VarDeclSublistChain(
+                VarDeclSublistChain(
+                  VarDeclSublistSingle(
+                    VarDeclSubunitIdent(
+                     c
+                    ) [VarDeclSubunitIdent]
+                  ) [VarDeclSublistSingle]
+                  VarDeclSubunitIdent(
+                   d
+                  ) [VarDeclSubunitIdent]
+                ) [VarDeclSublistChain]
+                VarDeclSubunitArray(
+                 e
+                ) [VarDeclSubunitArray]
+              ) [VarDeclSublistChain]
+              VarDeclSubunitIdent(
+               f
+              ) [VarDeclSubunitIdent]
+            ) [VarDeclSublistChain]
+          ) [VarDecl]
+        ) [GlobalsPartVar]
+      ) [GlobalsListChain]
+      GlobalsPartConst(
+        ConstDecl(
+          TypeIdent(
+           int
+          ) [TypeIdent]
+          ConstDeclSublistSingle(
+            ConstDeclSubunitInt(
+             cd
+             179
+            ) [ConstDeclSubunitInt]
+          ) [ConstDeclSublistSingle]
+        ) [ConstDecl]
+      ) [GlobalsPartConst]
+    ) [GlobalsListChain]
+    GlobalsPartConst(
+      ConstDecl(
+        TypeIdent(
+         bool
+        ) [TypeIdent]
+        ConstDeclSublistChain(
+          ConstDeclSublistChain(
+            ConstDeclSublistSingle(
+              ConstDeclSubunitBool(
+               cd2
+               true
+              ) [ConstDeclSubunitBool]
+            ) [ConstDeclSublistSingle]
+            ConstDeclSubunitBool(
+             cd3
+             false
+            ) [ConstDeclSubunitBool]
+          ) [ConstDeclSublistChain]
+          ConstDeclSubunitInt(
+           cd4
+           15
+          ) [ConstDeclSubunitInt]
+        ) [ConstDeclSublistChain]
+      ) [ConstDecl]
+    ) [GlobalsPartConst]
+  ) [GlobalsListChain]
+  MethodDeclListEmpty(
+  ) [MethodDeclListEmpty]
+) [Program]
+INFO  18:13:22,137 - ===================================
+ERROR 18:13:22,137 - Dodela int vrednosti konstanti tipa bool! na liniji 5
+INFO  18:13:22,137 - ===================================

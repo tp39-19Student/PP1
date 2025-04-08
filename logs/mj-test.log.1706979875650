@@ -1,0 +1,125 @@
+INFO  18:02:17,880 - Compiling source file: D:\pp1domaci\workspace\MJCompiler\test\program.mj
+INFO  18:02:17,905 - #2 program
+INFO  18:02:17,905 - #18 P
+INFO  18:02:17,905 - #46 {
+INFO  18:02:17,910 - #12 void
+INFO  18:02:17,910 - #18 main
+INFO  18:02:17,910 - #42 (
+INFO  18:02:17,910 - #43 )
+INFO  18:02:17,910 - #46 {
+INFO  18:02:17,910 - #9 print
+INFO  18:02:17,910 - #42 (
+INFO  18:02:17,910 - #19 19
+INFO  18:02:17,910 - #43 )
+INFO  18:02:17,915 - #38 ;
+INFO  18:02:17,915 - #9 print
+INFO  18:02:17,915 - #42 (
+INFO  18:02:17,915 - #21 true
+INFO  18:02:17,915 - #43 )
+INFO  18:02:17,915 - #38 ;
+INFO  18:02:17,915 - #9 print
+INFO  18:02:17,915 - #42 (
+INFO  18:02:17,915 - #21 false
+INFO  18:02:17,915 - #43 )
+INFO  18:02:17,915 - #38 ;
+INFO  18:02:17,915 - #9 print
+INFO  18:02:17,915 - #42 (
+INFO  18:02:17,915 - #20 c
+INFO  18:02:17,915 - #43 )
+INFO  18:02:17,915 - #38 ;
+INFO  18:02:17,915 - #47 }
+INFO  18:02:17,915 - #47 }
+INFO  18:02:17,930 - Program(
+  ProgName(
+   P
+  ) [ProgName]
+  NamespaceListEmpty(
+  ) [NamespaceListEmpty]
+  GlobalsListEmpty(
+  ) [GlobalsListEmpty]
+  MethodDeclListChain(
+    MethodDeclListEmpty(
+    ) [MethodDeclListEmpty]
+    MethodDecl(
+      MethodTypeName(
+        RetTypeVoid(
+        ) [RetTypeVoid]
+       main
+      ) [MethodTypeName]
+      FormParsEmpty(
+      ) [FormParsEmpty]
+      VarDeclListEmpty(
+      ) [VarDeclListEmpty]
+      StatementListChain(
+        StatementListChain(
+          StatementListChain(
+            StatementListChain(
+              StatementListEmpty(
+              ) [StatementListEmpty]
+              StatementPrint(
+                ExprPositive(
+                  Term(
+                    FactorNumber(
+                     19
+                    ) [FactorNumber]
+                    TermSublistEmpty(
+                    ) [TermSublistEmpty]
+                  ) [Term]
+                  ExprSublistEmpty(
+                  ) [ExprSublistEmpty]
+                ) [ExprPositive]
+              ) [StatementPrint]
+            ) [StatementListChain]
+            StatementPrint(
+              ExprPositive(
+                Term(
+                  FactorBoolean(
+                   true
+                  ) [FactorBoolean]
+                  TermSublistEmpty(
+                  ) [TermSublistEmpty]
+                ) [Term]
+                ExprSublistEmpty(
+                ) [ExprSublistEmpty]
+              ) [ExprPositive]
+            ) [StatementPrint]
+          ) [StatementListChain]
+          StatementPrint(
+            ExprPositive(
+              Term(
+                FactorBoolean(
+                 false
+                ) [FactorBoolean]
+                TermSublistEmpty(
+                ) [TermSublistEmpty]
+              ) [Term]
+              ExprSublistEmpty(
+              ) [ExprSublistEmpty]
+            ) [ExprPositive]
+          ) [StatementPrint]
+        ) [StatementListChain]
+        StatementPrint(
+          ExprPositive(
+            Term(
+              FactorCharacter(
+               c
+              ) [FactorCharacter]
+              TermSublistEmpty(
+              ) [TermSublistEmpty]
+            ) [Term]
+            ExprSublistEmpty(
+            ) [ExprSublistEmpty]
+          ) [ExprPositive]
+        ) [StatementPrint]
+      ) [StatementListChain]
+    ) [MethodDecl]
+  ) [MethodDeclListChain]
+) [Program]
+INFO  18:02:17,930 - ================SEMANTICKA OBRADA===================
+INFO  18:02:17,940 - =================STATS==================
+INFO  18:02:17,940 - Simbolicke konstante: 0
+INFO  18:02:17,945 - Globalne promenljive: 0
+INFO  18:02:17,945 - Lokalne promenljive: 0
+INFO  18:02:17,945 - nVars = 0
+INFO  18:02:17,945 - ===================================
+INFO  18:02:17,950 - Parsiranje uspesno zavrseno!

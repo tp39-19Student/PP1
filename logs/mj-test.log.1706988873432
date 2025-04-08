@@ -1,0 +1,185 @@
+INFO  20:31:34,800 - Compiling source file: D:\pp1domaci\workspace\MJCompiler\test\program.mj
+INFO  20:31:34,825 - #2 program
+INFO  20:31:34,825 - #18 P
+INFO  20:31:34,825 - #18 int
+INFO  20:31:34,825 - #18 a
+INFO  20:31:34,825 - #44 [
+INFO  20:31:34,825 - #45 ]
+INFO  20:31:34,825 - #38 ;
+INFO  20:31:34,825 - #46 {
+INFO  20:31:34,825 - #12 void
+INFO  20:31:34,830 - #18 main
+INFO  20:31:34,830 - #42 (
+INFO  20:31:34,830 - #43 )
+INFO  20:31:34,830 - #46 {
+INFO  20:31:34,830 - #18 a
+INFO  20:31:34,830 - #35 =
+INFO  20:31:34,830 - #8 new
+INFO  20:31:34,830 - #18 int
+INFO  20:31:34,830 - #44 [
+INFO  20:31:34,830 - #19 2
+INFO  20:31:34,830 - #45 ]
+INFO  20:31:34,830 - #38 ;
+INFO  20:31:34,830 - #18 a
+INFO  20:31:34,830 - #44 [
+INFO  20:31:34,835 - #19 0
+INFO  20:31:34,835 - #45 ]
+INFO  20:31:34,835 - #35 =
+INFO  20:31:34,835 - #19 13
+INFO  20:31:34,835 - #38 ;
+INFO  20:31:34,835 - #18 a
+INFO  20:31:34,835 - #44 [
+INFO  20:31:34,835 - #19 1
+INFO  20:31:34,835 - #45 ]
+INFO  20:31:34,835 - #35 =
+INFO  20:31:34,835 - #19 1
+INFO  20:31:34,835 - #38 ;
+INFO  20:31:34,835 - #47 }
+INFO  20:31:34,835 - #47 }
+INFO  20:31:34,845 - Program(
+  ProgName(
+   P
+  ) [ProgName]
+  NamespaceListEmpty(
+  ) [NamespaceListEmpty]
+  GlobalsListChain(
+    GlobalsListEmpty(
+    ) [GlobalsListEmpty]
+    GlobalsPartVar(
+      VarDecl(
+        TypeIdent(
+         int
+        ) [TypeIdent]
+        VarDeclSublistSingle(
+          VarDeclSubunitArray(
+           a
+          ) [VarDeclSubunitArray]
+        ) [VarDeclSublistSingle]
+      ) [VarDecl]
+    ) [GlobalsPartVar]
+  ) [GlobalsListChain]
+  MethodDeclListChain(
+    MethodDeclListEmpty(
+    ) [MethodDeclListEmpty]
+    MethodDecl(
+      MethodTypeName(
+        RetTypeVoid(
+        ) [RetTypeVoid]
+       main
+      ) [MethodTypeName]
+      FormParsEmpty(
+      ) [FormParsEmpty]
+      VarDeclListEmpty(
+      ) [VarDeclListEmpty]
+      StatementListChain(
+        StatementListChain(
+          StatementListChain(
+            StatementListEmpty(
+            ) [StatementListEmpty]
+            StatementDesignator(
+              DesignatorStatementAssign(
+                DesignatorNoNamespace(
+                 a
+                ) [DesignatorNoNamespace]
+                ExprPositive(
+                  Term(
+                    FactorNewArray(
+                      TypeIdent(
+                       int
+                      ) [TypeIdent]
+                      ExprPositive(
+                        Term(
+                          FactorNumber(
+                           2
+                          ) [FactorNumber]
+                          TermSublistEmpty(
+                          ) [TermSublistEmpty]
+                        ) [Term]
+                        ExprSublistEmpty(
+                        ) [ExprSublistEmpty]
+                      ) [ExprPositive]
+                    ) [FactorNewArray]
+                    TermSublistEmpty(
+                    ) [TermSublistEmpty]
+                  ) [Term]
+                  ExprSublistEmpty(
+                  ) [ExprSublistEmpty]
+                ) [ExprPositive]
+              ) [DesignatorStatementAssign]
+            ) [StatementDesignator]
+          ) [StatementListChain]
+          StatementDesignator(
+            DesignatorStatementAssign(
+              DesignatorNoNamespaceArray(
+               a
+                ExprPositive(
+                  Term(
+                    FactorNumber(
+                     0
+                    ) [FactorNumber]
+                    TermSublistEmpty(
+                    ) [TermSublistEmpty]
+                  ) [Term]
+                  ExprSublistEmpty(
+                  ) [ExprSublistEmpty]
+                ) [ExprPositive]
+              ) [DesignatorNoNamespaceArray]
+              ExprPositive(
+                Term(
+                  FactorNumber(
+                   13
+                  ) [FactorNumber]
+                  TermSublistEmpty(
+                  ) [TermSublistEmpty]
+                ) [Term]
+                ExprSublistEmpty(
+                ) [ExprSublistEmpty]
+              ) [ExprPositive]
+            ) [DesignatorStatementAssign]
+          ) [StatementDesignator]
+        ) [StatementListChain]
+        StatementDesignator(
+          DesignatorStatementAssign(
+            DesignatorNoNamespaceArray(
+             a
+              ExprPositive(
+                Term(
+                  FactorNumber(
+                   1
+                  ) [FactorNumber]
+                  TermSublistEmpty(
+                  ) [TermSublistEmpty]
+                ) [Term]
+                ExprSublistEmpty(
+                ) [ExprSublistEmpty]
+              ) [ExprPositive]
+            ) [DesignatorNoNamespaceArray]
+            ExprPositive(
+              Term(
+                FactorNumber(
+                 1
+                ) [FactorNumber]
+                TermSublistEmpty(
+                ) [TermSublistEmpty]
+              ) [Term]
+              ExprSublistEmpty(
+              ) [ExprSublistEmpty]
+            ) [ExprPositive]
+          ) [DesignatorStatementAssign]
+        ) [StatementDesignator]
+      ) [StatementListChain]
+    ) [MethodDecl]
+  ) [MethodDeclListChain]
+) [Program]
+INFO  20:31:34,845 - ================SEMANTICKA OBRADA===================
+INFO  20:31:34,845 - Deklarisana globalna promenljiva, linija: 5, Var a: Arr of int, 0, 0 
+INFO  20:31:34,845 - Pretraga na 9(a), Nadjeno Var a: Arr of int, 0, 0 
+INFO  20:31:34,845 - Pretraga na 10(a), Nadjeno Var a: Arr of int, 0, 0 
+INFO  20:31:34,845 - Pretraga na 11(a), Nadjeno Var a: Arr of int, 0, 0 
+INFO  20:31:34,845 - =================STATS==================
+INFO  20:31:34,845 - Simbolicke konstante: 0
+INFO  20:31:34,845 - Globalne promenljive: 1
+INFO  20:31:34,845 - Lokalne promenljive: 0
+INFO  20:31:34,845 - nVars = 1
+INFO  20:31:34,845 - ===================================
+INFO  20:31:34,850 - Parsiranje uspesno zavrseno!
